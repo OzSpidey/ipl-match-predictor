@@ -10,3 +10,4 @@ export const fetchVenueStats = (venue)               => api.get(`/venue-stats/${
 export const fetchModelMetrics = ()                  => api.get("/model-metrics").then(r => r.data);
 export const fetchRecentMatches = (n = 15)           => api.get(`/recent-matches?n=${n}`).then(r => r.data);
 export const postPredict  = (payload)                => api.post("/predict", payload).then(r => r.data);
+export const fetchWhatIf  = (payload)                => api.post("/what-if", payload).then(r => r.data);

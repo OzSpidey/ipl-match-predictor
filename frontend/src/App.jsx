@@ -5,10 +5,12 @@ import MatchPredictor  from "./components/MatchPredictor";
 import HeadToHead      from "./components/HeadToHead";
 import TeamStats       from "./components/TeamStats";
 import ModelInsights   from "./components/ModelInsights";
+import WhatIf          from "./components/WhatIf";
 import { fetchTeams, fetchVenues, fetchRecentMatches } from "./api/client";
 
 const TABS = [
   { id: "predict",  label: "🏏 Predict Match" },
+  { id: "whatif",   label: "⚗️ What-If"        },
   { id: "h2h",      label: "⚔️  Head-to-Head"  },
   { id: "teams",    label: "📊 Team Analytics" },
   { id: "model",    label: "🤖 Model Insights" },
@@ -67,6 +69,7 @@ export default function App() {
               transition={{ duration: 0.25 }}
             >
               {tab === "predict" && <MatchPredictor teams={teams} venues={venues} />}
+              {tab === "whatif"  && <WhatIf          teams={teams} venues={venues} />}
               {tab === "h2h"     && <HeadToHead     teams={teams} />}
               {tab === "teams"   && <TeamStats       teams={teams} />}
               {tab === "model"   && <ModelInsights />}

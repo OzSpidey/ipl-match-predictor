@@ -171,8 +171,21 @@ def predict(req: PredictRequest):
         "low"
     )
 
-    # Key factors (ordered by signed contribution to team1 probability)
     factors = _explain(req.team1, req.team2, req.toss_winner, req.toss_decision, feats)
+
+    # Expose raw feature values so the What-If simulator can seed its sliders
+    feat_vals = {
+        "team1_overall_wr": round(float(feats[0][0]), 3),
+        "team2_overall_wr": round(float(feats[0][1]), 3),
+        "team1_form5":      round(float(feats[0][2]), 3),
+        "team2_form5":      round(float(feats[0][3]), 3),
+        "team1_form10":     round(float(feats[0][4]), 3),
+        "team2_form10":     round(float(feats[0][5]), 3),
+        "h2h_win_rate":     round(float(feats[0][6]), 3),
+        "team1_venue_wr":   round(float(feats[0][7]), 3),
+        "team2_venue_wr":   round(float(feats[0][8]), 3),
+        "season_norm":      round(float(feats[0][12]), 3),
+    }
 
     return {
         "team1_win_probability": round(prob_team1, 4),
@@ -180,6 +193,55 @@ def predict(req: PredictRequest):
         "predicted_winner":      winner,
         "confidence":            confidence,
         "key_factors":           factors,
+        "features":              feat_vals,
+    }
+
+
+class WhatIfRequest(BaseModel):
+    team1:            str
+    team2:            str
+    team1_overall_wr: float = 0.5
+    team2_overall_wr: float = 0.5
+    team1_form5:      float = 0.5
+    team2_form5:      float = 0.5
+    team1_form10:     float = 0.5
+    team2_form10:     float = 0.5
+    h2h_win_rate:     float = 0.5
+    team1_venue_wr:   float = 0.5
+    team2_venue_wr:   float = 0.5
+    toss_winner:      str   = ""
+    toss_decision:    str   = "bat"
+    season_norm:      float = (2026 - 2008) / 18.0
+
+
+@app.post("/api/what-if")
+def what_if(req: WhatIfRequest):
+    if _ensemble is None:
+        raise HTTPException(503, "Model not loaded")
+
+    toss_t1   = int(req.toss_winner == req.team1)
+    bat_first = int(req.toss_decision == "bat")
+    t_and_bat = int(req.toss_winner == req.team1 and req.toss_decision == "bat")
+
+    feats = np.array([
+        req.team1_overall_wr,  req.team2_overall_wr,
+        req.team1_form5,       req.team2_form5,
+        req.team1_form10,      req.team2_form10,
+        req.h2h_win_rate,
+        req.team1_venue_wr,    req.team2_venue_wr,
+        toss_t1, bat_first, t_and_bat,
+        req.season_norm,
+        req.team1_overall_wr - req.team2_overall_wr,
+        req.team1_form5      - req.team2_form5,
+        req.team1_form10     - req.team2_form10,
+        req.team1_venue_wr   - req.team2_venue_wr,
+    ], dtype=float).reshape(1, -1)
+
+    prob_t1 = float(_ensemble.predict_proba(feats)[0][1])
+    return {
+        "team1_win_probability": round(prob_t1, 4),
+        "team2_win_probability": round(1 - prob_t1, 4),
+        "predicted_winner":      req.team1 if prob_t1 > 0.5 else req.team2,
     }
 
 

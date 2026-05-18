@@ -94,6 +94,46 @@ body {
 }
 .pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
 
+/* ── What-If custom range slider ───────────────────────── */
+.ipl-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    var(--fill) 0%,
+    var(--fill) var(--pct),
+    #1a1a38 var(--pct),
+    #1a1a38 100%
+  );
+}
+.ipl-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.5), 0 0 0 2px rgba(255,255,255,0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.ipl-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.25);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5), 0 0 10px var(--fill);
+}
+.ipl-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.5);
+}
+
 /* ── Winner shimmer ─────────────────────────────────────── */
 @keyframes shimmer {
   0%   { background-position: -200% 0; }
