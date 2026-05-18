@@ -1,0 +1,106 @@
+/* ── Global ──────────────────────────────────────────────────────────────── */
+body, .dash-debug-menu__outer, .rc-slider-mark-text {
+  font-family: Inter, system-ui, -apple-system, sans-serif !important;
+  background-color: #0a0a1a !important;
+  color: #e2e2f0 !important;
+}
+
+/* ── Dark Dropdown (class: ipl-dropdown) ────────────────────────────────── */
+.ipl-dropdown .Select-control,
+.ipl-dropdown .Select--multi .Select-control {
+  background-color: rgba(18, 18, 42, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  color: #e2e2f0 !important;
+  min-height: 38px;
+}
+
+.ipl-dropdown .Select-control:hover {
+  border-color: rgba(124, 58, 237, 0.5) !important;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.15) !important;
+}
+
+.ipl-dropdown .Select-menu-outer {
+  background-color: #12122e !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6) !important;
+  z-index: 9999;
+}
+
+.ipl-dropdown .Select-option {
+  background-color: transparent !important;
+  color: #c4c4dc !important;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+}
+
+.ipl-dropdown .Select-option.is-focused {
+  background-color: rgba(124, 58, 237, 0.25) !important;
+  color: #fff !important;
+}
+
+.ipl-dropdown .Select-option.is-selected {
+  background-color: rgba(124, 58, 237, 0.4) !important;
+  color: #fff !important;
+}
+
+.ipl-dropdown .Select-placeholder,
+.ipl-dropdown .Select-value-label {
+  color: #e2e2f0 !important;
+  line-height: 36px !important;
+}
+
+.ipl-dropdown .Select-arrow-zone .Select-arrow {
+  border-top-color: #6b7280 !important;
+}
+
+.ipl-dropdown .Select-clear-zone { color: #6b7280 !important; }
+.ipl-dropdown .Select-clear-zone:hover { color: #fff !important; }
+
+.ipl-dropdown input { color: #e2e2f0 !important; background: transparent !important; }
+
+/* Multi-select value tags */
+.ipl-dropdown .Select-value {
+  background-color: rgba(124, 58, 237, 0.3) !important;
+  border: 1px solid rgba(124, 58, 237, 0.45) !important;
+  border-radius: 6px !important;
+  color: #e2e2f0 !important;
+  margin-top: 3px !important;
+}
+
+.ipl-dropdown .Select-value-icon {
+  border-right: 1px solid rgba(124, 58, 237, 0.4) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  padding: 2px 6px !important;
+}
+
+.ipl-dropdown .Select-value-icon:hover {
+  background-color: rgba(124, 58, 237, 0.5) !important;
+  color: #fff !important;
+}
+
+/* ── Plotly modebar ──────────────────────────────────────────────────────── */
+.modebar { background: transparent !important; }
+.modebar-btn path { fill: rgba(255,255,255,0.25) !important; }
+.modebar-btn:hover path { fill: rgba(255,255,255,0.7) !important; }
+
+/* ── Dash tab strip ──────────────────────────────────────────────────────── */
+.dash-tab { background: transparent !important; border: none !important; }
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0a1a; }
+::-webkit-scrollbar-thumb { background: #1e1e44; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #7c3aed; }
+
+/* ── Animation play button ───────────────────────────────────────────────── */
+.updatemenu-item-rect { fill: rgba(18, 18, 42, 0.95) !important; }
+.updatemenu-item-text { fill: #e2e2f0 !important; }
+
+/* ── Slider (Plotly animation slider) ────────────────────────────────────── */
+.slider-rail     { fill: rgba(255,255,255,0.08) !important; }
+.slider-step     { fill: rgba(124,58,237,0.4)   !important; }
+.slider-grip     { fill: #7c3aed !important; }
+.slider-label    { fill: #e2e2f0 !important; }
+.slider-current  { fill: #e2e2f0 !important; }

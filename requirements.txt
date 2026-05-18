@@ -12,3 +12,6 @@ python-multipart>=0.0.6
 shap>=0.43.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
+dash>=2.14.0
+dash-bootstrap-components>=1.4.0
+plotly>=5.17.0
