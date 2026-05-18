@@ -10,6 +10,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-0073B7?style=for-the-badge)](https://xgboost.readthedocs.io)
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.0+-02B875?style=for-the-badge)](https://lightgbm.readthedocs.io)
+[![Plotly Dash](https://img.shields.io/badge/Plotly_Dash-2.14+-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://dash.plotly.com)
 
 </div>
 
@@ -75,6 +76,10 @@ ipl-predictor/
 │   ├── features.parquet     # Engineered feature matrix
 │   └── metadata.json        # Metrics, importances, confusion matrix
 │
+├── dashboard.py             # Plotly Dash analytics dashboard (6 tabs)
+├── assets/
+│   └── dashboard.css        # Dark theme for Dash dropdowns + scrollbar
+│
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx
@@ -136,6 +141,15 @@ npm run dev
 ```
 
 Open **http://localhost:3000** in your browser.
+
+### Running the Analytics Dashboard (Plotly Dash)
+
+```bash
+# With the venv active:
+python dashboard.py
+```
+
+Open **http://localhost:8050** — the React frontend and the Dash dashboard are independent and can run simultaneously.
 
 ### Option C — Production build
 
@@ -219,19 +233,57 @@ Toss winner and toss decision are **live toggle buttons** (no debounce — they 
 
 ---
 
-### 3. Head-to-Head
+---
+
+### 3. 📊 Plotly Dash Analytics Dashboard
+
+> A standalone Python-powered data exploration dashboard at **http://localhost:8050**, built with Plotly Dash and a full dark glassmorphism theme. No React required — run it independently alongside the FastAPI app for deep dives into 18 years of IPL data.
+
+```bash
+python dashboard.py    # → http://localhost:8050
+```
+
+#### Six interactive tabs
+
+| Tab | What's inside |
+|---|---|
+| **📊 Overview** | KPI tiles (matches, seasons, teams, venues, all-time top team) · Overall win-rate horizontal bar · Matches-per-season bar chart |
+| **🏆 Season Race** | **Animated bar chart race** — press ▶ Play to watch cumulative wins accumulate season by season · Multi-team season win-rate line chart with team selector |
+| **📈 Team Analysis** | Team selector dropdown · **Radar chart** (Win Rate, Recent Form, Consistency, Experience, Titles) · Season wins/losses stacked bar |
+| **⚔️ Head-to-Head** | 12×12 **win-rate heatmap matrix** showing every rivalry at a glance · Detail panel: overall win count + per-season breakdown for any two teams |
+| **🗺 Venue Map** | **Scatter geo map of India** (bubble = matches played, colour = bat-first win%) · Ranked horizontal bar of bat-first win% for every venue with ≥10 matches |
+| **🎲 Toss Analysis** | KPI tiles · Toss-to-match win rate per team (some benefit more than others) · Toss decision trend line (how choosing to field first has risen since 2016) |
+
+#### Animated Season Race
+
+The Season Race tab uses Plotly's `animation_frame` parameter to build a true bar chart race — the same type popularised by tools like Flourish and Power BI animations. Each frame shows cumulative wins through that season; the play button animates through 2008–2026 at 700ms/frame. Team bars are coloured in official IPL brand colours.
+
+#### Venue Map
+
+The venue map uses `plotly.graph_objects.Scattergeo` with a custom Asia-scoped projection centred on India. Bubble **size** encodes how many matches were played at that ground; bubble **colour** (red → purple gradient) encodes whether batting or fielding first wins more often — revealing that some grounds heavily favour chasing.
+
+#### Tech details
+
+- Pure Python, no JavaScript framework needed
+- `dash-bootstrap-components` CYBORG theme as base, overridden by `assets/dashboard.css` for consistent dark glassmorphism
+- All charts are computed once at startup from `data/matches.csv`; callbacks re-run only when dropdowns change
+- Fully responsive layout using CSS flex with `flexWrap: wrap`
+
+---
+
+### 4. Head-to-Head
 - Full rivalry stats between any two teams
 - Animated win-share bar (e.g. MI: 62% — CSK: 38%)
 - Season-by-season BarChart of wins per team
 - Chronological list of all encounters with venue and winner
 
-### 4. Team Analytics
+### 5. Team Analytics
 - Hero card with team logo, trophy count, win rate, total played
 - **Win Rate by Season** — LineChart showing each team's trajectory across 18 seasons
 - **Team Profile RadarChart** — 5-axis spider covering Win Rate, Titles, Experience, Recent Form, Consistency
 - Recent form strip (last 5 matches as animated W/L badges) + full match list
 
-### 5. Model Insights
+### 6. Model Insights
 - Per-model accuracy, AUC, F1, and log-loss cards (LR, RF, XGBoost, LightGBM, Ensemble)
 - **Feature Importance BarChart** (17 features ranked by XGBoost importance)
 - Confusion matrix heatmap on the test set (2022–2026)
@@ -506,7 +558,7 @@ The server recomputes the 4 signed differential features internally (`wr_diff`, 
 | Schema validation | Pydantic v2 | 2.0+ |
 | Data source | CricSheet (real IPL JSON) | 2008–2026 |
 
-### Frontend
+### Frontend (React)
 | Layer | Technology | Version |
 |---|---|---|
 | Framework | React | 18 |
@@ -517,6 +569,15 @@ The server recomputes the 4 signed differential features internally (`wr_diff`, 
 | HTTP client | Axios | 1.6 |
 | Celebration | react-confetti | 6.1 |
 | Icons | react-icons | 5.0 |
+
+### Analytics Dashboard (Plotly Dash)
+| Layer | Technology | Version |
+|---|---|---|
+| Dashboard framework | Plotly Dash | 2.14+ |
+| Chart library | Plotly | 5.17+ |
+| Theme / components | dash-bootstrap-components | 1.4+ |
+| Animated charts | `animation_frame` (Plotly Express) | — |
+| Geo map | `Scattergeo` + Asia projection | — |
 
 ---
 
