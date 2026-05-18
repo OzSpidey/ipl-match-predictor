@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Wankhede Stadium",
+    "city": "Mumbai",
+    "home": "MI",
+    "avg_score": 172,
+    "bat_first_win_pct": 0.48
+  },
+  {
+    "name": "M. A. Chidambaram Stadium",
+    "city": "Chennai",
+    "home": "CSK",
+    "avg_score": 161,
+    "bat_first_win_pct": 0.52
+  },
+  {
+    "name": "Eden Gardens",
+    "city": "Kolkata",
+    "home": "KKR",
+    "avg_score": 168,
+    "bat_first_win_pct": 0.47
+  },
+  {
+    "name": "M. Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "home": "RCB",
+    "avg_score": 178,
+    "bat_first_win_pct": 0.45
+  },
+  {
+    "name": "Rajiv Gandhi Intl. Stadium",
+    "city": "Hyderabad",
+    "home": "SRH",
+    "avg_score": 162,
+    "bat_first_win_pct": 0.5
+  },
+  {
+    "name": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "home": "DC",
+    "avg_score": 165,
+    "bat_first_win_pct": 0.49
+  },
+  {
+    "name": "PCA IS Bindra Stadium",
+    "city": "Mohali",
+    "home": "PBKS",
+    "avg_score": 167,
+    "bat_first_win_pct": 0.51
+  },
+  {
+    "name": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "home": "RR",
+    "avg_score": 163,
+    "bat_first_win_pct": 0.53
+  },
+  {
+    "name": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "home": "GT",
+    "avg_score": 170,
+    "bat_first_win_pct": 0.5
+  },
+  {
+    "name": "BRSABV Ekana Stadium",
+    "city": "Lucknow",
+    "home": "LSG",
+    "avg_score": 164,
+    "bat_first_win_pct": 0.51
+  },
+  {
+    "name": "Maharashtra Cricket Assoc. Stadium",
+    "city": "Pune",
+    "home": "RPS",
+    "avg_score": 166,
+    "bat_first_win_pct": 0.49
+  },
+  {
+    "name": "Saurashtra Cricket Assoc. Stadium",
+    "city": "Rajkot",
+    "home": "GL",
+    "avg_score": 165,
+    "bat_first_win_pct": 0.5
+  },
+  {
+    "name": "DY Patil Sports Academy",
+    "city": "Mumbai",
+    "home": null,
+    "avg_score": 175,
+    "bat_first_win_pct": 0.46
+  },
+  {
+    "name": "Brabourne Stadium",
+    "city": "Mumbai",
+    "home": null,
+    "avg_score": 173,
+    "bat_first_win_pct": 0.47
+  },
+  {
+    "name": "Uppal Stadium",
+    "city": "Hyderabad",
+    "home": "DC08",
+    "avg_score": 160,
+    "bat_first_win_pct": 0.51
+  }
+]

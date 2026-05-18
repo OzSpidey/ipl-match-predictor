@@ -1,0 +1,82 @@
+{
+  "MI": {
+    "name": "Mumbai Indians",
+    "color": "#004BA0",
+    "secondary": "#FCFCFC",
+    "titles": 5,
+    "win_rate": 0.557,
+    "active": true
+  },
+  "CSK": {
+    "name": "Chennai Super Kings",
+    "color": "#FFCC00",
+    "secondary": "#0081E9",
+    "titles": 5,
+    "win_rate": 0.58,
+    "active": true
+  },
+  "KKR": {
+    "name": "Kolkata Knight Riders",
+    "color": "#3A225D",
+    "secondary": "#F2C012",
+    "titles": 3,
+    "win_rate": 0.51,
+    "active": true
+  },
+  "RCB": {
+    "name": "Royal Challengers Bengaluru",
+    "color": "#EC1C24",
+    "secondary": "#000000",
+    "titles": 0,
+    "win_rate": 0.468,
+    "active": true
+  },
+  "SRH": {
+    "name": "Sunrisers Hyderabad",
+    "color": "#FF822A",
+    "secondary": "#FFFFFF",
+    "titles": 2,
+    "win_rate": 0.508,
+    "active": true
+  },
+  "DC": {
+    "name": "Delhi Capitals",
+    "color": "#17479E",
+    "secondary": "#EF1B23",
+    "titles": 0,
+    "win_rate": 0.485,
+    "active": true
+  },
+  "PBKS": {
+    "name": "Punjab Kings",
+    "color": "#ED1B24",
+    "secondary": "#84231E",
+    "titles": 0,
+    "win_rate": 0.455,
+    "active": true
+  },
+  "RR": {
+    "name": "Rajasthan Royals",
+    "color": "#EA1A85",
+    "secondary": "#254AA5",
+    "titles": 2,
+    "win_rate": 0.493,
+    "active": true
+  },
+  "LSG": {
+    "name": "Lucknow Super Giants",
+    "color": "#A72056",
+    "secondary": "#FFFFFF",
+    "titles": 0,
+    "win_rate": 0.518,
+    "active": true
+  },
+  "GT": {
+    "name": "Gujarat Titans",
+    "color": "#1D2951",
+    "secondary": "#0B4973",
+    "titles": 1,
+    "win_rate": 0.562,
+    "active": true
+  }
+}

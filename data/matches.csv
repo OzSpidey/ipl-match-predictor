@@ -1,0 +1,1202 @@
+season,date,team1,team2,venue,city,toss_winner,toss_decision,winner,win_type,win_margin,id
+2008,2008-04-18,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,KKR,runs,140,1
+2008,2008-04-19,PBKS,CSK,"Punjab Cricket Association Stadium, Mohali",Chandigarh,CSK,bat,CSK,runs,33,2
+2008,2008-04-19,DC,RR,Feroz Shah Kotla,Delhi,RR,bat,DC,wickets,9,3
+2008,2008-04-20,MI,RCB,Wankhede Stadium,Mumbai,MI,bat,RCB,wickets,5,4
+2008,2008-04-20,KKR,DC08,Eden Gardens,Kolkata,DC08,bat,KKR,wickets,5,5
+2008,2008-04-21,RR,PBKS,Sawai Mansingh Stadium,Jaipur,PBKS,bat,RR,wickets,6,6
+2008,2008-04-22,DC08,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,bat,DC,wickets,9,7
+2008,2008-04-23,CSK,MI,"MA Chidambaram Stadium, Chepauk",Chennai,MI,field,CSK,runs,6,8
+2008,2008-04-24,DC08,RR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RR,field,RR,wickets,3,9
+2008,2008-04-25,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,MI,field,PBKS,runs,66,10
+2008,2008-04-26,RCB,RR,M Chinnaswamy Stadium,Bangalore,RR,field,RR,wickets,7,11
+2008,2008-04-26,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,KKR,bat,CSK,wickets,9,12
+2008,2008-04-27,PBKS,DC,"Punjab Cricket Association Stadium, Mohali",Chandigarh,DC,bat,PBKS,wickets,4,13
+2008,2008-04-27,MI,DC08,Dr DY Patil Sports Academy,Mumbai,DC08,field,DC08,wickets,10,14
+2008,2008-04-28,RCB,CSK,M Chinnaswamy Stadium,Bangalore,CSK,bat,CSK,runs,13,15
+2008,2008-04-29,KKR,MI,Eden Gardens,Kolkata,KKR,bat,MI,wickets,7,16
+2008,2008-04-30,DC,RCB,Feroz Shah Kotla,Delhi,RCB,field,DC,runs,10,17
+2008,2008-05-01,DC08,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PBKS,field,PBKS,wickets,7,18
+2008,2008-05-01,RR,KKR,Sawai Mansingh Stadium,Jaipur,RR,bat,RR,runs,45,19
+2008,2008-05-02,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,DC,wickets,8,20
+2008,2008-05-03,PBKS,KKR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,PBKS,runs,9,21
+2008,2008-05-03,RCB,DC08,M Chinnaswamy Stadium,Bangalore,DC08,field,RCB,runs,3,22
+2008,2008-05-04,RR,CSK,Sawai Mansingh Stadium,Jaipur,CSK,bat,RR,wickets,8,23
+2008,2008-05-04,MI,DC,Dr DY Patil Sports Academy,Mumbai,DC,field,MI,runs,29,24
+2008,2008-05-05,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,PBKS,wickets,6,25
+2008,2008-05-06,CSK,DC08,"MA Chidambaram Stadium, Chepauk",Chennai,DC08,field,DC08,wickets,7,26
+2008,2008-05-07,MI,RR,Dr DY Patil Sports Academy,Mumbai,MI,field,MI,wickets,7,27
+2008,2008-05-08,DC,CSK,Feroz Shah Kotla,Delhi,CSK,field,CSK,wickets,4,28
+2008,2008-05-08,KKR,RCB,Eden Gardens,Kolkata,KKR,bat,KKR,runs,5,29
+2008,2008-05-09,RR,DC08,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,8,30
+2008,2008-05-10,CSK,PBKS,"MA Chidambaram Stadium, Chepauk",Chennai,PBKS,field,CSK,runs,18,31
+2008,2008-05-11,DC08,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,KKR,bat,KKR,runs,23,32
+2008,2008-05-11,RR,DC,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,3,33
+2008,2008-05-12,PBKS,RCB,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RCB,bat,PBKS,wickets,9,34
+2008,2008-05-13,KKR,DC,Eden Gardens,Kolkata,KKR,bat,KKR,runs,23,35
+2008,2008-05-14,MI,CSK,Wankhede Stadium,Mumbai,MI,field,MI,wickets,9,36
+2008,2008-05-15,DC,DC08,Feroz Shah Kotla,Delhi,DC08,field,DC,runs,12,37
+2008,2008-05-16,MI,KKR,Wankhede Stadium,Mumbai,MI,field,MI,wickets,8,38
+2008,2008-05-17,DC,PBKS,Feroz Shah Kotla,Delhi,DC,bat,PBKS,runs,6,39
+2008,2008-05-17,RR,RCB,Sawai Mansingh Stadium,Jaipur,RCB,field,RR,runs,65,40
+2008,2008-05-18,DC08,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,field,MI,runs,25,41
+2008,2008-05-18,KKR,CSK,Eden Gardens,Kolkata,KKR,bat,CSK,runs,3,42
+2008,2008-05-19,RCB,DC,M Chinnaswamy Stadium,Bangalore,DC,field,DC,wickets,5,43
+2008,2008-05-20,KKR,RR,Eden Gardens,Kolkata,RR,field,RR,wickets,6,44
+2008,2008-05-21,MI,PBKS,Wankhede Stadium,Mumbai,MI,field,PBKS,runs,1,45
+2008,2008-05-21,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,RCB,bat,RCB,runs,14,46
+2008,2008-05-23,PBKS,DC08,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,6,47
+2008,2008-05-24,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,RR,bat,RR,runs,10,48
+2008,2008-05-24,DC,MI,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,5,49
+2008,2008-05-25,DC08,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,bat,RCB,wickets,5,50
+2008,2008-05-25,KKR,PBKS,Eden Gardens,Kolkata,PBKS,bat,KKR,wickets,3,51
+2008,2008-05-26,RR,MI,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,5,52
+2008,2008-05-27,DC08,CSK,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,bat,CSK,wickets,7,53
+2008,2008-05-28,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,9,54
+2008,2008-05-28,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RR,field,PBKS,runs,41,55
+2008,2008-05-30,DC,RR,Wankhede Stadium,Mumbai,DC,field,RR,runs,105,56
+2008,2008-05-31,CSK,PBKS,Wankhede Stadium,Mumbai,PBKS,bat,CSK,wickets,9,57
+2008,2008-06-01,CSK,RR,Dr DY Patil Sports Academy,Mumbai,RR,field,RR,wickets,3,58
+2009,2009-04-18,CSK,MI,Newlands,Cape Town,CSK,field,MI,runs,19,59
+2009,2009-04-18,RCB,RR,Newlands,Cape Town,RCB,bat,RCB,runs,75,60
+2009,2009-04-19,DC,PBKS,Newlands,Cape Town,DC,field,DC,wickets,10,61
+2009,2009-04-19,DC08,KKR,Newlands,Cape Town,KKR,bat,DC08,wickets,8,62
+2009,2009-04-20,RCB,CSK,St George's Park,Port Elizabeth,CSK,bat,CSK,runs,92,63
+2009,2009-04-21,PBKS,KKR,Kingsmead,Durban,KKR,field,KKR,runs,11,64
+2009,2009-04-22,RCB,DC08,Newlands,Cape Town,DC08,bat,DC08,runs,24,65
+2009,2009-04-23,CSK,DC,Kingsmead,Durban,DC,bat,DC,runs,9,66
+2009,2009-04-24,RCB,PBKS,Kingsmead,Durban,RCB,bat,PBKS,wickets,7,67
+2009,2009-04-25,DC08,MI,Kingsmead,Durban,DC08,bat,DC08,runs,12,68
+2009,2009-04-26,RCB,DC,St George's Park,Port Elizabeth,RCB,bat,DC,wickets,6,69
+2009,2009-04-26,PBKS,RR,Newlands,Cape Town,PBKS,bat,PBKS,runs,27,70
+2009,2009-04-27,CSK,DC08,Kingsmead,Durban,DC08,field,DC08,wickets,6,71
+2009,2009-04-27,KKR,MI,St George's Park,Port Elizabeth,MI,bat,MI,runs,92,72
+2009,2009-04-28,DC,RR,SuperSport Park,Centurion,DC,bat,RR,wickets,5,73
+2009,2009-04-29,PBKS,MI,Kingsmead,Durban,PBKS,bat,PBKS,runs,3,74
+2009,2009-04-29,RCB,KKR,Kingsmead,Durban,KKR,bat,RCB,wickets,5,75
+2009,2009-04-30,DC08,DC,SuperSport Park,Centurion,DC,field,DC,wickets,6,76
+2009,2009-04-30,CSK,RR,SuperSport Park,Centurion,RR,field,CSK,runs,38,77
+2009,2009-05-01,KKR,MI,Buffalo Park,East London,MI,bat,MI,runs,9,78
+2009,2009-05-01,RCB,PBKS,Kingsmead,Durban,RCB,bat,RCB,runs,8,79
+2009,2009-05-02,CSK,DC,New Wanderers Stadium,Johannesburg,DC,field,CSK,runs,18,80
+2009,2009-05-02,DC08,RR,St George's Park,Port Elizabeth,DC08,bat,RR,wickets,3,81
+2009,2009-05-03,PBKS,KKR,St George's Park,Port Elizabeth,KKR,bat,PBKS,wickets,6,82
+2009,2009-05-03,RCB,MI,New Wanderers Stadium,Johannesburg,MI,bat,RCB,wickets,9,83
+2009,2009-05-04,CSK,DC08,Buffalo Park,East London,CSK,bat,CSK,runs,78,84
+2009,2009-05-05,PBKS,RR,Kingsmead,Durban,PBKS,field,RR,runs,78,85
+2009,2009-05-05,DC,KKR,Kingsmead,Durban,KKR,bat,DC,wickets,9,86
+2009,2009-05-06,DC08,MI,SuperSport Park,Centurion,DC08,bat,DC08,runs,19,87
+2009,2009-05-07,RCB,RR,SuperSport Park,Centurion,RR,field,RR,wickets,7,88
+2009,2009-05-07,CSK,PBKS,SuperSport Park,Centurion,CSK,bat,CSK,runs,12,89
+2009,2009-05-08,DC,MI,Buffalo Park,East London,MI,bat,DC,wickets,7,90
+2009,2009-05-09,DC08,PBKS,De Beers Diamond Oval,Kimberley,PBKS,field,PBKS,wickets,3,91
+2009,2009-05-09,CSK,RR,De Beers Diamond Oval,Kimberley,RR,bat,CSK,wickets,7,92
+2009,2009-05-10,RCB,MI,St George's Park,Port Elizabeth,MI,bat,MI,runs,16,93
+2009,2009-05-10,DC,KKR,New Wanderers Stadium,Johannesburg,DC,field,DC,wickets,7,94
+2009,2009-05-11,DC08,RR,De Beers Diamond Oval,Kimberley,DC08,bat,DC08,runs,53,95
+2009,2009-05-12,RCB,KKR,SuperSport Park,Centurion,RCB,field,RCB,wickets,6,96
+2009,2009-05-12,PBKS,MI,SuperSport Park,Centurion,PBKS,bat,MI,wickets,8,97
+2009,2009-05-13,DC08,DC,Kingsmead,Durban,DC08,field,DC,runs,12,98
+2009,2009-05-14,MI,RR,Kingsmead,Durban,RR,bat,RR,runs,2,99
+2009,2009-05-14,RCB,CSK,Kingsmead,Durban,CSK,bat,RCB,wickets,2,100
+2009,2009-05-15,DC,PBKS,OUTsurance Oval,Bloemfontein,PBKS,field,PBKS,wickets,6,101
+2009,2009-05-16,CSK,MI,St George's Park,Port Elizabeth,MI,bat,CSK,wickets,7,102
+2009,2009-05-16,DC08,KKR,New Wanderers Stadium,Johannesburg,DC08,field,DC08,wickets,6,103
+2009,2009-05-17,DC08,PBKS,New Wanderers Stadium,Johannesburg,DC08,field,PBKS,runs,1,104
+2009,2009-05-17,DC,RR,OUTsurance Oval,Bloemfontein,DC,bat,DC,runs,14,105
+2009,2009-05-18,CSK,KKR,SuperSport Park,Centurion,CSK,bat,KKR,wickets,7,106
+2009,2009-05-19,RCB,DC,New Wanderers Stadium,Johannesburg,DC,bat,RCB,wickets,7,107
+2009,2009-05-20,KKR,RR,Kingsmead,Durban,KKR,field,KKR,wickets,4,108
+2009,2009-05-20,CSK,PBKS,Kingsmead,Durban,CSK,bat,CSK,runs,24,109
+2009,2009-05-21,DC,MI,SuperSport Park,Centurion,DC,field,DC,wickets,4,110
+2009,2009-05-21,RCB,DC08,SuperSport Park,Centurion,RCB,bat,RCB,runs,12,111
+2009,2009-05-22,DC,DC08,SuperSport Park,Centurion,DC08,field,DC08,wickets,6,112
+2009,2009-05-23,RCB,CSK,New Wanderers Stadium,Johannesburg,RCB,field,RCB,wickets,6,113
+2009,2009-05-24,RCB,DC08,New Wanderers Stadium,Johannesburg,RCB,field,DC08,runs,6,114
+2010,2010-03-12,DC08,KKR,Dr DY Patil Sports Academy,Mumbai,DC08,field,KKR,runs,11,115
+2010,2010-03-13,PBKS,DC,"Punjab Cricket Association Stadium, Mohali",Chandigarh,DC,field,DC,wickets,5,116
+2010,2010-03-13,MI,RR,Brabourne Stadium,Mumbai,MI,bat,MI,runs,4,117
+2010,2010-03-14,KKR,RCB,Eden Gardens,Kolkata,KKR,field,KKR,wickets,7,118
+2010,2010-03-14,CSK,DC08,"MA Chidambaram Stadium, Chepauk",Chennai,DC08,bat,DC08,runs,31,119
+2010,2010-03-15,RR,DC,"Sardar Patel Stadium, Motera",Ahmedabad,DC,field,DC,wickets,6,120
+2010,2010-03-16,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,bat,RCB,wickets,8,121
+2010,2010-03-16,KKR,CSK,Eden Gardens,Kolkata,CSK,bat,CSK,runs,55,122
+2010,2010-03-17,DC,MI,Feroz Shah Kotla,Delhi,DC,field,MI,runs,98,123
+2010,2010-03-18,RCB,RR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,10,124
+2010,2010-03-19,DC,CSK,Feroz Shah Kotla,Delhi,DC,bat,CSK,wickets,5,125
+2010,2010-03-19,DC08,PBKS,Barabati Stadium,Cuttack,PBKS,field,DC08,runs,6,126
+2010,2010-03-20,MI,RCB,Brabourne Stadium,Mumbai,MI,bat,RCB,wickets,7,127
+2010,2010-03-20,RR,KKR,"Sardar Patel Stadium, Motera",Ahmedabad,RR,bat,RR,runs,34,128
+2010,2010-03-21,DC08,DC,Barabati Stadium,Cuttack,DC08,bat,DC08,runs,10,129
+2010,2010-03-22,MI,KKR,Brabourne Stadium,Mumbai,KKR,bat,MI,wickets,7,130
+2010,2010-03-23,RCB,CSK,M Chinnaswamy Stadium,Bangalore,CSK,field,RCB,runs,36,131
+2010,2010-03-24,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,RR,runs,31,132
+2010,2010-03-25,CSK,MI,"Brabourne Stadium, Mumbai",Mumbai,MI,field,MI,wickets,5,133
+2010,2010-03-25,RCB,DC,M Chinnaswamy Stadium,Bangalore,RCB,field,DC,runs,17,134
+2010,2010-03-26,RR,DC08,"Sardar Patel Stadium, Motera",Ahmedabad,DC08,bat,RR,wickets,8,135
+2010,2010-03-27,PBKS,KKR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,KKR,bat,KKR,runs,39,136
+2010,2010-03-28,RR,CSK,"Sardar Patel Stadium, Motera",Ahmedabad,RR,bat,RR,runs,17,137
+2010,2010-03-28,DC08,MI,Dr DY Patil Sports Academy,Mumbai,DC08,field,MI,runs,41,138
+2010,2010-03-29,DC,KKR,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,40,139
+2010,2010-03-30,MI,PBKS,Brabourne Stadium,Mumbai,MI,field,MI,wickets,4,140
+2010,2010-03-31,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,RCB,bat,CSK,wickets,5,141
+2010,2010-03-31,DC,RR,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,67,142
+2010,2010-04-01,KKR,DC08,Eden Gardens,Kolkata,KKR,bat,KKR,runs,24,143
+2010,2010-04-02,PBKS,RCB,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,RCB,wickets,6,144
+2010,2010-04-03,MI,DC08,Brabourne Stadium,Mumbai,MI,bat,MI,runs,63,145
+2010,2010-04-03,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,23,146
+2010,2010-04-04,KKR,PBKS,Eden Gardens,Kolkata,KKR,bat,PBKS,wickets,8,147
+2010,2010-04-04,DC,RCB,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,37,148
+2010,2010-04-05,DC08,RR,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur,RR,bat,RR,runs,2,149
+2010,2010-04-06,CSK,MI,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,24,150
+2010,2010-04-07,KKR,DC,Eden Gardens,Kolkata,KKR,bat,KKR,runs,14,151
+2010,2010-04-07,RR,PBKS,Sawai Mansingh Stadium,Jaipur,PBKS,bat,RR,wickets,9,152
+2010,2010-04-08,RCB,DC08,M Chinnaswamy Stadium,Bangalore,DC08,field,DC08,wickets,7,153
+2010,2010-04-09,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,MI,bat,PBKS,wickets,6,154
+2010,2010-04-10,DC08,CSK,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur,CSK,bat,DC08,wickets,6,155
+2010,2010-04-10,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,7,156
+2010,2010-04-11,DC,PBKS,Feroz Shah Kotla,Delhi,DC,bat,PBKS,wickets,7,157
+2010,2010-04-11,RR,MI,Sawai Mansingh Stadium,Jaipur,RR,field,MI,runs,37,158
+2010,2010-04-12,DC08,RCB,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur,RCB,field,DC08,runs,13,159
+2010,2010-04-13,MI,DC,Brabourne Stadium,Mumbai,MI,bat,MI,runs,39,160
+2010,2010-04-13,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,KKR,bat,CSK,wickets,9,161
+2010,2010-04-14,RR,RCB,Sawai Mansingh Stadium,Jaipur,RR,bat,RCB,wickets,5,162
+2010,2010-04-15,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,DC,wickets,6,163
+2010,2010-04-16,PBKS,DC08,Himachal Pradesh Cricket Association Stadium,Dharamsala,DC08,field,DC08,wickets,5,164
+2010,2010-04-17,RCB,MI,M Chinnaswamy Stadium,Bangalore,RCB,field,MI,runs,57,165
+2010,2010-04-17,KKR,RR,Eden Gardens,Kolkata,RR,bat,KKR,wickets,8,166
+2010,2010-04-18,DC,DC08,Feroz Shah Kotla,Delhi,DC08,bat,DC08,runs,11,167
+2010,2010-04-18,PBKS,CSK,Himachal Pradesh Cricket Association Stadium,Dharamsala,CSK,field,CSK,wickets,6,168
+2010,2010-04-19,KKR,MI,Eden Gardens,Kolkata,MI,bat,KKR,wickets,9,169
+2010,2010-04-21,RCB,MI,Dr DY Patil Sports Academy,Mumbai,MI,bat,MI,runs,35,170
+2010,2010-04-22,CSK,DC08,Dr DY Patil Sports Academy,Mumbai,CSK,bat,CSK,runs,38,171
+2010,2010-04-24,RCB,DC08,Dr DY Patil Sports Academy,Mumbai,DC08,bat,RCB,wickets,9,172
+2010,2010-04-25,CSK,MI,Dr DY Patil Sports Academy,Mumbai,CSK,bat,CSK,runs,22,173
+2011,2011-04-08,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,2,174
+2011,2011-04-09,DC08,RR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RR,field,RR,wickets,8,175
+2011,2011-04-09,KTK,RCB,Nehru Stadium,Kochi,KTK,bat,RCB,wickets,6,176
+2011,2011-04-10,DC,MI,Feroz Shah Kotla,Delhi,DC,bat,MI,wickets,8,177
+2011,2011-04-10,PWI,PBKS,Dr DY Patil Sports Academy,Mumbai,PBKS,bat,PWI,wickets,7,178
+2011,2011-04-11,KKR,DC08,Eden Gardens,Kolkata,KKR,bat,KKR,runs,9,179
+2011,2011-04-12,RR,DC,Sawai Mansingh Stadium,Jaipur,DC,bat,RR,wickets,6,180
+2011,2011-04-12,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,9,181
+2011,2011-04-13,PWI,KTK,Dr DY Patil Sports Academy,Mumbai,KTK,bat,PWI,wickets,4,182
+2011,2011-04-13,PBKS,CSK,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,6,183
+2011,2011-04-14,DC08,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RCB,field,DC08,runs,33,184
+2011,2011-04-15,RR,KKR,Sawai Mansingh Stadium,Jaipur,KKR,field,KKR,wickets,9,185
+2011,2011-04-15,MI,KTK,Wankhede Stadium,Mumbai,KTK,field,KTK,wickets,8,186
+2011,2011-04-16,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,21,187
+2011,2011-04-16,DC08,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PBKS,field,PBKS,wickets,8,188
+2011,2011-04-17,PWI,DC,Dr DY Patil Sports Academy,Mumbai,DC,field,DC,wickets,3,189
+2011,2011-04-17,KKR,RR,Eden Gardens,Kolkata,KKR,field,KKR,wickets,8,190
+2011,2011-04-18,KTK,CSK,Nehru Stadium,Kochi,KTK,field,KTK,wickets,7,191
+2011,2011-04-19,DC,DC08,Feroz Shah Kotla,Delhi,DC08,bat,DC08,runs,16,192
+2011,2011-04-20,KKR,KTK,Eden Gardens,Kolkata,KKR,field,KTK,runs,6,193
+2011,2011-04-20,MI,PWI,Wankhede Stadium,Mumbai,PWI,bat,MI,wickets,7,194
+2011,2011-04-21,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RR,field,PBKS,runs,48,195
+2011,2011-04-22,MI,CSK,Wankhede Stadium,Mumbai,CSK,field,MI,runs,8,196
+2011,2011-04-22,KKR,RCB,Eden Gardens,Kolkata,RCB,field,RCB,wickets,9,197
+2011,2011-04-23,DC,PBKS,Feroz Shah Kotla,Delhi,PBKS,field,DC,runs,29,198
+2011,2011-04-24,DC08,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,field,MI,runs,37,199
+2011,2011-04-24,RR,KTK,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,8,200
+2011,2011-04-25,CSK,PWI,"MA Chidambaram Stadium, Chepauk",Chennai,PWI,field,CSK,runs,25,201
+2011,2011-04-26,DC,RCB,Feroz Shah Kotla,Delhi,RCB,field,RCB,wickets,3,202
+2011,2011-04-27,PWI,CSK,Dr DY Patil Sports Academy,Mumbai,PWI,bat,CSK,wickets,8,203
+2011,2011-04-27,KTK,DC08,Nehru Stadium,Kochi,KTK,field,DC08,runs,55,204
+2011,2011-04-28,DC,KKR,Feroz Shah Kotla,Delhi,DC,field,KKR,runs,17,205
+2011,2011-04-29,RR,MI,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,7,206
+2011,2011-04-29,RCB,PWI,M Chinnaswamy Stadium,Bangalore,PWI,field,RCB,runs,26,207
+2011,2011-04-30,KKR,PBKS,Eden Gardens,Kolkata,KKR,field,KKR,wickets,8,208
+2011,2011-04-30,KTK,DC,Nehru Stadium,Kochi,DC,bat,DC,runs,38,209
+2011,2011-05-01,CSK,DC08,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,19,210
+2011,2011-05-01,RR,PWI,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,6,211
+2011,2011-05-02,DC,KTK,Feroz Shah Kotla,Delhi,KTK,field,KTK,wickets,7,212
+2011,2011-05-02,MI,PBKS,Wankhede Stadium,Mumbai,PBKS,field,MI,runs,23,213
+2011,2011-05-03,DC08,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,field,KKR,runs,20,214
+2011,2011-05-04,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,RR,bat,CSK,wickets,8,215
+2011,2011-05-04,PWI,MI,Dr DY Patil Sports Academy,Mumbai,PWI,field,MI,runs,21,216
+2011,2011-05-05,KTK,KKR,Nehru Stadium,Kochi,KKR,field,KTK,runs,17,217
+2011,2011-05-05,DC08,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC,field,DC,wickets,4,218
+2011,2011-05-06,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,RCB,runs,85,219
+2011,2011-05-07,KKR,CSK,Eden Gardens,Kolkata,CSK,bat,KKR,runs,10,220
+2011,2011-05-07,MI,DC,Wankhede Stadium,Mumbai,DC,field,MI,runs,32,221
+2011,2011-05-08,RCB,KTK,M Chinnaswamy Stadium,Bangalore,KTK,bat,RCB,wickets,9,222
+2011,2011-05-08,PBKS,PWI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,PWI,wickets,5,223
+2011,2011-05-09,RR,CSK,Sawai Mansingh Stadium,Jaipur,RR,field,CSK,runs,63,224
+2011,2011-05-10,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,MI,field,PBKS,runs,76,225
+2011,2011-05-10,DC08,PWI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,bat,PWI,wickets,6,226
+2011,2011-05-11,RR,RCB,Sawai Mansingh Stadium,Jaipur,RCB,field,RCB,wickets,9,227
+2011,2011-05-12,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,18,228
+2011,2011-05-13,KTK,PBKS,Holkar Cricket Stadium,Indore,PBKS,field,PBKS,wickets,6,229
+2011,2011-05-14,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,4,230
+2011,2011-05-14,MI,DC08,Wankhede Stadium,Mumbai,DC08,bat,DC08,runs,10,231
+2011,2011-05-15,PBKS,DC,Himachal Pradesh Cricket Association Stadium,Dharamsala,DC,field,PBKS,runs,29,232
+2011,2011-05-15,KTK,RR,Holkar Cricket Stadium,Indore,KTK,field,KTK,wickets,8,233
+2011,2011-05-16,PWI,DC08,Dr DY Patil Sports Academy,Mumbai,DC08,field,DC08,wickets,6,234
+2011,2011-05-17,PBKS,RCB,Himachal Pradesh Cricket Association Stadium,Dharamsala,PBKS,bat,PBKS,runs,111,235
+2011,2011-05-18,CSK,KTK,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,11,236
+2011,2011-05-19,PWI,KKR,Dr DY Patil Sports Academy,Mumbai,KKR,field,KKR,wickets,7,237
+2011,2011-05-20,MI,RR,Wankhede Stadium,Mumbai,MI,bat,RR,wickets,10,238
+2011,2011-05-21,PBKS,DC08,Himachal Pradesh Cricket Association Stadium,Dharamsala,PBKS,field,DC08,runs,82,239
+2011,2011-05-22,RCB,CSK,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,8,240
+2011,2011-05-22,KKR,MI,Eden Gardens,Kolkata,MI,field,MI,wickets,5,241
+2011,2011-05-24,RCB,CSK,Wankhede Stadium,Mumbai,CSK,field,CSK,wickets,6,242
+2011,2011-05-25,MI,KKR,Wankhede Stadium,Mumbai,MI,field,MI,wickets,4,243
+2011,2011-05-27,RCB,MI,"MA Chidambaram Stadium, Chepauk",Chennai,MI,field,RCB,runs,43,244
+2011,2011-05-28,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,58,245
+2012,2012-04-04,CSK,MI,"MA Chidambaram Stadium, Chepauk",Chennai,MI,field,MI,wickets,8,246
+2012,2012-04-05,KKR,DC,Eden Gardens,Kolkata,DC,field,DC,wickets,8,247
+2012,2012-04-06,MI,PWI,Wankhede Stadium,Mumbai,MI,field,PWI,runs,28,248
+2012,2012-04-06,RR,PBKS,Sawai Mansingh Stadium,Jaipur,PBKS,field,RR,runs,31,249
+2012,2012-04-07,DC08,CSK,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,DC08,field,CSK,runs,74,250
+2012,2012-04-07,RCB,DC,M Chinnaswamy Stadium,Bangalore,DC,field,RCB,runs,20,251
+2012,2012-04-08,RR,KKR,Sawai Mansingh Stadium,Jaipur,KKR,field,RR,runs,22,252
+2012,2012-04-08,PWI,PBKS,Subrata Roy Sahara Stadium,Pune,PWI,bat,PWI,runs,22,253
+2012,2012-04-09,DC08,MI,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,DC08,bat,MI,wickets,5,254
+2012,2012-04-10,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,KKR,runs,42,255
+2012,2012-04-10,DC,CSK,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,8,256
+2012,2012-04-11,MI,RR,Wankhede Stadium,Mumbai,RR,field,MI,runs,27,257
+2012,2012-04-12,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,RCB,bat,CSK,wickets,5,258
+2012,2012-04-12,PBKS,PWI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,7,259
+2012,2012-04-13,KKR,RR,Eden Gardens,Kolkata,RR,bat,KKR,wickets,5,260
+2012,2012-04-14,PWI,CSK,Subrata Roy Sahara Stadium,Pune,CSK,bat,PWI,wickets,7,261
+2012,2012-04-15,RCB,RR,M Chinnaswamy Stadium,Bangalore,RR,bat,RR,runs,59,262
+2012,2012-04-15,KKR,PBKS,Eden Gardens,Kolkata,KKR,field,PBKS,runs,2,263
+2012,2012-04-16,MI,DC,Wankhede Stadium,Mumbai,DC,field,DC,wickets,7,264
+2012,2012-04-17,RR,DC08,Sawai Mansingh Stadium,Jaipur,DC08,bat,RR,wickets,5,265
+2012,2012-04-17,RCB,PWI,M Chinnaswamy Stadium,Bangalore,PWI,bat,RCB,wickets,6,266
+2012,2012-04-18,PBKS,KKR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,KKR,wickets,8,267
+2012,2012-04-19,DC,DC08,Feroz Shah Kotla,Delhi,DC08,bat,DC,wickets,5,268
+2012,2012-04-19,CSK,PWI,"MA Chidambaram Stadium, Chepauk",Chennai,PWI,field,CSK,runs,13,269
+2012,2012-04-20,PBKS,RCB,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RCB,field,RCB,wickets,5,270
+2012,2012-04-21,DC,PWI,Feroz Shah Kotla,Delhi,DC,field,PWI,runs,20,271
+2012,2012-04-21,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,RR,bat,CSK,wickets,7,272
+2012,2012-04-22,DC08,KKR,Barabati Stadium,Cuttack,KKR,field,KKR,wickets,5,273
+2012,2012-04-22,MI,PBKS,Wankhede Stadium,Mumbai,MI,bat,PBKS,wickets,6,274
+2012,2012-04-23,RR,RCB,Sawai Mansingh Stadium,Jaipur,RR,field,RCB,runs,46,275
+2012,2012-04-24,PWI,DC,Subrata Roy Sahara Stadium,Pune,PWI,bat,DC,wickets,8,276
+2012,2012-04-25,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,MI,wickets,4,277
+2012,2012-04-26,PWI,DC08,Subrata Roy Sahara Stadium,Pune,DC08,bat,DC08,runs,18,278
+2012,2012-04-27,DC,MI,Feroz Shah Kotla,Delhi,MI,field,DC,runs,37,279
+2012,2012-04-28,CSK,PBKS,"MA Chidambaram Stadium, Chepauk",Chennai,PBKS,bat,PBKS,runs,7,280
+2012,2012-04-28,KKR,RCB,Eden Gardens,Kolkata,KKR,bat,KKR,runs,47,281
+2012,2012-04-29,DC,RR,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,1,282
+2012,2012-04-29,MI,DC08,Wankhede Stadium,Mumbai,MI,field,MI,wickets,5,283
+2012,2012-04-30,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,KKR,wickets,5,284
+2012,2012-05-01,DC08,PWI,Barabati Stadium,Cuttack,DC08,bat,DC08,runs,13,285
+2012,2012-05-01,RR,DC,Sawai Mansingh Stadium,Jaipur,RR,bat,DC,wickets,6,286
+2012,2012-05-02,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,PBKS,wickets,4,287
+2012,2012-05-03,PWI,MI,Subrata Roy Sahara Stadium,Pune,MI,bat,MI,runs,1,288
+2012,2012-05-04,CSK,DC08,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,10,289
+2012,2012-05-05,KKR,PWI,Eden Gardens,Kolkata,KKR,bat,KKR,runs,7,290
+2012,2012-05-05,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RR,bat,RR,runs,43,291
+2012,2012-05-06,MI,CSK,Wankhede Stadium,Mumbai,MI,field,MI,wickets,2,292
+2012,2012-05-06,RCB,DC08,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,5,293
+2012,2012-05-07,DC,KKR,Feroz Shah Kotla,Delhi,DC,bat,KKR,wickets,6,294
+2012,2012-05-08,PWI,RR,Subrata Roy Sahara Stadium,Pune,PWI,bat,RR,wickets,7,295
+2012,2012-05-08,DC08,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,field,PBKS,runs,25,296
+2012,2012-05-09,MI,RCB,Wankhede Stadium,Mumbai,RCB,field,RCB,wickets,9,297
+2012,2012-05-10,RR,CSK,Sawai Mansingh Stadium,Jaipur,CSK,field,CSK,wickets,4,298
+2012,2012-05-10,DC08,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC08,bat,DC,wickets,9,299
+2012,2012-05-11,PWI,RCB,Subrata Roy Sahara Stadium,Pune,PWI,field,RCB,runs,35,300
+2012,2012-05-12,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,field,CSK,wickets,9,301
+2012,2012-05-12,KKR,MI,Eden Gardens,Kolkata,MI,bat,MI,runs,27,302
+2012,2012-05-13,RR,PWI,Sawai Mansingh Stadium,Jaipur,RR,bat,RR,runs,45,303
+2012,2012-05-13,PBKS,DC08,"Punjab Cricket Association Stadium, Mohali",Chandigarh,DC08,bat,PBKS,wickets,4,304
+2012,2012-05-14,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,5,305
+2012,2012-05-14,KKR,CSK,Eden Gardens,Kolkata,CSK,field,CSK,wickets,5,306
+2012,2012-05-15,DC,PBKS,Feroz Shah Kotla,Delhi,PBKS,bat,DC,wickets,5,307
+2012,2012-05-16,MI,KKR,Wankhede Stadium,Mumbai,MI,field,KKR,runs,32,308
+2012,2012-05-17,PBKS,CSK,Himachal Pradesh Cricket Association Stadium,Dharamsala,PBKS,field,PBKS,wickets,6,309
+2012,2012-05-17,DC,RCB,Feroz Shah Kotla,Delhi,DC,field,RCB,runs,21,310
+2012,2012-05-18,DC08,RR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RR,bat,DC08,wickets,5,311
+2012,2012-05-19,PBKS,DC,Himachal Pradesh Cricket Association Stadium,Dharamsala,DC,field,DC,wickets,6,312
+2012,2012-05-19,PWI,KKR,Subrata Roy Sahara Stadium,Pune,KKR,bat,KKR,runs,34,313
+2012,2012-05-20,DC08,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RCB,field,DC08,runs,9,314
+2012,2012-05-20,RR,MI,Sawai Mansingh Stadium,Jaipur,RR,bat,MI,wickets,10,315
+2012,2012-05-22,DC,KKR,Subrata Roy Sahara Stadium,Pune,KKR,bat,KKR,runs,18,316
+2012,2012-05-23,CSK,MI,M Chinnaswamy Stadium,Bangalore,MI,field,CSK,runs,38,317
+2012,2012-05-25,DC,CSK,"MA Chidambaram Stadium, Chepauk",Chennai,DC,field,CSK,runs,86,318
+2012,2012-05-27,KKR,CSK,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,KKR,wickets,5,319
+2013,2013-04-03,KKR,DC,Eden Gardens,Kolkata,KKR,field,KKR,wickets,6,320
+2013,2013-04-04,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,RCB,runs,2,321
+2013,2013-04-05,SRH,PWI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PWI,field,SRH,runs,22,322
+2013,2013-04-06,DC,RR,Feroz Shah Kotla,Delhi,RR,bat,RR,runs,5,323
+2013,2013-04-06,CSK,MI,"MA Chidambaram Stadium, Chepauk",Chennai,MI,bat,MI,runs,9,324
+2013,2013-04-07,PWI,PBKS,Subrata Roy Sahara Stadium,Pune,PWI,bat,PBKS,wickets,8,325
+2013,2013-04-08,RR,KKR,Sawai Mansingh Stadium,Jaipur,KKR,field,RR,runs,19,326
+2013,2013-04-09,MI,DC,Wankhede Stadium,Mumbai,MI,bat,MI,runs,44,327
+2013,2013-04-09,RCB,SRH,M Chinnaswamy Stadium,Bangalore,SRH,bat,RCB,wickets,7,328
+2013,2013-04-10,PBKS,CSK,"Punjab Cricket Association Stadium, Mohali",Chandigarh,CSK,field,CSK,wickets,10,329
+2013,2013-04-11,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,8,330
+2013,2013-04-11,PWI,RR,Subrata Roy Sahara Stadium,Pune,RR,bat,PWI,wickets,7,331
+2013,2013-04-12,DC,SRH,Feroz Shah Kotla,Delhi,DC,bat,SRH,wickets,3,332
+2013,2013-04-13,MI,PWI,Wankhede Stadium,Mumbai,MI,bat,MI,runs,41,333
+2013,2013-04-13,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,field,CSK,wickets,4,334
+2013,2013-04-14,KKR,SRH,Eden Gardens,Kolkata,KKR,bat,KKR,runs,48,335
+2013,2013-04-14,RR,PBKS,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,6,336
+2013,2013-04-15,CSK,PWI,"MA Chidambaram Stadium, Chepauk",Chennai,PWI,bat,PWI,runs,24,337
+2013,2013-04-16,PBKS,KKR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,KKR,field,PBKS,runs,4,338
+2013,2013-04-17,PWI,SRH,Maharashtra Cricket Association Stadium,Pune,PWI,field,SRH,runs,11,339
+2013,2013-04-17,RR,MI,Sawai Mansingh Stadium,Jaipur,RR,bat,RR,runs,87,340
+2013,2013-04-18,DC,CSK,Feroz Shah Kotla,Delhi,CSK,bat,CSK,runs,86,341
+2013,2013-04-19,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PBKS,bat,SRH,wickets,5,342
+2013,2013-04-20,KKR,CSK,Eden Gardens,Kolkata,KKR,bat,CSK,wickets,4,343
+2013,2013-04-20,RCB,RR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,7,344
+2013,2013-04-21,DC,MI,Feroz Shah Kotla,Delhi,MI,bat,DC,wickets,9,345
+2013,2013-04-21,PBKS,PWI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,7,346
+2013,2013-04-22,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,RR,bat,CSK,wickets,5,347
+2013,2013-04-23,RCB,PWI,M Chinnaswamy Stadium,Bangalore,PWI,field,RCB,runs,130,348
+2013,2013-04-23,DC,PBKS,Feroz Shah Kotla,Delhi,PBKS,field,PBKS,wickets,5,349
+2013,2013-04-24,KKR,MI,Eden Gardens,Kolkata,KKR,bat,MI,wickets,5,350
+2013,2013-04-25,CSK,SRH,"MA Chidambaram Stadium, Chepauk",Chennai,SRH,bat,CSK,wickets,5,351
+2013,2013-04-26,KKR,PBKS,Eden Gardens,Kolkata,PBKS,bat,KKR,wickets,6,352
+2013,2013-04-27,RR,SRH,Sawai Mansingh Stadium,Jaipur,SRH,bat,RR,wickets,8,353
+2013,2013-04-27,MI,RCB,Wankhede Stadium,Mumbai,MI,bat,MI,runs,58,354
+2013,2013-04-28,DC,PWI,Shaheed Veer Narayan Singh International Stadium,Raipur,PWI,field,DC,runs,15,355
+2013,2013-04-28,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,KKR,field,CSK,runs,14,356
+2013,2013-04-29,RR,RCB,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,4,357
+2013,2013-04-29,MI,PBKS,Wankhede Stadium,Mumbai,MI,bat,MI,runs,4,358
+2013,2013-04-30,PWI,CSK,Subrata Roy Sahara Stadium,Pune,CSK,bat,CSK,runs,37,359
+2013,2013-05-01,SRH,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,MI,bat,SRH,wickets,7,360
+2013,2013-05-01,DC,KKR,Shaheed Veer Narayan Singh International Stadium,Raipur,KKR,bat,DC,wickets,7,361
+2013,2013-05-02,CSK,PBKS,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,15,362
+2013,2013-05-02,PWI,RCB,Subrata Roy Sahara Stadium,Pune,RCB,bat,RCB,runs,17,363
+2013,2013-05-03,KKR,RR,Eden Gardens,Kolkata,RR,bat,KKR,wickets,8,364
+2013,2013-05-04,SRH,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC,bat,SRH,wickets,6,365
+2013,2013-05-05,MI,CSK,Wankhede Stadium,Mumbai,MI,bat,MI,runs,60,366
+2013,2013-05-05,RR,PWI,Sawai Mansingh Stadium,Jaipur,PWI,bat,RR,wickets,5,367
+2013,2013-05-06,PBKS,RCB,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,6,368
+2013,2013-05-07,MI,KKR,Wankhede Stadium,Mumbai,MI,bat,MI,runs,65,369
+2013,2013-05-07,RR,DC,Sawai Mansingh Stadium,Jaipur,DC,bat,RR,wickets,9,370
+2013,2013-05-08,SRH,CSK,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,CSK,runs,77,371
+2013,2013-05-09,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RR,field,RR,wickets,8,372
+2013,2013-05-09,PWI,KKR,Subrata Roy Sahara Stadium,Pune,KKR,bat,KKR,runs,46,373
+2013,2013-05-10,DC,RCB,Feroz Shah Kotla,Delhi,DC,field,RCB,runs,4,374
+2013,2013-05-11,PWI,MI,Subrata Roy Sahara Stadium,Pune,PWI,bat,MI,wickets,5,375
+2013,2013-05-11,PBKS,SRH,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,SRH,runs,30,376
+2013,2013-05-12,KKR,RCB,JSCA International Stadium Complex,Ranchi,KKR,field,KKR,wickets,5,377
+2013,2013-05-12,RR,CSK,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,5,378
+2013,2013-05-13,MI,SRH,Wankhede Stadium,Mumbai,SRH,bat,MI,wickets,7,379
+2013,2013-05-14,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,PBKS,wickets,7,380
+2013,2013-05-14,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,33,381
+2013,2013-05-15,KKR,PWI,JSCA International Stadium Complex,Ranchi,KKR,field,PWI,runs,7,382
+2013,2013-05-15,MI,RR,Wankhede Stadium,Mumbai,RR,field,MI,runs,14,383
+2013,2013-05-16,PBKS,DC,Himachal Pradesh Cricket Association Stadium,Dharamsala,DC,field,PBKS,runs,7,384
+2013,2013-05-17,SRH,RR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,SRH,runs,23,385
+2013,2013-05-18,PBKS,MI,Himachal Pradesh Cricket Association Stadium,Dharamsala,MI,field,PBKS,runs,50,386
+2013,2013-05-18,RCB,CSK,M Chinnaswamy Stadium,Bangalore,CSK,field,RCB,runs,24,387
+2013,2013-05-19,PWI,DC,Subrata Roy Sahara Stadium,Pune,PWI,bat,PWI,runs,38,388
+2013,2013-05-19,SRH,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,KKR,bat,SRH,wickets,5,389
+2013,2013-05-21,CSK,MI,Feroz Shah Kotla,Delhi,CSK,bat,CSK,runs,48,390
+2013,2013-05-22,RR,SRH,Feroz Shah Kotla,Delhi,SRH,bat,RR,wickets,4,391
+2013,2013-05-24,MI,RR,Eden Gardens,Kolkata,RR,bat,MI,wickets,4,392
+2013,2013-05-26,CSK,MI,Eden Gardens,Kolkata,MI,bat,MI,runs,23,393
+2014,2014-04-16,MI,KKR,Sheikh Zayed Stadium,Abu Dhabi,KKR,bat,KKR,runs,41,394
+2014,2014-04-17,DC,RCB,Sharjah Cricket Stadium,Unknown City,RCB,field,RCB,wickets,8,395
+2014,2014-04-18,CSK,PBKS,Sheikh Zayed Stadium,Abu Dhabi,CSK,bat,PBKS,wickets,6,396
+2014,2014-04-18,SRH,RR,Sheikh Zayed Stadium,Abu Dhabi,RR,field,RR,wickets,4,397
+2014,2014-04-19,RCB,MI,Dubai International Cricket Stadium,Unknown City,RCB,field,RCB,wickets,7,398
+2014,2014-04-19,KKR,DC,Dubai International Cricket Stadium,Unknown City,KKR,bat,DC,wickets,4,399
+2014,2014-04-20,RR,PBKS,Sharjah Cricket Stadium,Unknown City,PBKS,field,PBKS,wickets,7,400
+2014,2014-04-21,CSK,DC,Sheikh Zayed Stadium,Abu Dhabi,CSK,bat,CSK,runs,93,401
+2014,2014-04-22,PBKS,SRH,Sharjah Cricket Stadium,Unknown City,SRH,field,PBKS,runs,72,402
+2014,2014-04-23,RR,CSK,Dubai International Cricket Stadium,Unknown City,RR,field,CSK,runs,7,403
+2014,2014-04-24,RCB,KKR,Sharjah Cricket Stadium,Unknown City,RCB,field,KKR,runs,2,404
+2014,2014-04-25,CSK,MI,Dubai International Cricket Stadium,Unknown City,MI,bat,CSK,wickets,7,405
+2014,2014-04-25,SRH,DC,Dubai International Cricket Stadium,Unknown City,SRH,bat,SRH,runs,4,406
+2014,2014-04-26,RR,RCB,Sheikh Zayed Stadium,Abu Dhabi,RR,field,RR,wickets,6,407
+2014,2014-04-26,KKR,PBKS,Sheikh Zayed Stadium,Abu Dhabi,KKR,field,PBKS,runs,23,408
+2014,2014-04-27,DC,MI,Sharjah Cricket Stadium,Unknown City,MI,bat,DC,wickets,6,409
+2014,2014-04-27,SRH,CSK,Sharjah Cricket Stadium,Unknown City,SRH,bat,CSK,wickets,5,410
+2014,2014-04-28,PBKS,RCB,Dubai International Cricket Stadium,Unknown City,PBKS,field,PBKS,wickets,5,411
+2014,2014-04-30,MI,SRH,Dubai International Cricket Stadium,Unknown City,MI,field,SRH,runs,15,412
+2014,2014-05-02,CSK,KKR,JSCA International Stadium Complex,Ranchi,CSK,bat,CSK,runs,34,413
+2014,2014-05-03,MI,PBKS,Wankhede Stadium,Mumbai,PBKS,bat,MI,wickets,5,414
+2014,2014-05-03,DC,RR,Feroz Shah Kotla,Delhi,RR,field,RR,wickets,7,415
+2014,2014-05-04,RCB,SRH,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,4,416
+2014,2014-05-05,RR,KKR,"Sardar Patel Stadium, Motera",Ahmedabad,KKR,field,RR,runs,10,417
+2014,2014-05-05,DC,CSK,Feroz Shah Kotla,Delhi,CSK,field,CSK,wickets,8,418
+2014,2014-05-06,MI,RCB,Wankhede Stadium,Mumbai,RCB,field,MI,runs,19,419
+2014,2014-05-07,PBKS,CSK,Barabati Stadium,Cuttack,CSK,field,PBKS,runs,44,420
+2014,2014-05-07,DC,KKR,Feroz Shah Kotla,Delhi,DC,bat,KKR,wickets,8,421
+2014,2014-05-08,RR,SRH,"Sardar Patel Stadium, Motera",Ahmedabad,RR,field,SRH,runs,32,422
+2014,2014-05-09,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,RCB,field,PBKS,runs,32,423
+2014,2014-05-10,DC,SRH,Feroz Shah Kotla,Delhi,SRH,field,SRH,wickets,8,424
+2014,2014-05-10,MI,CSK,Wankhede Stadium,Mumbai,CSK,field,CSK,wickets,4,425
+2014,2014-05-11,RCB,RR,M Chinnaswamy Stadium,Bangalore,RCB,bat,RR,wickets,5,426
+2014,2014-05-11,PBKS,KKR,Barabati Stadium,Cuttack,KKR,field,KKR,wickets,9,427
+2014,2014-05-12,SRH,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,MI,wickets,7,428
+2014,2014-05-13,CSK,RR,JSCA International Stadium Complex,Ranchi,RR,bat,CSK,wickets,5,429
+2014,2014-05-13,RCB,DC,M Chinnaswamy Stadium,Bangalore,DC,field,RCB,runs,16,430
+2014,2014-05-14,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PBKS,field,PBKS,wickets,6,431
+2014,2014-05-14,KKR,MI,Barabati Stadium,Cuttack,KKR,field,KKR,wickets,6,432
+2014,2014-05-15,RR,DC,"Sardar Patel Stadium, Motera",Ahmedabad,DC,field,RR,runs,62,433
+2014,2014-05-18,CSK,RCB,JSCA International Stadium Complex,Ranchi,CSK,bat,RCB,wickets,5,434
+2014,2014-05-18,SRH,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,KKR,wickets,7,435
+2014,2014-05-19,RR,MI,"Sardar Patel Stadium, Motera",Ahmedabad,MI,bat,MI,runs,25,436
+2014,2014-05-19,DC,PBKS,Feroz Shah Kotla,Delhi,PBKS,field,PBKS,wickets,4,437
+2014,2014-05-20,SRH,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RCB,bat,SRH,wickets,7,438
+2014,2014-05-20,KKR,CSK,Eden Gardens,Kolkata,KKR,field,KKR,wickets,8,439
+2014,2014-05-21,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,MI,field,MI,wickets,7,440
+2014,2014-05-22,KKR,RCB,Eden Gardens,Kolkata,RCB,field,KKR,runs,30,441
+2014,2014-05-22,CSK,SRH,JSCA International Stadium Complex,Ranchi,SRH,field,SRH,wickets,6,442
+2014,2014-05-23,PBKS,RR,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RR,field,PBKS,runs,16,443
+2014,2014-05-23,MI,DC,Wankhede Stadium,Mumbai,DC,field,MI,runs,15,444
+2014,2014-05-24,RCB,CSK,M Chinnaswamy Stadium,Bangalore,CSK,field,CSK,wickets,8,445
+2014,2014-05-24,KKR,SRH,Eden Gardens,Kolkata,KKR,field,KKR,wickets,4,446
+2014,2014-05-25,PBKS,DC,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,7,447
+2014,2014-05-25,MI,RR,Wankhede Stadium,Mumbai,MI,field,MI,wickets,5,448
+2014,2014-05-27,PBKS,KKR,Eden Gardens,Kolkata,PBKS,field,KKR,runs,28,449
+2014,2014-05-28,CSK,MI,Brabourne Stadium,Mumbai,CSK,field,CSK,wickets,7,450
+2014,2014-05-30,CSK,PBKS,Wankhede Stadium,Mumbai,CSK,field,PBKS,runs,24,451
+2014,2014-06-01,KKR,PBKS,M Chinnaswamy Stadium,Bangalore,KKR,field,KKR,wickets,3,452
+2015,2015-04-08,KKR,MI,Eden Gardens,Kolkata,KKR,field,KKR,wickets,7,453
+2015,2015-04-09,CSK,DC,"MA Chidambaram Stadium, Chepauk",Chennai,DC,field,CSK,runs,1,454
+2015,2015-04-10,PBKS,RR,Maharashtra Cricket Association Stadium,Pune,PBKS,field,RR,runs,26,455
+2015,2015-04-11,CSK,SRH,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,45,456
+2015,2015-04-11,KKR,RCB,Eden Gardens,Kolkata,RCB,field,RCB,wickets,3,457
+2015,2015-04-12,DC,RR,Feroz Shah Kotla,Delhi,RR,field,RR,wickets,3,458
+2015,2015-04-12,MI,PBKS,Wankhede Stadium,Mumbai,MI,field,PBKS,runs,18,459
+2015,2015-04-13,RCB,SRH,M Chinnaswamy Stadium,Bangalore,SRH,field,SRH,wickets,8,460
+2015,2015-04-14,RR,MI,"Sardar Patel Stadium, Motera",Ahmedabad,MI,bat,RR,wickets,7,461
+2015,2015-04-15,PBKS,DC,Maharashtra Cricket Association Stadium,Pune,PBKS,bat,DC,wickets,5,462
+2015,2015-04-16,SRH,RR,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,RR,field,RR,wickets,6,463
+2015,2015-04-17,MI,CSK,Wankhede Stadium,Mumbai,MI,bat,CSK,wickets,6,464
+2015,2015-04-18,SRH,DC,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,DC,bat,DC,runs,4,465
+2015,2015-04-18,PBKS,KKR,Maharashtra Cricket Association Stadium,Pune,KKR,field,KKR,wickets,4,466
+2015,2015-04-19,RR,CSK,"Sardar Patel Stadium, Motera",Ahmedabad,CSK,bat,RR,wickets,8,467
+2015,2015-04-19,RCB,MI,M Chinnaswamy Stadium,Bangalore,RCB,field,MI,runs,18,468
+2015,2015-04-20,DC,KKR,Feroz Shah Kotla,Delhi,KKR,field,KKR,wickets,6,469
+2015,2015-04-22,SRH,KKR,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,KKR,field,SRH,runs,16,470
+2015,2015-04-22,RCB,CSK,M Chinnaswamy Stadium,Bangalore,RCB,field,CSK,runs,27,471
+2015,2015-04-23,DC,MI,Feroz Shah Kotla,Delhi,MI,field,DC,runs,37,472
+2015,2015-04-24,RR,RCB,"Sardar Patel Stadium, Motera",Ahmedabad,RCB,field,RCB,wickets,9,473
+2015,2015-04-25,MI,SRH,Wankhede Stadium,Mumbai,MI,bat,MI,runs,20,474
+2015,2015-04-25,CSK,PBKS,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,97,475
+2015,2015-04-26,DC,RCB,Feroz Shah Kotla,Delhi,RCB,field,RCB,wickets,10,476
+2015,2015-04-27,PBKS,SRH,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,field,SRH,runs,20,477
+2015,2015-04-28,CSK,KKR,"MA Chidambaram Stadium, Chepauk",Chennai,KKR,field,CSK,runs,2,478
+2015,2015-04-30,KKR,CSK,Eden Gardens,Kolkata,KKR,field,KKR,wickets,7,479
+2015,2015-05-01,MI,RR,Wankhede Stadium,Mumbai,RR,field,MI,runs,8,480
+2015,2015-05-01,DC,PBKS,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,9,481
+2015,2015-05-02,RCB,KKR,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,7,482
+2015,2015-05-02,SRH,CSK,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,CSK,field,SRH,runs,22,483
+2015,2015-05-03,RR,DC,Brabourne Stadium,Mumbai,DC,field,RR,runs,14,484
+2015,2015-05-03,PBKS,MI,"Punjab Cricket Association Stadium, Mohali",Chandigarh,MI,bat,MI,runs,23,485
+2015,2015-05-04,CSK,RCB,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,24,486
+2015,2015-05-04,KKR,SRH,Eden Gardens,Kolkata,SRH,field,KKR,runs,35,487
+2015,2015-05-05,MI,DC,Wankhede Stadium,Mumbai,DC,bat,MI,wickets,5,488
+2015,2015-05-06,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,RCB,runs,138,489
+2015,2015-05-07,RR,SRH,Brabourne Stadium,Mumbai,RR,field,SRH,runs,7,490
+2015,2015-05-07,KKR,DC,Eden Gardens,Kolkata,KKR,bat,KKR,runs,13,491
+2015,2015-05-08,CSK,MI,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,MI,wickets,6,492
+2015,2015-05-09,DC,SRH,Shaheed Veer Narayan Singh International Stadium,Raipur,SRH,bat,SRH,runs,6,493
+2015,2015-05-09,KKR,PBKS,Eden Gardens,Kolkata,PBKS,bat,KKR,wickets,1,494
+2015,2015-05-10,CSK,RR,"MA Chidambaram Stadium, Chepauk",Chennai,CSK,bat,CSK,runs,12,495
+2015,2015-05-10,MI,RCB,Wankhede Stadium,Mumbai,RCB,bat,RCB,runs,39,496
+2015,2015-05-11,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,SRH,runs,5,497
+2015,2015-05-12,DC,CSK,Shaheed Veer Narayan Singh International Stadium,Raipur,CSK,bat,DC,wickets,6,498
+2015,2015-05-13,PBKS,RCB,"Punjab Cricket Association Stadium, Mohali",Chandigarh,RCB,field,PBKS,runs,22,499
+2015,2015-05-14,MI,KKR,Wankhede Stadium,Mumbai,KKR,field,MI,runs,5,500
+2015,2015-05-15,SRH,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,RCB,wickets,6,501
+2015,2015-05-16,PBKS,CSK,"Punjab Cricket Association Stadium, Mohali",Chandigarh,PBKS,bat,CSK,wickets,7,502
+2015,2015-05-16,RR,KKR,Brabourne Stadium,Mumbai,RR,bat,RR,runs,9,503
+2015,2015-05-17,SRH,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,MI,wickets,9,504
+2015,2015-05-19,CSK,MI,Wankhede Stadium,Mumbai,MI,bat,MI,runs,25,505
+2015,2015-05-20,RCB,RR,Maharashtra Cricket Association Stadium,Pune,RCB,bat,RCB,runs,71,506
+2015,2015-05-22,CSK,RCB,JSCA International Stadium Complex,Ranchi,CSK,field,CSK,wickets,3,507
+2015,2015-05-24,MI,CSK,Eden Gardens,Kolkata,CSK,field,MI,runs,41,508
+2016,2016-04-09,MI,RPS,Wankhede Stadium,Mumbai,MI,bat,RPS,wickets,9,509
+2016,2016-04-10,KKR,DC,Eden Gardens,Kolkata,KKR,field,KKR,wickets,9,510
+2016,2016-04-11,PBKS,GL,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,GL,field,GL,wickets,5,511
+2016,2016-04-12,RCB,SRH,M Chinnaswamy Stadium,Bangalore,SRH,field,RCB,runs,45,512
+2016,2016-04-13,KKR,MI,Eden Gardens,Kolkata,MI,field,MI,wickets,6,513
+2016,2016-04-14,GL,RPS,Saurashtra Cricket Association Stadium,Rajkot,RPS,bat,GL,wickets,7,514
+2016,2016-04-15,DC,PBKS,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,8,515
+2016,2016-04-16,MI,GL,Wankhede Stadium,Mumbai,GL,field,GL,wickets,3,516
+2016,2016-04-16,SRH,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,KKR,wickets,8,517
+2016,2016-04-17,PBKS,RPS,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,RPS,bat,PBKS,wickets,6,518
+2016,2016-04-17,RCB,DC,M Chinnaswamy Stadium,Bangalore,DC,field,DC,wickets,7,519
+2016,2016-04-18,SRH,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,SRH,wickets,7,520
+2016,2016-04-19,PBKS,KKR,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,KKR,field,KKR,wickets,6,521
+2016,2016-04-20,MI,RCB,Wankhede Stadium,Mumbai,MI,field,MI,wickets,6,522
+2016,2016-04-21,GL,SRH,Saurashtra Cricket Association Stadium,Rajkot,SRH,field,SRH,wickets,10,523
+2016,2016-04-22,RPS,RCB,Maharashtra Cricket Association Stadium,Pune,RPS,field,RCB,runs,13,524
+2016,2016-04-23,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,SRH,wickets,5,525
+2016,2016-04-23,DC,MI,Feroz Shah Kotla,Delhi,MI,field,DC,runs,10,526
+2016,2016-04-24,RPS,KKR,Maharashtra Cricket Association Stadium,Pune,KKR,field,KKR,wickets,2,527
+2016,2016-04-24,GL,RCB,Saurashtra Cricket Association Stadium,Rajkot,RCB,bat,GL,wickets,6,528
+2016,2016-04-25,PBKS,MI,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,PBKS,field,MI,runs,25,529
+2016,2016-04-26,SRH,RPS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RPS,field,RPS,runs,34,530
+2016,2016-04-27,DC,GL,Feroz Shah Kotla,Delhi,DC,field,GL,runs,1,531
+2016,2016-04-28,MI,KKR,Wankhede Stadium,Mumbai,MI,field,MI,wickets,6,532
+2016,2016-04-29,RPS,GL,Maharashtra Cricket Association Stadium,Pune,GL,field,GL,wickets,3,533
+2016,2016-04-30,SRH,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RCB,field,SRH,runs,15,534
+2016,2016-04-30,DC,KKR,Feroz Shah Kotla,Delhi,KKR,field,DC,runs,27,535
+2016,2016-05-01,RPS,MI,Maharashtra Cricket Association Stadium,Pune,MI,field,MI,wickets,8,536
+2016,2016-05-01,GL,PBKS,Saurashtra Cricket Association Stadium,Rajkot,GL,field,PBKS,runs,23,537
+2016,2016-05-02,RCB,KKR,M Chinnaswamy Stadium,Bangalore,KKR,field,KKR,wickets,5,538
+2016,2016-05-03,GL,DC,Saurashtra Cricket Association Stadium,Rajkot,DC,field,DC,wickets,8,539
+2016,2016-05-04,KKR,PBKS,Eden Gardens,Kolkata,PBKS,field,KKR,runs,7,540
+2016,2016-05-05,DC,RPS,Feroz Shah Kotla,Delhi,RPS,field,RPS,wickets,7,541
+2016,2016-05-06,SRH,GL,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,SRH,wickets,5,542
+2016,2016-05-07,RCB,RPS,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,7,543
+2016,2016-05-07,PBKS,DC,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,DC,field,PBKS,runs,9,544
+2016,2016-05-08,KKR,GL,Eden Gardens,Kolkata,GL,field,GL,wickets,5,545
+2016,2016-05-08,MI,SRH,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,MI,field,SRH,runs,85,546
+2016,2016-05-09,PBKS,RCB,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,PBKS,field,RCB,runs,1,547
+2016,2016-05-10,RPS,SRH,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,SRH,bat,SRH,runs,4,548
+2016,2016-05-11,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,6,549
+2016,2016-05-12,SRH,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,DC,field,DC,wickets,7,550
+2016,2016-05-13,MI,PBKS,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,MI,bat,PBKS,wickets,7,551
+2016,2016-05-14,RCB,GL,M Chinnaswamy Stadium,Bangalore,GL,field,RCB,runs,144,552
+2016,2016-05-14,KKR,RPS,Eden Gardens,Kolkata,RPS,bat,KKR,wickets,8,553
+2016,2016-05-15,PBKS,SRH,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,PBKS,bat,SRH,wickets,7,554
+2016,2016-05-15,MI,DC,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,DC,field,MI,runs,80,555
+2016,2016-05-16,KKR,RCB,Eden Gardens,Kolkata,RCB,field,RCB,wickets,9,556
+2016,2016-05-17,RPS,DC,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,RPS,field,RPS,runs,19,557
+2016,2016-05-18,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,PBKS,field,RCB,runs,82,558
+2016,2016-05-19,GL,KKR,Green Park,Kanpur,GL,field,GL,wickets,6,559
+2016,2016-05-20,DC,SRH,Shaheed Veer Narayan Singh International Stadium,Raipur,DC,field,DC,wickets,6,560
+2016,2016-05-21,GL,MI,Green Park,Kanpur,GL,field,GL,wickets,6,561
+2016,2016-05-21,RPS,PBKS,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,PBKS,bat,RPS,wickets,4,562
+2016,2016-05-22,KKR,SRH,Eden Gardens,Kolkata,SRH,field,KKR,runs,22,563
+2016,2016-05-22,DC,RCB,Shaheed Veer Narayan Singh International Stadium,Raipur,RCB,field,RCB,wickets,6,564
+2016,2016-05-24,GL,RCB,M Chinnaswamy Stadium,Bangalore,RCB,field,RCB,wickets,4,565
+2016,2016-05-25,SRH,KKR,Feroz Shah Kotla,Delhi,KKR,field,SRH,runs,22,566
+2016,2016-05-27,GL,SRH,Feroz Shah Kotla,Delhi,SRH,field,SRH,wickets,4,567
+2016,2016-05-29,RCB,SRH,M Chinnaswamy Stadium,Bangalore,SRH,bat,SRH,runs,8,568
+2017,2017-04-05,SRH,RCB,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,RCB,field,SRH,runs,35,569
+2017,2017-04-06,RPS,MI,Maharashtra Cricket Association Stadium,Pune,RPS,field,RPS,wickets,7,570
+2017,2017-04-07,GL,KKR,Saurashtra Cricket Association Stadium,Rajkot,KKR,field,KKR,wickets,10,571
+2017,2017-04-08,PBKS,RPS,Holkar Cricket Stadium,Indore,PBKS,field,PBKS,wickets,6,572
+2017,2017-04-08,RCB,DC,M.Chinnaswamy Stadium,Bengaluru,RCB,bat,RCB,runs,15,573
+2017,2017-04-09,SRH,GL,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,SRH,wickets,9,574
+2017,2017-04-09,MI,KKR,Wankhede Stadium,Mumbai,MI,field,MI,wickets,4,575
+2017,2017-04-10,PBKS,RCB,Holkar Cricket Stadium,Indore,RCB,bat,PBKS,wickets,8,576
+2017,2017-04-11,RPS,DC,Maharashtra Cricket Association Stadium,Pune,RPS,field,DC,runs,97,577
+2017,2017-04-12,MI,SRH,Wankhede Stadium,Mumbai,MI,field,MI,wickets,4,578
+2017,2017-04-13,KKR,PBKS,Eden Gardens,Kolkata,KKR,field,KKR,wickets,8,579
+2017,2017-04-14,GL,RPS,Saurashtra Cricket Association Stadium,Rajkot,GL,field,GL,wickets,7,580
+2017,2017-04-14,RCB,MI,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,4,581
+2017,2017-04-15,KKR,SRH,Eden Gardens,Kolkata,SRH,field,KKR,runs,17,582
+2017,2017-04-15,DC,PBKS,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,51,583
+2017,2017-04-16,RCB,RPS,M Chinnaswamy Stadium,Bangalore,RCB,field,RPS,runs,27,584
+2017,2017-04-16,MI,GL,Wankhede Stadium,Mumbai,MI,field,MI,wickets,6,585
+2017,2017-04-17,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,PBKS,field,SRH,runs,5,586
+2017,2017-04-17,DC,KKR,Feroz Shah Kotla,Delhi,DC,bat,KKR,wickets,4,587
+2017,2017-04-18,GL,RCB,Saurashtra Cricket Association Stadium,Rajkot,GL,field,RCB,runs,21,588
+2017,2017-04-19,SRH,DC,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,bat,SRH,runs,15,589
+2017,2017-04-20,PBKS,MI,Holkar Cricket Stadium,Indore,MI,field,MI,wickets,8,590
+2017,2017-04-21,KKR,GL,Eden Gardens,Kolkata,GL,field,GL,wickets,4,591
+2017,2017-04-22,RPS,SRH,Maharashtra Cricket Association Stadium,Pune,RPS,field,RPS,wickets,6,592
+2017,2017-04-22,MI,DC,Wankhede Stadium,Mumbai,DC,field,MI,runs,14,593
+2017,2017-04-23,GL,PBKS,Saurashtra Cricket Association Stadium,Rajkot,GL,field,PBKS,runs,26,594
+2017,2017-04-23,KKR,RCB,Eden Gardens,Kolkata,RCB,field,KKR,runs,82,595
+2017,2017-04-24,MI,RPS,Wankhede Stadium,Mumbai,MI,field,RPS,runs,3,596
+2017,2017-04-26,RPS,KKR,Maharashtra Cricket Association Stadium,Pune,KKR,field,KKR,wickets,7,597
+2017,2017-04-27,RCB,GL,M Chinnaswamy Stadium,Bangalore,GL,field,GL,wickets,7,598
+2017,2017-04-28,KKR,DC,Eden Gardens,Kolkata,KKR,field,KKR,wickets,7,599
+2017,2017-04-28,PBKS,SRH,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,PBKS,field,SRH,runs,26,600
+2017,2017-04-29,RPS,RCB,Maharashtra Cricket Association Stadium,Pune,RCB,field,RPS,runs,61,601
+2017,2017-04-30,PBKS,DC,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,PBKS,field,PBKS,wickets,10,602
+2017,2017-04-30,SRH,KKR,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,KKR,field,SRH,runs,48,603
+2017,2017-05-01,MI,RCB,Wankhede Stadium,Mumbai,RCB,bat,MI,wickets,5,604
+2017,2017-05-01,RPS,GL,Maharashtra Cricket Association Stadium,Pune,RPS,field,RPS,wickets,5,605
+2017,2017-05-02,DC,SRH,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,6,606
+2017,2017-05-03,KKR,RPS,Eden Gardens,Kolkata,RPS,field,RPS,wickets,4,607
+2017,2017-05-04,DC,GL,Feroz Shah Kotla,Delhi,DC,field,DC,wickets,7,608
+2017,2017-05-05,RCB,PBKS,M Chinnaswamy Stadium,Bangalore,RCB,field,PBKS,runs,19,609
+2017,2017-05-06,SRH,RPS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,SRH,field,RPS,runs,12,610
+2017,2017-05-06,DC,MI,Feroz Shah Kotla,Delhi,DC,field,MI,runs,146,611
+2017,2017-05-07,PBKS,GL,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,GL,field,GL,wickets,6,612
+2017,2017-05-07,RCB,KKR,M Chinnaswamy Stadium,Bangalore,KKR,field,KKR,wickets,6,613
+2017,2017-05-08,SRH,MI,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,MI,bat,SRH,wickets,7,614
+2017,2017-05-09,PBKS,KKR,"Punjab Cricket Association IS Bindra Stadium, Mohali",Chandigarh,KKR,field,PBKS,runs,14,615
+2017,2017-05-10,GL,DC,Green Park,Kanpur,DC,field,DC,wickets,2,616
+2017,2017-05-11,MI,PBKS,Wankhede Stadium,Mumbai,MI,field,PBKS,runs,7,617
+2017,2017-05-12,DC,RPS,Feroz Shah Kotla,Delhi,DC,bat,DC,runs,7,618
+2017,2017-05-13,GL,SRH,Green Park,Kanpur,SRH,field,SRH,wickets,8,619
+2017,2017-05-13,KKR,MI,Eden Gardens,Kolkata,KKR,field,MI,runs,9,620
+2017,2017-05-14,RPS,PBKS,Maharashtra Cricket Association Stadium,Pune,RPS,field,RPS,wickets,9,621
+2017,2017-05-14,DC,RCB,Feroz Shah Kotla,Delhi,RCB,bat,RCB,runs,10,622
+2017,2017-05-16,MI,RPS,Wankhede Stadium,Mumbai,MI,field,RPS,runs,20,623
+2017,2017-05-17,SRH,KKR,M Chinnaswamy Stadium,Bangalore,KKR,field,KKR,wickets,7,624
+2017,2017-05-19,MI,KKR,M Chinnaswamy Stadium,Bangalore,MI,field,MI,wickets,6,625
+2017,2017-05-21,MI,RPS,"Rajiv Gandhi International Stadium, Uppal",Hyderabad,MI,bat,MI,runs,1,626
+2018,2018-04-07,MI,CSK,Wankhede Stadium,Mumbai,CSK,field,CSK,wickets,1,627
+2018,2018-04-08,DC,PBKS,Punjab Cricket Association IS Bindra Stadium,Chandigarh,PBKS,field,PBKS,wickets,6,628
+2018,2018-04-08,RCB,KKR,Eden Gardens,Kolkata,KKR,field,KKR,wickets,4,629
+2018,2018-04-09,RR,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,SRH,wickets,9,630
+2018,2018-04-10,KKR,CSK,MA Chidambaram Stadium,Chennai,CSK,field,CSK,wickets,5,631
+2018,2018-04-11,RR,DC,Sawai Mansingh Stadium,Jaipur,DC,field,RR,runs,10,632
+2018,2018-04-12,MI,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,SRH,wickets,1,633
+2018,2018-04-13,PBKS,RCB,M.Chinnaswamy Stadium,Bengaluru,RCB,field,RCB,wickets,4,634
+2018,2018-04-14,MI,DC,Wankhede Stadium,Mumbai,DC,field,DC,wickets,7,635
+2018,2018-04-14,KKR,SRH,Eden Gardens,Kolkata,SRH,field,SRH,wickets,5,636
+2018,2018-04-15,RR,RCB,M.Chinnaswamy Stadium,Bengaluru,RCB,field,RR,runs,19,637
+2018,2018-04-15,PBKS,CSK,Punjab Cricket Association IS Bindra Stadium,Chandigarh,CSK,field,PBKS,runs,4,638
+2018,2018-04-16,KKR,DC,Eden Gardens,Kolkata,DC,field,KKR,runs,71,639
+2018,2018-04-17,MI,RCB,Wankhede Stadium,Mumbai,RCB,field,MI,runs,46,640
+2018,2018-04-18,RR,KKR,Sawai Mansingh Stadium,Jaipur,KKR,field,KKR,wickets,7,641
+2018,2018-04-19,PBKS,SRH,Punjab Cricket Association IS Bindra Stadium,Chandigarh,PBKS,bat,PBKS,runs,15,642
+2018,2018-04-20,CSK,RR,Maharashtra Cricket Association Stadium,Pune,RR,field,CSK,runs,64,643
+2018,2018-04-21,DC,RCB,M.Chinnaswamy Stadium,Bengaluru,RCB,field,RCB,wickets,6,644
+2018,2018-04-21,KKR,PBKS,Eden Gardens,Kolkata,PBKS,field,PBKS,wickets,9,645
+2018,2018-04-22,CSK,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,CSK,runs,4,646
+2018,2018-04-22,MI,RR,Sawai Mansingh Stadium,Jaipur,MI,bat,RR,wickets,3,647
+2018,2018-04-23,PBKS,DC,Arun Jaitley Stadium,Delhi,DC,field,PBKS,runs,4,648
+2018,2018-04-24,SRH,MI,Wankhede Stadium,Mumbai,MI,field,SRH,runs,31,649
+2018,2018-04-25,RCB,CSK,M.Chinnaswamy Stadium,Bengaluru,CSK,field,CSK,wickets,5,650
+2018,2018-04-26,SRH,PBKS,Rajiv Gandhi International Stadium,Hyderabad,PBKS,field,SRH,runs,13,651
+2018,2018-04-27,DC,KKR,Arun Jaitley Stadium,Delhi,KKR,field,DC,runs,55,652
+2018,2018-04-28,CSK,MI,Maharashtra Cricket Association Stadium,Pune,MI,field,MI,wickets,8,653
+2018,2018-04-29,SRH,RR,Sawai Mansingh Stadium,Jaipur,SRH,bat,SRH,runs,11,654
+2018,2018-04-29,RCB,KKR,M.Chinnaswamy Stadium,Bengaluru,KKR,field,KKR,wickets,6,655
+2018,2018-04-30,CSK,DC,Maharashtra Cricket Association Stadium,Pune,DC,field,CSK,runs,13,656
+2018,2018-05-01,RCB,MI,M.Chinnaswamy Stadium,Bengaluru,MI,field,RCB,runs,14,657
+2018,2018-05-02,DC,RR,Arun Jaitley Stadium,Delhi,RR,field,DC,runs,4,658
+2018,2018-05-03,CSK,KKR,Eden Gardens,Kolkata,KKR,field,KKR,wickets,6,659
+2018,2018-05-04,PBKS,MI,Holkar Cricket Stadium,Indore,MI,field,MI,wickets,6,660
+2018,2018-05-05,DC,SRH,Rajiv Gandhi International Stadium,Hyderabad,DC,bat,SRH,wickets,7,661
+2018,2018-05-05,RCB,CSK,Maharashtra Cricket Association Stadium,Pune,CSK,field,CSK,wickets,6,662
+2018,2018-05-06,RR,PBKS,Holkar Cricket Stadium,Indore,PBKS,field,PBKS,wickets,6,663
+2018,2018-05-06,MI,KKR,Wankhede Stadium,Mumbai,KKR,field,MI,runs,13,664
+2018,2018-05-07,SRH,RCB,Rajiv Gandhi International Stadium,Hyderabad,RCB,field,SRH,runs,5,665
+2018,2018-05-08,RR,PBKS,Sawai Mansingh Stadium,Jaipur,RR,bat,RR,runs,15,666
+2018,2018-05-09,MI,KKR,Eden Gardens,Kolkata,KKR,field,MI,runs,102,667
+2018,2018-05-10,DC,SRH,Arun Jaitley Stadium,Delhi,DC,bat,SRH,wickets,9,668
+2018,2018-05-11,CSK,RR,Sawai Mansingh Stadium,Jaipur,CSK,bat,RR,wickets,4,669
+2018,2018-05-12,KKR,PBKS,Holkar Cricket Stadium,Indore,PBKS,field,KKR,runs,31,670
+2018,2018-05-12,DC,RCB,Arun Jaitley Stadium,Delhi,RCB,field,RCB,wickets,5,671
+2018,2018-05-13,SRH,CSK,Maharashtra Cricket Association Stadium,Pune,CSK,field,CSK,wickets,8,672
+2018,2018-05-13,MI,RR,Wankhede Stadium,Mumbai,RR,field,RR,wickets,7,673
+2018,2018-05-14,PBKS,RCB,Holkar Cricket Stadium,Indore,RCB,field,RCB,wickets,10,674
+2018,2018-05-15,RR,KKR,Eden Gardens,Kolkata,KKR,field,KKR,wickets,6,675
+2018,2018-05-16,MI,PBKS,Wankhede Stadium,Mumbai,PBKS,field,MI,runs,3,676
+2018,2018-05-17,RCB,SRH,M.Chinnaswamy Stadium,Bengaluru,SRH,field,RCB,runs,14,677
+2018,2018-05-18,DC,CSK,Arun Jaitley Stadium,Delhi,CSK,field,DC,runs,34,678
+2018,2018-05-19,RR,RCB,Sawai Mansingh Stadium,Jaipur,RR,bat,RR,runs,30,679
+2018,2018-05-19,SRH,KKR,Rajiv Gandhi International Stadium,Hyderabad,SRH,bat,KKR,wickets,5,680
+2018,2018-05-20,DC,MI,Arun Jaitley Stadium,Delhi,DC,bat,DC,runs,11,681
+2018,2018-05-20,PBKS,CSK,Maharashtra Cricket Association Stadium,Pune,CSK,field,CSK,wickets,5,682
+2018,2018-05-22,SRH,CSK,Wankhede Stadium,Mumbai,CSK,field,CSK,wickets,2,683
+2018,2018-05-23,KKR,RR,Eden Gardens,Kolkata,RR,field,KKR,runs,25,684
+2018,2018-05-25,SRH,KKR,Eden Gardens,Kolkata,KKR,field,SRH,runs,14,685
+2018,2018-05-27,SRH,CSK,Wankhede Stadium,Mumbai,CSK,field,CSK,wickets,8,686
+2019,2019-03-23,RCB,CSK,MA Chidambaram Stadium,Chennai,CSK,field,CSK,wickets,7,687
+2019,2019-03-24,SRH,KKR,Eden Gardens,Kolkata,KKR,field,KKR,wickets,6,688
+2019,2019-03-24,DC,MI,Wankhede Stadium,Mumbai,MI,field,DC,runs,37,689
+2019,2019-03-25,PBKS,RR,Sawai Mansingh Stadium,Jaipur,RR,field,PBKS,runs,14,690
+2019,2019-03-26,DC,CSK,Arun Jaitley Stadium,Delhi,DC,bat,CSK,wickets,6,691
+2019,2019-03-27,KKR,PBKS,Eden Gardens,Kolkata,PBKS,field,KKR,runs,28,692
+2019,2019-03-28,MI,RCB,M.Chinnaswamy Stadium,Bengaluru,RCB,field,MI,runs,6,693
+2019,2019-03-29,RR,SRH,Rajiv Gandhi International Stadium,Hyderabad,RR,bat,SRH,wickets,5,694
+2019,2019-03-30,MI,PBKS,Punjab Cricket Association IS Bindra Stadium,Chandigarh,PBKS,field,PBKS,wickets,8,695
+2019,2019-03-31,SRH,RCB,Rajiv Gandhi International Stadium,Hyderabad,RCB,field,SRH,runs,118,696
+2019,2019-03-31,CSK,RR,MA Chidambaram Stadium,Chennai,RR,field,CSK,runs,8,697
+2019,2019-04-01,PBKS,DC,Punjab Cricket Association IS Bindra Stadium,Chandigarh,DC,field,PBKS,runs,14,698
+2019,2019-04-02,RCB,RR,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,7,699
+2019,2019-04-03,MI,CSK,Wankhede Stadium,Mumbai,CSK,field,MI,runs,37,700
+2019,2019-04-04,DC,SRH,Arun Jaitley Stadium,Delhi,SRH,field,SRH,wickets,5,701
+2019,2019-04-05,RCB,KKR,M.Chinnaswamy Stadium,Bengaluru,KKR,field,KKR,wickets,5,702
+2019,2019-04-06,CSK,PBKS,MA Chidambaram Stadium,Chennai,CSK,bat,CSK,runs,22,703
+2019,2019-04-06,MI,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,MI,runs,40,704
+2019,2019-04-07,RCB,DC,M.Chinnaswamy Stadium,Bengaluru,DC,field,DC,wickets,4,705
+2019,2019-04-07,RR,KKR,Sawai Mansingh Stadium,Jaipur,KKR,field,KKR,wickets,8,706
+2019,2019-04-08,SRH,PBKS,Punjab Cricket Association IS Bindra Stadium,Chandigarh,PBKS,field,PBKS,wickets,6,707
+2019,2019-04-09,KKR,CSK,MA Chidambaram Stadium,Chennai,CSK,field,CSK,wickets,7,708
+2019,2019-04-10,PBKS,MI,Wankhede Stadium,Mumbai,MI,field,MI,wickets,3,709
+2019,2019-04-11,RR,CSK,Sawai Mansingh Stadium,Jaipur,CSK,field,CSK,wickets,4,710
+2019,2019-04-12,KKR,DC,Eden Gardens,Kolkata,DC,field,DC,wickets,7,711
+2019,2019-04-13,MI,RR,Wankhede Stadium,Mumbai,RR,field,RR,wickets,4,712
+2019,2019-04-13,PBKS,RCB,Punjab Cricket Association IS Bindra Stadium,Chandigarh,RCB,field,RCB,wickets,8,713
+2019,2019-04-14,KKR,CSK,Eden Gardens,Kolkata,CSK,field,CSK,wickets,5,714
+2019,2019-04-14,DC,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,DC,runs,39,715
+2019,2019-04-15,RCB,MI,Wankhede Stadium,Mumbai,MI,field,MI,wickets,5,716
+2019,2019-04-16,PBKS,RR,Punjab Cricket Association IS Bindra Stadium,Chandigarh,RR,field,PBKS,runs,12,717
+2019,2019-04-17,CSK,SRH,Rajiv Gandhi International Stadium,Hyderabad,CSK,bat,SRH,wickets,6,718
+2019,2019-04-18,MI,DC,Arun Jaitley Stadium,Delhi,MI,bat,MI,runs,40,719
+2019,2019-04-19,RCB,KKR,Eden Gardens,Kolkata,KKR,field,RCB,runs,10,720
+2019,2019-04-20,MI,RR,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,5,721
+2019,2019-04-20,PBKS,DC,Arun Jaitley Stadium,Delhi,DC,field,DC,wickets,5,722
+2019,2019-04-21,KKR,SRH,Rajiv Gandhi International Stadium,Hyderabad,SRH,field,SRH,wickets,9,723
+2019,2019-04-21,RCB,CSK,M.Chinnaswamy Stadium,Bengaluru,CSK,field,RCB,runs,1,724
+2019,2019-04-22,RR,DC,Sawai Mansingh Stadium,Jaipur,DC,field,DC,wickets,6,725
+2019,2019-04-23,SRH,CSK,MA Chidambaram Stadium,Chennai,CSK,field,CSK,wickets,6,726
+2019,2019-04-24,RCB,PBKS,M.Chinnaswamy Stadium,Bengaluru,PBKS,field,RCB,runs,17,727
+2019,2019-04-25,KKR,RR,Eden Gardens,Kolkata,RR,field,RR,wickets,3,728
+2019,2019-04-26,MI,CSK,MA Chidambaram Stadium,Chennai,CSK,field,MI,runs,46,729
+2019,2019-04-27,SRH,RR,Sawai Mansingh Stadium,Jaipur,RR,field,RR,wickets,7,730
+2019,2019-04-28,DC,RCB,Arun Jaitley Stadium,Delhi,DC,bat,DC,runs,16,731
+2019,2019-04-28,KKR,MI,Eden Gardens,Kolkata,MI,field,KKR,runs,34,732
+2019,2019-04-29,SRH,PBKS,Rajiv Gandhi International Stadium,Hyderabad,PBKS,field,SRH,runs,45,733
+2019,2019-05-01,CSK,DC,MA Chidambaram Stadium,Chennai,DC,field,CSK,runs,80,734
+2019,2019-05-03,PBKS,KKR,Punjab Cricket Association IS Bindra Stadium,Chandigarh,KKR,field,KKR,wickets,7,735
+2019,2019-05-04,RR,DC,Arun Jaitley Stadium,Delhi,RR,bat,DC,wickets,5,736
+2019,2019-05-04,SRH,RCB,M.Chinnaswamy Stadium,Bengaluru,RCB,field,RCB,wickets,4,737
+2019,2019-05-05,CSK,PBKS,Punjab Cricket Association IS Bindra Stadium,Chandigarh,PBKS,field,PBKS,wickets,6,738
+2019,2019-05-05,KKR,MI,Wankhede Stadium,Mumbai,MI,field,MI,wickets,9,739
+2019,2019-05-07,CSK,MI,MA Chidambaram Stadium,Chennai,CSK,bat,MI,wickets,6,740
+2019,2019-05-08,SRH,DC,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,DC,field,DC,wickets,2,741
+2019,2019-05-10,DC,CSK,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Visakhapatnam,CSK,field,CSK,wickets,6,742
+2019,2019-05-12,MI,CSK,Rajiv Gandhi International Stadium,Hyderabad,MI,bat,MI,runs,1,743
+2020,2020-09-19,MI,CSK,Sheikh Zayed Stadium,Abu Dhabi,CSK,field,CSK,wickets,5,744
+2020,2020-09-21,RCB,SRH,Dubai International Cricket Stadium,Unknown City,SRH,field,RCB,runs,10,745
+2020,2020-09-22,RR,CSK,Sharjah Cricket Stadium,Unknown City,CSK,field,RR,runs,16,746
+2020,2020-09-23,MI,KKR,Sheikh Zayed Stadium,Abu Dhabi,KKR,field,MI,runs,49,747
+2020,2020-09-24,PBKS,RCB,Dubai International Cricket Stadium,Unknown City,RCB,field,PBKS,runs,97,748
+2020,2020-09-25,DC,CSK,Dubai International Cricket Stadium,Unknown City,CSK,field,DC,runs,44,749
+2020,2020-09-26,SRH,KKR,Sheikh Zayed Stadium,Abu Dhabi,SRH,bat,KKR,wickets,7,750
+2020,2020-09-27,PBKS,RR,Sharjah Cricket Stadium,Unknown City,RR,field,RR,wickets,4,751
+2020,2020-09-29,SRH,DC,Sheikh Zayed Stadium,Abu Dhabi,DC,field,SRH,runs,15,752
+2020,2020-09-30,KKR,RR,Dubai International Cricket Stadium,Unknown City,RR,field,KKR,runs,37,753
+2020,2020-10-01,MI,PBKS,Sheikh Zayed Stadium,Abu Dhabi,PBKS,field,MI,runs,48,754
+2020,2020-10-02,SRH,CSK,Dubai International Cricket Stadium,Unknown City,SRH,bat,SRH,runs,7,755
+2020,2020-10-03,DC,KKR,Sharjah Cricket Stadium,Unknown City,KKR,field,DC,runs,18,756
+2020,2020-10-03,RR,RCB,Sheikh Zayed Stadium,Abu Dhabi,RR,bat,RCB,wickets,8,757
+2020,2020-10-04,MI,SRH,Sharjah Cricket Stadium,Unknown City,MI,bat,MI,runs,34,758
+2020,2020-10-04,PBKS,CSK,Dubai International Cricket Stadium,Unknown City,PBKS,bat,CSK,wickets,10,759
+2020,2020-10-05,DC,RCB,Dubai International Cricket Stadium,Unknown City,RCB,field,DC,runs,59,760
+2020,2020-10-06,MI,RR,Sheikh Zayed Stadium,Abu Dhabi,MI,bat,MI,runs,57,761
+2020,2020-10-07,KKR,CSK,Sheikh Zayed Stadium,Abu Dhabi,KKR,bat,KKR,runs,10,762
+2020,2020-10-08,SRH,PBKS,Dubai International Cricket Stadium,Unknown City,SRH,bat,SRH,runs,69,763
+2020,2020-10-09,DC,RR,Sharjah Cricket Stadium,Unknown City,RR,field,DC,runs,46,764
+2020,2020-10-10,RCB,CSK,Dubai International Cricket Stadium,Unknown City,RCB,bat,RCB,runs,37,765
+2020,2020-10-10,KKR,PBKS,Sheikh Zayed Stadium,Abu Dhabi,KKR,bat,KKR,runs,2,766
+2020,2020-10-11,DC,MI,Sheikh Zayed Stadium,Abu Dhabi,DC,bat,MI,wickets,5,767
+2020,2020-10-11,SRH,RR,Dubai International Cricket Stadium,Unknown City,SRH,bat,RR,wickets,5,768
+2020,2020-10-12,RCB,KKR,Sharjah Cricket Stadium,Unknown City,RCB,bat,RCB,runs,82,769
+2020,2020-10-13,CSK,SRH,Dubai International Cricket Stadium,Unknown City,CSK,bat,CSK,runs,20,770
+2020,2020-10-14,DC,RR,Dubai International Cricket Stadium,Unknown City,DC,bat,DC,runs,13,771
+2020,2020-10-15,RCB,PBKS,Sharjah Cricket Stadium,Unknown City,RCB,bat,PBKS,wickets,8,772
+2020,2020-10-16,KKR,MI,Sheikh Zayed Stadium,Abu Dhabi,KKR,bat,MI,wickets,8,773
+2020,2020-10-17,RR,RCB,Dubai International Cricket Stadium,Unknown City,RR,bat,RCB,wickets,7,774
+2020,2020-10-17,CSK,DC,Sharjah Cricket Stadium,Unknown City,CSK,bat,DC,wickets,5,775
+2020,2020-10-19,CSK,RR,Sheikh Zayed Stadium,Abu Dhabi,CSK,bat,RR,wickets,7,776
+2020,2020-10-20,DC,PBKS,Dubai International Cricket Stadium,Unknown City,DC,bat,PBKS,wickets,5,777
+2020,2020-10-21,KKR,RCB,Sheikh Zayed Stadium,Abu Dhabi,KKR,bat,RCB,wickets,8,778
+2020,2020-10-22,RR,SRH,Dubai International Cricket Stadium,Unknown City,SRH,field,SRH,wickets,8,779
+2020,2020-10-23,CSK,MI,Sharjah Cricket Stadium,Unknown City,MI,field,MI,wickets,10,780
+2020,2020-10-24,KKR,DC,Sheikh Zayed Stadium,Abu Dhabi,DC,field,KKR,runs,59,781
+2020,2020-10-24,PBKS,SRH,Dubai International Cricket Stadium,Unknown City,SRH,field,PBKS,runs,12,782
+2020,2020-10-25,RCB,CSK,Dubai International Cricket Stadium,Unknown City,RCB,bat,CSK,wickets,8,783
+2020,2020-10-25,MI,RR,Sheikh Zayed Stadium,Abu Dhabi,MI,bat,RR,wickets,8,784
+2020,2020-10-26,KKR,PBKS,Sharjah Cricket Stadium,Unknown City,PBKS,field,PBKS,wickets,8,785
+2020,2020-10-27,SRH,DC,Dubai International Cricket Stadium,Unknown City,DC,field,SRH,runs,88,786
+2020,2020-10-28,RCB,MI,Sheikh Zayed Stadium,Abu Dhabi,MI,field,MI,wickets,5,787
+2020,2020-10-29,KKR,CSK,Dubai International Cricket Stadium,Unknown City,CSK,field,CSK,wickets,6,788
+2020,2020-10-30,PBKS,RR,Sheikh Zayed Stadium,Abu Dhabi,RR,field,RR,wickets,7,789
+2020,2020-10-31,DC,MI,Dubai International Cricket Stadium,Unknown City,MI,field,MI,wickets,9,790
+2020,2020-10-31,RCB,SRH,Sharjah Cricket Stadium,Unknown City,SRH,field,SRH,wickets,5,791
+2020,2020-11-01,KKR,RR,Dubai International Cricket Stadium,Unknown City,RR,field,KKR,runs,60,792
+2020,2020-11-01,PBKS,CSK,Sheikh Zayed Stadium,Abu Dhabi,CSK,field,CSK,wickets,9,793
+2020,2020-11-02,RCB,DC,Sheikh Zayed Stadium,Abu Dhabi,DC,field,DC,wickets,6,794
+2020,2020-11-03,MI,SRH,Sharjah Cricket Stadium,Unknown City,SRH,field,SRH,wickets,10,795
+2020,2020-11-05,MI,DC,Dubai International Cricket Stadium,Unknown City,DC,field,MI,runs,57,796
+2020,2020-11-06,RCB,SRH,Sheikh Zayed Stadium,Abu Dhabi,SRH,field,SRH,wickets,6,797
+2020,2020-11-08,DC,SRH,Sheikh Zayed Stadium,Abu Dhabi,DC,bat,DC,runs,17,798
+2020,2020-11-10,DC,MI,Dubai International Cricket Stadium,Unknown City,DC,bat,MI,wickets,5,799
+2021,2021-04-09,MI,RCB,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,RCB,field,RCB,wickets,2,800
+2021,2021-04-10,CSK,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,DC,wickets,7,801
+2021,2021-04-11,KKR,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,SRH,field,KKR,runs,10,802
+2021,2021-04-12,PBKS,RR,"Wankhede Stadium, Mumbai",Mumbai,RR,field,PBKS,runs,4,803
+2021,2021-04-13,MI,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,KKR,field,MI,runs,10,804
+2021,2021-04-14,RCB,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,SRH,field,RCB,runs,6,805
+2021,2021-04-15,DC,RR,"Wankhede Stadium, Mumbai",Mumbai,RR,field,RR,wickets,3,806
+2021,2021-04-16,PBKS,CSK,"Wankhede Stadium, Mumbai",Mumbai,CSK,field,CSK,wickets,6,807
+2021,2021-04-17,MI,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,MI,bat,MI,runs,13,808
+2021,2021-04-18,RCB,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,RCB,bat,RCB,runs,38,809
+2021,2021-04-18,PBKS,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,DC,wickets,6,810
+2021,2021-04-19,CSK,RR,"Wankhede Stadium, Mumbai",Mumbai,RR,field,CSK,runs,45,811
+2021,2021-04-20,MI,DC,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,MI,bat,DC,wickets,6,812
+2021,2021-04-21,PBKS,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,PBKS,bat,SRH,wickets,9,813
+2021,2021-04-21,CSK,KKR,"Wankhede Stadium, Mumbai",Mumbai,KKR,field,CSK,runs,18,814
+2021,2021-04-22,RR,RCB,"Wankhede Stadium, Mumbai",Mumbai,RCB,field,RCB,wickets,10,815
+2021,2021-04-23,MI,PBKS,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,PBKS,field,PBKS,wickets,9,816
+2021,2021-04-24,KKR,RR,"Wankhede Stadium, Mumbai",Mumbai,RR,field,RR,wickets,6,817
+2021,2021-04-25,CSK,RCB,"Wankhede Stadium, Mumbai",Mumbai,CSK,bat,CSK,runs,69,818
+2021,2021-04-26,PBKS,KKR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,KKR,field,KKR,wickets,5,819
+2021,2021-04-27,RCB,DC,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,DC,field,RCB,runs,1,820
+2021,2021-04-28,SRH,CSK,"Arun Jaitley Stadium, Delhi",Delhi,SRH,bat,CSK,wickets,7,821
+2021,2021-04-29,RR,MI,"Arun Jaitley Stadium, Delhi",Delhi,MI,field,MI,wickets,7,822
+2021,2021-04-29,KKR,DC,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,DC,field,DC,wickets,7,823
+2021,2021-04-30,PBKS,RCB,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RCB,field,PBKS,runs,34,824
+2021,2021-05-01,CSK,MI,"Arun Jaitley Stadium, Delhi",Delhi,MI,field,MI,wickets,4,825
+2021,2021-05-02,RR,SRH,"Arun Jaitley Stadium, Delhi",Delhi,SRH,field,RR,runs,55,826
+2021,2021-05-02,PBKS,DC,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,DC,field,DC,wickets,7,827
+2021,2021-09-19,CSK,MI,Dubai International Cricket Stadium,Dubai,CSK,bat,CSK,runs,20,828
+2021,2021-09-20,RCB,KKR,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,RCB,bat,KKR,wickets,9,829
+2021,2021-09-21,RR,PBKS,Dubai International Cricket Stadium,Dubai,PBKS,field,RR,runs,2,830
+2021,2021-09-22,SRH,DC,Dubai International Cricket Stadium,Dubai,SRH,bat,DC,wickets,8,831
+2021,2021-09-23,MI,KKR,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,KKR,field,KKR,wickets,7,832
+2021,2021-09-24,RCB,CSK,Sharjah Cricket Stadium,Sharjah,CSK,field,CSK,wickets,6,833
+2021,2021-09-25,PBKS,SRH,Sharjah Cricket Stadium,Sharjah,SRH,field,PBKS,runs,5,834
+2021,2021-09-25,DC,RR,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,RR,field,DC,runs,33,835
+2021,2021-09-26,RCB,MI,Dubai International Cricket Stadium,Dubai,MI,field,RCB,runs,54,836
+2021,2021-09-26,KKR,CSK,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,KKR,bat,CSK,wickets,2,837
+2021,2021-09-27,RR,SRH,Dubai International Cricket Stadium,Dubai,RR,bat,SRH,wickets,7,838
+2021,2021-09-28,PBKS,MI,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,MI,field,MI,wickets,6,839
+2021,2021-09-28,DC,KKR,Sharjah Cricket Stadium,Sharjah,KKR,field,KKR,wickets,3,840
+2021,2021-09-29,RR,RCB,Dubai International Cricket Stadium,Dubai,RCB,field,RCB,wickets,7,841
+2021,2021-09-30,SRH,CSK,Sharjah Cricket Stadium,Sharjah,CSK,field,CSK,wickets,6,842
+2021,2021-10-01,KKR,PBKS,Dubai International Cricket Stadium,Dubai,PBKS,field,PBKS,wickets,5,843
+2021,2021-10-02,CSK,RR,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,RR,field,RR,wickets,7,844
+2021,2021-10-02,MI,DC,Sharjah Cricket Stadium,Sharjah,DC,field,DC,wickets,4,845
+2021,2021-10-03,SRH,KKR,Dubai International Cricket Stadium,Dubai,SRH,bat,KKR,wickets,6,846
+2021,2021-10-03,RCB,PBKS,Sharjah Cricket Stadium,Sharjah,RCB,bat,RCB,runs,6,847
+2021,2021-10-04,CSK,DC,Dubai International Cricket Stadium,Dubai,DC,field,DC,wickets,3,848
+2021,2021-10-05,RR,MI,Sharjah Cricket Stadium,Sharjah,MI,field,MI,wickets,8,849
+2021,2021-10-06,SRH,RCB,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,RCB,field,SRH,runs,4,850
+2021,2021-10-07,KKR,RR,Sharjah Cricket Stadium,Sharjah,RR,field,KKR,runs,86,851
+2021,2021-10-07,CSK,PBKS,Dubai International Cricket Stadium,Dubai,PBKS,field,PBKS,wickets,6,852
+2021,2021-10-08,MI,SRH,"Zayed Cricket Stadium, Abu Dhabi",Abu Dhabi,MI,bat,MI,runs,42,853
+2021,2021-10-08,DC,RCB,Dubai International Cricket Stadium,Dubai,RCB,field,RCB,wickets,7,854
+2021,2021-10-10,DC,CSK,Dubai International Cricket Stadium,Dubai,CSK,field,CSK,wickets,4,855
+2021,2021-10-11,RCB,KKR,Sharjah Cricket Stadium,Sharjah,RCB,bat,KKR,wickets,4,856
+2021,2021-10-13,DC,KKR,Sharjah Cricket Stadium,Sharjah,KKR,field,KKR,wickets,3,857
+2021,2021-10-15,CSK,KKR,Dubai International Cricket Stadium,Dubai,KKR,field,CSK,runs,27,858
+2022,2022-03-26,CSK,KKR,"Wankhede Stadium, Mumbai",Mumbai,KKR,field,KKR,wickets,6,859
+2022,2022-03-27,RCB,PBKS,"Dr DY Patil Sports Academy, Mumbai",Mumbai,PBKS,field,PBKS,wickets,5,860
+2022,2022-03-27,MI,DC,"Brabourne Stadium, Mumbai",Mumbai,DC,field,DC,wickets,4,861
+2022,2022-03-28,LSG,GT,"Wankhede Stadium, Mumbai",Mumbai,GT,field,GT,wickets,5,862
+2022,2022-03-29,RR,SRH,"Maharashtra Cricket Association Stadium, Pune",Pune,SRH,field,RR,runs,61,863
+2022,2022-03-30,KKR,RCB,"Dr DY Patil Sports Academy, Mumbai",Mumbai,RCB,field,RCB,wickets,3,864
+2022,2022-03-31,CSK,LSG,"Brabourne Stadium, Mumbai",Mumbai,LSG,field,LSG,wickets,6,865
+2022,2022-04-01,PBKS,KKR,"Wankhede Stadium, Mumbai",Mumbai,KKR,field,KKR,wickets,6,866
+2022,2022-04-02,GT,DC,"Maharashtra Cricket Association Stadium, Pune",Pune,DC,field,GT,runs,14,867
+2022,2022-04-02,RR,MI,"Dr DY Patil Sports Academy, Mumbai",Mumbai,MI,field,RR,runs,23,868
+2022,2022-04-03,PBKS,CSK,"Brabourne Stadium, Mumbai",Mumbai,CSK,field,PBKS,runs,54,869
+2022,2022-04-04,LSG,SRH,"Dr DY Patil Sports Academy, Mumbai",Mumbai,SRH,field,LSG,runs,12,870
+2022,2022-04-05,RR,RCB,"Wankhede Stadium, Mumbai",Mumbai,RCB,field,RCB,wickets,4,871
+2022,2022-04-06,MI,KKR,"Maharashtra Cricket Association Stadium, Pune",Pune,KKR,field,KKR,wickets,5,872
+2022,2022-04-07,DC,LSG,"Dr DY Patil Sports Academy, Mumbai",Mumbai,LSG,field,LSG,wickets,6,873
+2022,2022-04-08,PBKS,GT,"Brabourne Stadium, Mumbai",Mumbai,GT,field,GT,wickets,6,874
+2022,2022-04-09,CSK,SRH,"Dr DY Patil Sports Academy, Mumbai",Mumbai,SRH,field,SRH,wickets,8,875
+2022,2022-04-09,MI,RCB,"Maharashtra Cricket Association Stadium, Pune",Pune,RCB,field,RCB,wickets,7,876
+2022,2022-04-10,DC,KKR,"Brabourne Stadium, Mumbai",Mumbai,KKR,field,DC,runs,44,877
+2022,2022-04-10,RR,LSG,"Wankhede Stadium, Mumbai",Mumbai,LSG,field,RR,runs,3,878
+2022,2022-04-11,GT,SRH,"Dr DY Patil Sports Academy, Mumbai",Mumbai,SRH,field,SRH,wickets,8,879
+2022,2022-04-12,CSK,RCB,"Dr DY Patil Sports Academy, Mumbai",Mumbai,RCB,field,CSK,runs,23,880
+2022,2022-04-13,PBKS,MI,"Maharashtra Cricket Association Stadium, Pune",Pune,MI,field,PBKS,runs,12,881
+2022,2022-04-14,GT,RR,"Dr DY Patil Sports Academy, Mumbai",Mumbai,RR,field,GT,runs,37,882
+2022,2022-04-15,KKR,SRH,"Brabourne Stadium, Mumbai",Mumbai,SRH,field,SRH,wickets,7,883
+2022,2022-04-16,RCB,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,RCB,runs,16,884
+2022,2022-04-16,LSG,MI,"Brabourne Stadium, Mumbai",Mumbai,MI,field,LSG,runs,18,885
+2022,2022-04-17,CSK,GT,"Maharashtra Cricket Association Stadium, Pune",Pune,GT,field,GT,wickets,3,886
+2022,2022-04-17,PBKS,SRH,"Dr DY Patil Sports Academy, Mumbai",Mumbai,SRH,field,SRH,wickets,7,887
+2022,2022-04-18,RR,KKR,"Brabourne Stadium, Mumbai",Mumbai,KKR,field,RR,runs,7,888
+2022,2022-04-19,RCB,LSG,"Dr DY Patil Sports Academy, Mumbai",Mumbai,LSG,field,RCB,runs,18,889
+2022,2022-04-20,PBKS,DC,"Brabourne Stadium, Mumbai",Mumbai,DC,field,DC,wickets,9,890
+2022,2022-04-21,MI,CSK,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,CSK,field,CSK,wickets,3,891
+2022,2022-04-22,RR,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,RR,runs,15,892
+2022,2022-04-23,GT,KKR,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,GT,bat,GT,runs,8,893
+2022,2022-04-23,RCB,SRH,"Brabourne Stadium, Mumbai",Mumbai,SRH,field,SRH,wickets,9,894
+2022,2022-04-24,LSG,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,LSG,runs,36,895
+2022,2022-04-25,PBKS,CSK,"Wankhede Stadium, Mumbai",Mumbai,CSK,field,PBKS,runs,11,896
+2022,2022-04-26,RR,RCB,"Maharashtra Cricket Association Stadium, Pune",Pune,RCB,field,RR,runs,29,897
+2022,2022-04-27,SRH,GT,"Wankhede Stadium, Mumbai",Mumbai,GT,field,GT,wickets,5,898
+2022,2022-04-28,KKR,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,DC,wickets,4,899
+2022,2022-04-29,LSG,PBKS,"Maharashtra Cricket Association Stadium, Pune",Pune,PBKS,field,LSG,runs,20,900
+2022,2022-04-30,RR,MI,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,MI,field,MI,wickets,5,901
+2022,2022-04-30,RCB,GT,"Brabourne Stadium, Mumbai",Mumbai,RCB,bat,GT,wickets,6,902
+2022,2022-05-01,CSK,SRH,"Maharashtra Cricket Association Stadium, Pune",Pune,SRH,field,CSK,runs,13,903
+2022,2022-05-01,LSG,DC,"Wankhede Stadium, Mumbai",Mumbai,LSG,bat,LSG,runs,6,904
+2022,2022-05-02,RR,KKR,"Wankhede Stadium, Mumbai",Mumbai,KKR,field,KKR,wickets,7,905
+2022,2022-05-03,GT,PBKS,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,GT,bat,PBKS,wickets,8,906
+2022,2022-05-04,RCB,CSK,"Maharashtra Cricket Association Stadium, Pune",Pune,CSK,field,RCB,runs,13,907
+2022,2022-05-05,DC,SRH,"Brabourne Stadium, Mumbai",Mumbai,SRH,field,DC,runs,21,908
+2022,2022-05-06,MI,GT,"Brabourne Stadium, Mumbai",Mumbai,GT,field,MI,runs,5,909
+2022,2022-05-07,PBKS,RR,"Wankhede Stadium, Mumbai",Mumbai,PBKS,bat,RR,wickets,6,910
+2022,2022-05-07,LSG,KKR,"Maharashtra Cricket Association Stadium, Pune",Pune,KKR,field,LSG,runs,75,911
+2022,2022-05-08,RCB,SRH,"Wankhede Stadium, Mumbai",Mumbai,RCB,bat,RCB,runs,67,912
+2022,2022-05-08,CSK,DC,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,DC,field,CSK,runs,91,913
+2022,2022-05-09,KKR,MI,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,MI,field,KKR,runs,52,914
+2022,2022-05-10,GT,LSG,"Maharashtra Cricket Association Stadium, Pune",Pune,GT,bat,GT,runs,62,915
+2022,2022-05-11,RR,DC,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,DC,field,DC,wickets,8,916
+2022,2022-05-12,CSK,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,5,917
+2022,2022-05-13,PBKS,RCB,"Brabourne Stadium, Mumbai",Mumbai,RCB,field,PBKS,runs,54,918
+2022,2022-05-14,KKR,SRH,"Maharashtra Cricket Association Stadium, Pune",Pune,KKR,bat,KKR,runs,54,919
+2022,2022-05-15,RR,LSG,"Brabourne Stadium, Mumbai",Mumbai,RR,bat,RR,runs,24,920
+2022,2022-05-15,CSK,GT,"Wankhede Stadium, Mumbai",Mumbai,CSK,bat,GT,wickets,7,921
+2022,2022-05-16,DC,PBKS,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,PBKS,field,DC,runs,17,922
+2022,2022-05-17,SRH,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,SRH,runs,3,923
+2022,2022-05-18,LSG,KKR,"Dr DY Patil Sports Academy, Mumbai",Navi Mumbai,LSG,bat,LSG,runs,2,924
+2022,2022-05-19,GT,RCB,"Wankhede Stadium, Mumbai",Mumbai,GT,bat,RCB,wickets,8,925
+2022,2022-05-20,CSK,RR,"Brabourne Stadium, Mumbai",Mumbai,CSK,bat,RR,wickets,5,926
+2022,2022-05-21,DC,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,5,927
+2022,2022-05-22,SRH,PBKS,"Wankhede Stadium, Mumbai",Mumbai,SRH,bat,PBKS,wickets,5,928
+2022,2022-05-24,RR,GT,"Eden Gardens, Kolkata",Kolkata,GT,field,GT,wickets,7,929
+2022,2022-05-25,RCB,LSG,"Eden Gardens, Kolkata",Kolkata,LSG,field,RCB,runs,14,930
+2022,2022-05-27,RCB,RR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,field,RR,wickets,7,931
+2022,2022-05-29,RR,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,bat,GT,wickets,7,932
+2023,2023-03-31,CSK,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,GT,wickets,5,933
+2023,2023-04-01,PBKS,KKR,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,KKR,field,PBKS,runs,7,934
+2023,2023-04-01,LSG,DC,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,DC,field,LSG,runs,50,935
+2023,2023-04-02,RR,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,field,RR,runs,72,936
+2023,2023-04-02,MI,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,8,937
+2023,2023-04-03,CSK,LSG,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,LSG,field,CSK,runs,12,938
+2023,2023-04-04,DC,GT,"Arun Jaitley Stadium, Delhi",Delhi,GT,field,GT,wickets,6,939
+2023,2023-04-05,PBKS,RR,"Barsapara Cricket Stadium, Guwahati",Guwahati,RR,field,PBKS,runs,5,940
+2023,2023-04-06,KKR,RCB,"Eden Gardens, Kolkata",Kolkata,RCB,field,KKR,runs,81,941
+2023,2023-04-07,SRH,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,SRH,bat,LSG,wickets,5,942
+2023,2023-04-08,RR,DC,"Barsapara Cricket Stadium, Guwahati",Guwahati,DC,field,RR,runs,57,943
+2023,2023-04-08,MI,CSK,"Wankhede Stadium, Mumbai",Mumbai,CSK,field,CSK,wickets,7,944
+2023,2023-04-09,GT,KKR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,bat,KKR,wickets,3,945
+2023,2023-04-09,PBKS,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,field,SRH,wickets,8,946
+2023,2023-04-10,RCB,LSG,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,LSG,field,LSG,wickets,1,947
+2023,2023-04-11,DC,MI,"Arun Jaitley Stadium, Delhi",Delhi,MI,field,MI,wickets,6,948
+2023,2023-04-12,RR,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,RR,runs,3,949
+2023,2023-04-13,PBKS,GT,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,GT,field,GT,wickets,6,950
+2023,2023-04-14,SRH,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,SRH,runs,23,951
+2023,2023-04-15,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,DC,field,RCB,runs,23,952
+2023,2023-04-15,LSG,PBKS,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,PBKS,field,PBKS,wickets,2,953
+2023,2023-04-16,KKR,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,5,954
+2023,2023-04-16,GT,RR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,field,RR,wickets,3,955
+2023,2023-04-17,CSK,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,CSK,runs,8,956
+2023,2023-04-18,MI,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,field,MI,runs,14,957
+2023,2023-04-19,LSG,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,field,LSG,runs,10,958
+2023,2023-04-20,RCB,PBKS,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,PBKS,field,RCB,runs,24,959
+2023,2023-04-20,KKR,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,DC,wickets,4,960
+2023,2023-04-21,SRH,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,CSK,wickets,7,961
+2023,2023-04-22,PBKS,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,PBKS,runs,13,962
+2023,2023-04-22,GT,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,GT,bat,GT,runs,7,963
+2023,2023-04-23,RCB,RR,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RR,field,RCB,runs,7,964
+2023,2023-04-23,CSK,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,CSK,runs,49,965
+2023,2023-04-24,DC,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,DC,bat,DC,runs,7,966
+2023,2023-04-25,GT,MI,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,MI,field,GT,runs,55,967
+2023,2023-04-26,KKR,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,KKR,runs,21,968
+2023,2023-04-27,RR,CSK,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,bat,RR,runs,32,969
+2023,2023-04-28,LSG,PBKS,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,PBKS,field,LSG,runs,56,970
+2023,2023-04-29,KKR,GT,"Eden Gardens, Kolkata",Kolkata,GT,field,GT,wickets,7,971
+2023,2023-04-29,SRH,DC,"Arun Jaitley Stadium, Delhi",Delhi,SRH,bat,SRH,runs,9,972
+2023,2023-04-30,CSK,PBKS,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,bat,PBKS,wickets,4,973
+2023,2023-04-30,RR,MI,"Wankhede Stadium, Mumbai",Mumbai,RR,bat,MI,wickets,6,974
+2023,2023-05-01,RCB,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,RCB,bat,RCB,runs,18,975
+2023,2023-05-02,DC,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,DC,bat,DC,runs,5,976
+2023,2023-05-03,PBKS,MI,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,MI,field,MI,wickets,6,977
+2023,2023-05-04,KKR,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,KKR,bat,KKR,runs,5,978
+2023,2023-05-05,RR,GT,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,bat,GT,wickets,9,979
+2023,2023-05-06,MI,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,CSK,wickets,6,980
+2023,2023-05-06,RCB,DC,"Arun Jaitley Stadium, Delhi",Delhi,RCB,bat,DC,wickets,7,981
+2023,2023-05-07,GT,LSG,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,LSG,field,GT,runs,56,982
+2023,2023-05-07,RR,SRH,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,bat,SRH,wickets,4,983
+2023,2023-05-08,PBKS,KKR,"Eden Gardens, Kolkata",Kolkata,PBKS,bat,KKR,wickets,5,984
+2023,2023-05-09,RCB,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,6,985
+2023,2023-05-10,CSK,DC,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,bat,CSK,runs,27,986
+2023,2023-05-11,KKR,RR,"Eden Gardens, Kolkata",Kolkata,RR,field,RR,wickets,9,987
+2023,2023-05-12,MI,GT,"Wankhede Stadium, Mumbai",Mumbai,GT,field,MI,runs,27,988
+2023,2023-05-13,SRH,LSG,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,bat,LSG,wickets,7,989
+2023,2023-05-13,PBKS,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,PBKS,runs,31,990
+2023,2023-05-14,RCB,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RCB,bat,RCB,runs,112,991
+2023,2023-05-14,CSK,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,bat,KKR,wickets,6,992
+2023,2023-05-15,GT,SRH,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,SRH,field,GT,runs,34,993
+2023,2023-05-16,LSG,MI,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,MI,field,LSG,runs,5,994
+2023,2023-05-17,DC,PBKS,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,PBKS,field,DC,runs,15,995
+2023,2023-05-18,SRH,RCB,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,RCB,field,RCB,wickets,8,996
+2023,2023-05-19,PBKS,RR,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,RR,field,RR,wickets,4,997
+2023,2023-05-20,CSK,DC,"Arun Jaitley Stadium, Delhi",Delhi,CSK,bat,CSK,runs,77,998
+2023,2023-05-20,LSG,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,LSG,runs,1,999
+2023,2023-05-21,SRH,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,8,1000
+2023,2023-05-21,RCB,GT,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,GT,field,GT,wickets,6,1001
+2023,2023-05-23,CSK,GT,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,GT,field,CSK,runs,15,1002
+2023,2023-05-24,MI,LSG,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,MI,bat,MI,runs,81,1003
+2023,2023-05-26,GT,MI,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,MI,field,GT,runs,62,1004
+2023,2023-05-29,GT,CSK,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,CSK,field,CSK,wickets,5,1005
+2024,2024-03-22,RCB,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,RCB,bat,CSK,wickets,6,1006
+2024,2024-03-23,KKR,SRH,"Eden Gardens, Kolkata",Kolkata,SRH,field,KKR,runs,4,1007
+2024,2024-03-23,DC,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,field,PBKS,wickets,4,1008
+2024,2024-03-24,GT,MI,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,MI,field,GT,runs,6,1009
+2024,2024-03-24,RR,LSG,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,bat,RR,runs,20,1010
+2024,2024-03-25,PBKS,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,4,1011
+2024,2024-03-26,CSK,GT,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,GT,field,CSK,runs,63,1012
+2024,2024-03-27,SRH,MI,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,MI,field,SRH,runs,31,1013
+2024,2024-03-28,RR,DC,"Sawai Mansingh Stadium, Jaipur",Jaipur,DC,field,RR,runs,12,1014
+2024,2024-03-29,RCB,KKR,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,KKR,field,KKR,wickets,7,1015
+2024,2024-03-30,LSG,PBKS,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,bat,LSG,runs,21,1016
+2024,2024-03-31,SRH,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,SRH,bat,GT,wickets,7,1017
+2024,2024-03-31,DC,CSK,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,DC,bat,DC,runs,20,1018
+2024,2024-04-01,MI,RR,"Wankhede Stadium, Mumbai",Mumbai,RR,field,RR,wickets,6,1019
+2024,2024-04-02,LSG,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,LSG,runs,28,1020
+2024,2024-04-03,KKR,DC,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,KKR,bat,KKR,runs,106,1021
+2024,2024-04-04,GT,PBKS,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,PBKS,field,PBKS,wickets,3,1022
+2024,2024-04-05,CSK,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,field,SRH,wickets,6,1023
+2024,2024-04-06,RCB,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,field,RR,wickets,6,1024
+2024,2024-04-07,MI,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,MI,runs,29,1025
+2024,2024-04-07,LSG,GT,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,bat,LSG,runs,33,1026
+2024,2024-04-08,KKR,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,CSK,wickets,7,1027
+2024,2024-04-09,SRH,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,field,SRH,runs,2,1028
+2024,2024-04-10,RR,GT,"Sawai Mansingh Stadium, Jaipur",Jaipur,GT,field,GT,wickets,3,1029
+2024,2024-04-11,RCB,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,7,1030
+2024,2024-04-12,LSG,DC,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,bat,DC,wickets,6,1031
+2024,2024-04-13,PBKS,RR,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,RR,field,RR,wickets,3,1032
+2024,2024-04-14,LSG,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,KKR,wickets,8,1033
+2024,2024-04-14,CSK,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,CSK,runs,20,1034
+2024,2024-04-15,SRH,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,SRH,runs,25,1035
+2024,2024-04-16,KKR,RR,"Eden Gardens, Kolkata",Kolkata,RR,field,RR,wickets,2,1036
+2024,2024-04-17,GT,DC,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,DC,field,DC,wickets,6,1037
+2024,2024-04-18,MI,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,field,MI,runs,9,1038
+2024,2024-04-19,CSK,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,field,LSG,wickets,8,1039
+2024,2024-04-20,SRH,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,SRH,runs,67,1040
+2024,2024-04-21,KKR,RCB,"Eden Gardens, Kolkata",Kolkata,RCB,field,KKR,runs,1,1041
+2024,2024-04-21,PBKS,GT,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,bat,GT,wickets,3,1042
+2024,2024-04-22,MI,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,MI,bat,RR,wickets,9,1043
+2024,2024-04-23,CSK,LSG,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,LSG,field,LSG,wickets,6,1044
+2024,2024-04-24,DC,GT,"Arun Jaitley Stadium, Delhi",Delhi,GT,field,DC,runs,4,1045
+2024,2024-04-25,RCB,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,RCB,bat,RCB,runs,35,1046
+2024,2024-04-26,KKR,PBKS,"Eden Gardens, Kolkata",Kolkata,PBKS,field,PBKS,wickets,8,1047
+2024,2024-04-27,DC,MI,"Arun Jaitley Stadium, Delhi",Delhi,MI,field,DC,runs,10,1048
+2024,2024-04-27,LSG,RR,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,RR,field,RR,wickets,7,1049
+2024,2024-04-28,GT,RCB,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RCB,field,RCB,wickets,9,1050
+2024,2024-04-28,CSK,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,SRH,field,CSK,runs,78,1051
+2024,2024-04-29,DC,KKR,"Eden Gardens, Kolkata",Kolkata,DC,bat,KKR,wickets,7,1052
+2024,2024-04-30,MI,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,field,LSG,wickets,4,1053
+2024,2024-05-01,CSK,PBKS,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,PBKS,field,PBKS,wickets,7,1054
+2024,2024-05-02,SRH,RR,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,bat,SRH,runs,1,1055
+2024,2024-05-03,KKR,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,KKR,runs,24,1056
+2024,2024-05-04,GT,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,4,1057
+2024,2024-05-05,CSK,PBKS,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,PBKS,field,CSK,runs,28,1058
+2024,2024-05-05,KKR,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,field,KKR,runs,98,1059
+2024,2024-05-06,SRH,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,7,1060
+2024,2024-05-07,DC,RR,"Arun Jaitley Stadium, Delhi",Delhi,RR,field,DC,runs,20,1061
+2024,2024-05-08,LSG,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,LSG,bat,SRH,wickets,10,1062
+2024,2024-05-09,RCB,PBKS,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,PBKS,field,RCB,runs,60,1063
+2024,2024-05-10,GT,CSK,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,CSK,field,GT,runs,35,1064
+2024,2024-05-11,KKR,MI,"Eden Gardens, Kolkata",Kolkata,MI,field,KKR,runs,18,1065
+2024,2024-05-12,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,DC,field,RCB,runs,47,1066
+2024,2024-05-12,RR,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,RR,bat,CSK,wickets,5,1067
+2024,2024-05-14,DC,LSG,"Arun Jaitley Stadium, Delhi",Delhi,LSG,field,DC,runs,19,1068
+2024,2024-05-15,RR,PBKS,"Barsapara Cricket Stadium, Guwahati",Guwahati,RR,bat,PBKS,wickets,5,1069
+2024,2024-05-17,LSG,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,LSG,runs,18,1070
+2024,2024-05-18,RCB,CSK,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,CSK,field,RCB,runs,27,1071
+2024,2024-05-19,PBKS,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,PBKS,bat,SRH,wickets,4,1072
+2024,2024-05-21,SRH,KKR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,SRH,bat,KKR,wickets,8,1073
+2024,2024-05-22,RCB,RR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,field,RR,wickets,4,1074
+2024,2024-05-24,SRH,RR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,RR,field,SRH,runs,36,1075
+2024,2024-05-26,SRH,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,SRH,bat,KKR,wickets,8,1076
+2025,2025-03-22,KKR,RCB,"Eden Gardens, Kolkata",Kolkata,RCB,field,RCB,wickets,7,1077
+2025,2025-03-23,SRH,RR,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,RR,field,SRH,runs,44,1078
+2025,2025-03-23,MI,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,CSK,wickets,4,1079
+2025,2025-03-24,LSG,DC,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,DC,field,DC,wickets,1,1080
+2025,2025-03-25,PBKS,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,PBKS,runs,11,1081
+2025,2025-03-26,RR,KKR,"Barsapara Cricket Stadium, Guwahati",Guwahati,KKR,field,KKR,wickets,8,1082
+2025,2025-03-27,SRH,LSG,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,LSG,field,LSG,wickets,5,1083
+2025,2025-03-28,RCB,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,RCB,runs,50,1084
+2025,2025-03-29,GT,MI,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,MI,field,GT,runs,36,1085
+2025,2025-03-30,SRH,DC,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,SRH,bat,DC,wickets,7,1086
+2025,2025-03-30,RR,CSK,"Barsapara Cricket Stadium, Guwahati",Guwahati,CSK,field,RR,runs,6,1087
+2025,2025-03-31,KKR,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,8,1088
+2025,2025-04-01,LSG,PBKS,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,PBKS,field,PBKS,wickets,8,1089
+2025,2025-04-02,RCB,GT,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,GT,field,GT,wickets,8,1090
+2025,2025-04-03,KKR,SRH,"Eden Gardens, Kolkata",Kolkata,SRH,field,KKR,runs,80,1091
+2025,2025-04-04,LSG,MI,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,MI,field,LSG,runs,12,1092
+2025,2025-04-05,DC,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,DC,bat,DC,runs,25,1093
+2025,2025-04-05,RR,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,field,RR,runs,50,1094
+2025,2025-04-06,SRH,GT,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,GT,field,GT,wickets,7,1095
+2025,2025-04-07,RCB,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,RCB,runs,12,1096
+2025,2025-04-08,LSG,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,LSG,runs,4,1097
+2025,2025-04-08,PBKS,CSK,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,bat,PBKS,runs,18,1098
+2025,2025-04-09,GT,RR,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,field,GT,runs,58,1099
+2025,2025-04-10,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,DC,field,DC,wickets,6,1100
+2025,2025-04-11,CSK,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,KKR,field,KKR,wickets,8,1101
+2025,2025-04-12,PBKS,SRH,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,PBKS,bat,SRH,wickets,8,1102
+2025,2025-04-12,GT,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,field,LSG,wickets,6,1103
+2025,2025-04-13,RR,RCB,"Sawai Mansingh Stadium, Jaipur",Jaipur,RCB,field,RCB,wickets,9,1104
+2025,2025-04-13,MI,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,MI,runs,12,1105
+2025,2025-04-14,LSG,CSK,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,CSK,field,CSK,wickets,5,1106
+2025,2025-04-15,PBKS,KKR,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,PBKS,bat,PBKS,runs,16,1107
+2025,2025-04-17,SRH,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,4,1108
+2025,2025-04-18,RCB,PBKS,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,PBKS,field,PBKS,wickets,5,1109
+2025,2025-04-19,DC,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,GT,wickets,7,1110
+2025,2025-04-19,LSG,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,LSG,bat,LSG,runs,2,1111
+2025,2025-04-20,PBKS,RCB,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,RCB,field,RCB,wickets,7,1112
+2025,2025-04-20,CSK,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,9,1113
+2025,2025-04-21,GT,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,GT,runs,39,1114
+2025,2025-04-22,LSG,DC,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,DC,field,DC,wickets,8,1115
+2025,2025-04-23,SRH,MI,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,MI,field,MI,wickets,7,1116
+2025,2025-04-24,RCB,RR,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RR,field,RCB,runs,11,1117
+2025,2025-04-25,CSK,SRH,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,SRH,field,SRH,wickets,5,1118
+2025,2025-04-27,MI,LSG,"Wankhede Stadium, Mumbai",Mumbai,LSG,field,MI,runs,54,1119
+2025,2025-04-27,DC,RCB,"Arun Jaitley Stadium, Delhi",Delhi,RCB,field,RCB,wickets,6,1120
+2025,2025-04-28,GT,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,field,RR,wickets,8,1121
+2025,2025-04-29,KKR,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,KKR,runs,14,1122
+2025,2025-04-30,CSK,PBKS,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,PBKS,field,PBKS,wickets,4,1123
+2025,2025-05-01,MI,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,field,MI,runs,100,1124
+2025,2025-05-02,GT,SRH,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,SRH,field,GT,runs,38,1125
+2025,2025-05-03,RCB,CSK,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,CSK,field,RCB,runs,2,1126
+2025,2025-05-04,KKR,RR,"Eden Gardens, Kolkata",Kolkata,KKR,bat,KKR,runs,1,1127
+2025,2025-05-04,PBKS,LSG,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,LSG,field,PBKS,runs,37,1128
+2025,2025-05-06,MI,GT,"Wankhede Stadium, Mumbai",Mumbai,GT,field,GT,wickets,3,1129
+2025,2025-05-07,KKR,CSK,"Eden Gardens, Kolkata",Kolkata,KKR,bat,CSK,wickets,2,1130
+2025,2025-05-18,PBKS,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,PBKS,bat,PBKS,runs,10,1131
+2025,2025-05-18,DC,GT,"Arun Jaitley Stadium, Delhi",Delhi,GT,field,GT,wickets,10,1132
+2025,2025-05-19,LSG,SRH,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,SRH,field,SRH,wickets,6,1133
+2025,2025-05-20,CSK,RR,"Arun Jaitley Stadium, Delhi",Delhi,RR,field,RR,wickets,6,1134
+2025,2025-05-21,MI,DC,"Wankhede Stadium, Mumbai",Mumbai,DC,field,MI,runs,59,1135
+2025,2025-05-22,LSG,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,LSG,runs,33,1136
+2025,2025-05-23,SRH,RCB,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,RCB,field,SRH,runs,42,1137
+2025,2025-05-24,PBKS,DC,"Sawai Mansingh Stadium, Jaipur",Jaipur,DC,field,DC,wickets,6,1138
+2025,2025-05-25,CSK,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,CSK,bat,CSK,runs,83,1139
+2025,2025-05-25,SRH,KKR,"Arun Jaitley Stadium, Delhi",Delhi,SRH,bat,SRH,runs,110,1140
+2025,2025-05-26,MI,PBKS,"Sawai Mansingh Stadium, Jaipur",Jaipur,PBKS,field,PBKS,wickets,7,1141
+2025,2025-05-27,LSG,RCB,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,RCB,field,RCB,wickets,6,1142
+2025,2025-05-29,PBKS,RCB,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",New Chandigarh,RCB,field,RCB,wickets,8,1143
+2025,2025-05-30,MI,GT,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,MI,bat,MI,runs,20,1144
+2025,2025-06-01,MI,PBKS,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,PBKS,field,PBKS,wickets,5,1145
+2025,2025-06-03,RCB,PBKS,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,PBKS,field,RCB,runs,6,1146
+2026,2026-03-28,SRH,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,6,1147
+2026,2026-03-29,KKR,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,6,1148
+2026,2026-03-30,CSK,RR,"Barsapara Cricket Stadium, Guwahati",Guwahati,RR,field,RR,wickets,8,1149
+2026,2026-03-31,GT,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,PBKS,field,PBKS,wickets,3,1150
+2026,2026-04-01,LSG,DC,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,DC,field,DC,wickets,6,1151
+2026,2026-04-02,SRH,KKR,"Eden Gardens, Kolkata",Kolkata,KKR,field,SRH,runs,65,1152
+2026,2026-04-03,CSK,PBKS,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,PBKS,field,PBKS,wickets,5,1153
+2026,2026-04-04,RR,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,RR,bat,RR,runs,6,1154
+2026,2026-04-04,MI,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,DC,wickets,6,1155
+2026,2026-04-05,SRH,LSG,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,LSG,field,LSG,wickets,5,1156
+2026,2026-04-05,RCB,CSK,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,CSK,field,RCB,runs,43,1157
+2026,2026-04-07,RR,MI,"Barsapara Cricket Stadium, Guwahati",Guwahati,MI,field,RR,runs,27,1158
+2026,2026-04-08,GT,DC,"Arun Jaitley Stadium, Delhi",Delhi,DC,field,GT,runs,1,1159
+2026,2026-04-09,KKR,LSG,"Eden Gardens, Kolkata",Kolkata,LSG,field,LSG,wickets,3,1160
+2026,2026-04-10,RCB,RR,"Barsapara Cricket Stadium, Guwahati",Guwahati,RR,field,RR,wickets,6,1161
+2026,2026-04-11,SRH,PBKS,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,PBKS,field,PBKS,wickets,6,1162
+2026,2026-04-11,CSK,DC,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,DC,field,CSK,runs,23,1163
+2026,2026-04-12,LSG,GT,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,GT,field,GT,wickets,7,1164
+2026,2026-04-12,RCB,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,RCB,runs,18,1165
+2026,2026-04-13,SRH,RR,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,RR,field,SRH,runs,57,1166
+2026,2026-04-14,CSK,KKR,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,KKR,field,CSK,runs,32,1167
+2026,2026-04-15,LSG,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,5,1168
+2026,2026-04-16,MI,PBKS,"Wankhede Stadium, Mumbai",Mumbai,PBKS,field,PBKS,wickets,7,1169
+2026,2026-04-17,KKR,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,KKR,bat,GT,wickets,5,1170
+2026,2026-04-18,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,DC,field,DC,wickets,6,1171
+2026,2026-04-18,SRH,CSK,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,CSK,field,SRH,runs,10,1172
+2026,2026-04-19,RR,KKR,"Eden Gardens, Kolkata",Kolkata,RR,bat,KKR,wickets,4,1173
+2026,2026-04-19,PBKS,LSG,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,LSG,field,PBKS,runs,54,1174
+2026,2026-04-20,MI,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,MI,runs,99,1175
+2026,2026-04-21,SRH,DC,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,DC,field,SRH,runs,47,1176
+2026,2026-04-22,RR,LSG,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,LSG,field,RR,runs,40,1177
+2026,2026-04-23,CSK,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,CSK,runs,103,1178
+2026,2026-04-24,GT,RCB,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,RCB,field,RCB,wickets,5,1179
+2026,2026-04-25,DC,PBKS,"Arun Jaitley Stadium, Delhi",Delhi,DC,bat,PBKS,wickets,6,1180
+2026,2026-04-25,RR,SRH,"Sawai Mansingh Stadium, Jaipur",Jaipur,SRH,field,SRH,wickets,5,1181
+2026,2026-04-26,CSK,GT,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,GT,field,GT,wickets,8,1182
+2026,2026-04-27,DC,RCB,"Arun Jaitley Stadium, Delhi",Delhi,RCB,field,RCB,wickets,9,1183
+2026,2026-04-28,PBKS,RR,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,RR,field,RR,wickets,6,1184
+2026,2026-04-29,MI,SRH,"Wankhede Stadium, Mumbai",Mumbai,MI,bat,SRH,wickets,6,1185
+2026,2026-04-30,RCB,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,GT,wickets,4,1186
+2026,2026-05-01,RR,DC,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,bat,DC,wickets,7,1187
+2026,2026-05-02,MI,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,MI,bat,CSK,wickets,8,1188
+2026,2026-05-03,SRH,KKR,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,SRH,bat,KKR,wickets,7,1189
+2026,2026-05-03,PBKS,GT,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,GT,field,GT,wickets,4,1190
+2026,2026-05-04,LSG,MI,"Wankhede Stadium, Mumbai",Mumbai,MI,field,MI,wickets,6,1191
+2026,2026-05-05,DC,CSK,"Arun Jaitley Stadium, Delhi",Delhi,DC,bat,CSK,wickets,8,1192
+2026,2026-05-06,SRH,PBKS,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,PBKS,field,SRH,runs,33,1193
+2026,2026-05-07,LSG,RCB,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,RCB,field,LSG,runs,9,1194
+2026,2026-05-08,DC,KKR,"Arun Jaitley Stadium, Delhi",Delhi,KKR,field,KKR,wickets,8,1195
+2026,2026-05-09,GT,RR,"Sawai Mansingh Stadium, Jaipur",Jaipur,RR,field,GT,runs,77,1196
+2026,2026-05-10,LSG,CSK,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,CSK,field,CSK,wickets,5,1197
+2026,2026-05-10,MI,RCB,"Shaheed Veer Narayan Singh International Stadium, Raipur",Raipur,RCB,field,RCB,wickets,2,1198
+2026,2026-05-11,PBKS,DC,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,DC,field,DC,wickets,3,1199
+2026,2026-05-12,GT,SRH,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,SRH,field,GT,runs,82,1200
+2026,2026-05-13,KKR,RCB,"Shaheed Veer Narayan Singh International Stadium, Raipur",Raipur,RCB,field,RCB,wickets,6,1201

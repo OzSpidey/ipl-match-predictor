@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.env
+
+# Models (large binary files)
+models/*.pkl
+models/*.parquet
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Data (raw zip downloads)
+*.zip
+data/*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scratch files (underscore prefix)
+_*.py
+_*.txt
+_*.json
+_*.csv

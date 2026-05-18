@@ -1,0 +1,125 @@
+{
+  "metrics": {
+    "lr": {
+      "val": {
+        "accuracy": 0.678,
+        "f1": 0.24,
+        "roc_auc": 0.6118,
+        "log_loss": 0.6643
+      },
+      "test": {
+        "accuracy": 0.5277,
+        "f1": 0.1562,
+        "roc_auc": 0.511,
+        "log_loss": 0.6938
+      }
+    },
+    "rf": {
+      "val": {
+        "accuracy": 0.2203,
+        "f1": 0.3611,
+        "roc_auc": 0.0295,
+        "log_loss": 0.7501
+      },
+      "test": {
+        "accuracy": 0.4956,
+        "f1": 0.6418,
+        "roc_auc": 0.5425,
+        "log_loss": 0.6951
+      }
+    },
+    "xgb": {
+      "val": {
+        "accuracy": 0.0678,
+        "f1": 0.127,
+        "roc_auc": 0.0,
+        "log_loss": 0.8407
+      },
+      "test": {
+        "accuracy": 0.484,
+        "f1": 0.5986,
+        "roc_auc": 0.5114,
+        "log_loss": 0.7013
+      }
+    },
+    "lgbm": {
+      "val": {
+        "accuracy": 0.0847,
+        "f1": 0.129,
+        "roc_auc": 0.0172,
+        "log_loss": 0.7773
+      },
+      "test": {
+        "accuracy": 0.5131,
+        "f1": 0.6052,
+        "roc_auc": 0.5563,
+        "log_loss": 0.6924
+      }
+    },
+    "ensemble": {
+      "val": {
+        "accuracy": 0.0339,
+        "f1": 0.0656,
+        "roc_auc": 0.0037,
+        "log_loss": 0.7684
+      },
+      "test": {
+        "accuracy": 0.5015,
+        "f1": 0.5995,
+        "roc_auc": 0.5371,
+        "log_loss": 0.6933
+      }
+    }
+  },
+  "feature_importance": {
+    "team1_form5": 0.0667,
+    "team2_venue_wr": 0.0632,
+    "bat_first": 0.0631,
+    "team2_overall_wr": 0.0626,
+    "team2_form10": 0.0626,
+    "h2h_win_rate_team1": 0.0625,
+    "venue_wr_diff": 0.0614,
+    "form10_diff": 0.0612,
+    "team1_overall_wr": 0.058,
+    "season_norm": 0.0575,
+    "wr_diff": 0.0573,
+    "toss_winner_is_team1": 0.057,
+    "form5_diff": 0.0562,
+    "team1_form10": 0.0548,
+    "toss_and_bat_team1": 0.0526,
+    "team2_form5": 0.0522,
+    "team1_venue_wr": 0.0511
+  },
+  "confusion_matrix": [
+    [
+      44,
+      135
+    ],
+    [
+      36,
+      128
+    ]
+  ],
+  "feature_cols": [
+    "team1_overall_wr",
+    "team2_overall_wr",
+    "team1_form5",
+    "team2_form5",
+    "team1_form10",
+    "team2_form10",
+    "h2h_win_rate_team1",
+    "team1_venue_wr",
+    "team2_venue_wr",
+    "toss_winner_is_team1",
+    "bat_first",
+    "toss_and_bat_team1",
+    "season_norm",
+    "wr_diff",
+    "form5_diff",
+    "form10_diff",
+    "venue_wr_diff"
+  ],
+  "train_seasons": "2008-2020",
+  "test_seasons": "2022-2026",
+  "total_matches": 1201
+}

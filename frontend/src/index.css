@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  @apply bg-brand-bg text-white font-sans;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(124,58,237,0.18), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 80%,  rgba(79,142,247,0.08), transparent);
+  min-height: 100vh;
+}
+
+/* ── Glassmorphism card ─────────────────────────────────── */
+.glass {
+  @apply bg-brand-card border border-brand-border rounded-2xl;
+  backdrop-filter: blur(14px);
+  background: rgba(18, 18, 42, 0.82);
+}
+
+/* ── Stadium hero gradient ──────────────────────────────── */
+.stadium-bg {
+  background:
+    radial-gradient(ellipse at 12% 40%, rgba(255,210,60,0.22) 0%, transparent 30%),
+    radial-gradient(ellipse at 88% 40%, rgba(255,210,60,0.22) 0%, transparent 30%),
+    radial-gradient(ellipse at 50% 10%, rgba(200,180,255,0.18) 0%, transparent 40%),
+    radial-gradient(ellipse at 50% 100%,rgba(60,30,120,0.35) 0%, transparent 55%),
+    linear-gradient(180deg, #06061a 0%, #0a0a24 60%, #0d0a2e 100%);
+  position: relative;
+}
+
+/* Cricket field ring decoration */
+.stadium-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-radial-gradient(
+      circle at 50% 110%,
+      transparent 0px,
+      transparent 38px,
+      rgba(255,255,255,0.025) 39px,
+      rgba(255,255,255,0.025) 40px
+    );
+  pointer-events: none;
+}
+
+/* ── Glowing probability bar ────────────────────────────── */
+.prob-bar { @apply h-full rounded-full transition-all duration-1000 ease-out; }
+
+/* ── Scrollbar ──────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a1a; }
+::-webkit-scrollbar-thumb { background: #1e1e40; border-radius: 3px; }
+
+/* ── Glowing button ─────────────────────────────────────── */
+.btn-glow {
+  @apply relative overflow-hidden transition-all duration-300;
+  box-shadow: 0 0 22px rgba(124,58,237,0.45);
+}
+.btn-glow:hover {
+  box-shadow: 0 0 40px rgba(124,58,237,0.75);
+  transform: translateY(-1px);
+}
+
+/* ── Team badge ─────────────────────────────────────────── */
+.team-badge {
+  @apply flex flex-col items-center justify-center rounded-xl cursor-pointer
+         border-2 transition-all duration-300 p-2 select-none;
+}
+.team-badge:hover  { transform: scale(1.06); }
+.team-badge.selected { transform: scale(1.08); }
+
+/* ── Live ticker ────────────────────────────────────────── */
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.ticker-inner {
+  animation: ticker 35s linear infinite;
+  white-space: nowrap;
+  display: inline-flex;
+}
+
+/* ── Cricket ball spin ──────────────────────────────────── */
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.cricket-ball-spin { animation: spin-slow 8s linear infinite; }
+
+/* ── Pulse glow ─────────────────────────────────────────── */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+.pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+
+/* ── Winner shimmer ─────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.shimmer-text {
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
