@@ -17,13 +17,21 @@
 
 ## 📸 Dashboard Screenshots
 
-| Predict Match | Head-to-Head |
+| Predict Match | ⚗️ What-If Simulator |
 |:---:|:---:|
-| ![Predictor](screenshots/01_predictor.png) | ![H2H](screenshots/02_h2h.png) |
+| ![Predictor](screenshots/01_predictor.png) | ![What-If Empty](screenshots/06_whatif_empty.png) |
 
-| Team Analytics | Model Insights |
+| What-If — Loaded & Live | What-If — Sliders + Result |
 |:---:|:---:|
-| ![Team Stats](screenshots/03_team_stats.png) | ![Model](screenshots/04_model_insights.png) |
+| ![What-If Loaded](screenshots/07_whatif_loaded.png) | ![What-If Sliders](screenshots/08_whatif_sliders.png) |
+
+| Head-to-Head | Team Analytics |
+|:---:|:---:|
+| ![H2H](screenshots/02_h2h.png) | ![Team Stats](screenshots/03_team_stats.png) |
+
+| Model Insights | |
+|:---:|:---:|
+| ![Model](screenshots/04_model_insights.png) | |
 
 ---
 
@@ -37,6 +45,7 @@ This project goes well beyond a simple "who will win" button. It is a **producti
 - **Builds a soft-voting ensemble** that combines all 4 models for robust probability estimates
 - **Serves live predictions via a FastAPI backend** that rehydrates team statistics from the historical dataset for any new matchup
 - **Renders a rich React dashboard** with animated probability gauges, confetti celebrations, interactive charts, and all 10 team logos
+- **What-If Simulator** — drag sliders to adjust any stat in real time and watch the probability arc gauge respond live within 200ms
 
 ---
 
@@ -72,6 +81,7 @@ ipl-predictor/
 │   │   ├── components/
 │   │   │   ├── Header.jsx        # Stadium hero banner + live ticker
 │   │   │   ├── MatchPredictor.jsx # Main prediction UI
+│   │   │   ├── WhatIf.jsx        # What-If Simulator (sliders + live gauges)
 │   │   │   ├── HeadToHead.jsx    # H2H charts and history
 │   │   │   ├── TeamStats.jsx     # Per-team analytics
 │   │   │   ├── ModelInsights.jsx # ML metrics + feature importances
@@ -149,19 +159,79 @@ uvicorn api.main:app --host 0.0.0.0 --port 8000
 - Winner is announced with **confetti in the winning team's colors**
 - **Key factors** section explains *why* the model predicts what it does (win rate edge, form, venue advantage, H2H record, toss)
 
-### 2. Head-to-Head
+---
+
+### 2. ⚗️ What-If Simulator
+
+> *"What if MI's recent form dropped by 20%? What if CSK won the toss and chose to field at Chepauk? At what point does the predicted winner flip?"*
+
+The most interactive tab in the dashboard. Load any matchup as a **baseline**, then drag 9 sliders to manipulate the underlying features and watch the model's prediction shift in real time — no page reload, no submit button.
+
+#### How it works
+
+1. **Pick a matchup** — team1, team2, venue, toss winner, toss decision
+2. **Load Baseline** — fires a `/api/predict` call that returns both the probability and the raw feature values used to compute it
+3. Sliders are **pre-seeded** with the actual current stats from the historical dataset
+4. **Drag any slider** — a debounced (200ms) `/api/what-if` call sends the modified feature vector to the server and receives a new probability
+5. The **right panel** updates live with everything that changed
+
+#### Sliders (9 adjustable features across 4 groups)
+
+| Group | Slider | What it represents |
+|---|---|---|
+| 🔥 Recent Form | Team 1 Form (last 5) | Win rate over last 5 matches |
+| 🔥 Recent Form | Team 2 Form (last 5) | Win rate over last 5 matches |
+| 🔥 Recent Form | Team 1 Form (last 10) | Win rate over last 10 matches |
+| 🔥 Recent Form | Team 2 Form (last 10) | Win rate over last 10 matches |
+| 📈 Historical Win Rate | Team 1 Overall | All-time win rate up to this match |
+| 📈 Historical Win Rate | Team 2 Overall | All-time win rate up to this match |
+| ⚔️ Head-to-Head | H2H Rate (Team 1) | Team 1's win rate in all previous meetings with Team 2 |
+| 🏟 Venue Strength | Team 1 Venue WR | Team 1's win rate at this specific ground |
+| 🏟 Venue Strength | Team 2 Venue WR | Team 2's win rate at this specific ground |
+
+Toss winner and toss decision are **live toggle buttons** (no debounce — they update the prediction instantly on click).
+
+#### Live result panel
+
+| Element | What it shows |
+|---|---|
+| **Dual arc gauges** | Animated half-circle SVG arcs, one per team. The ghost arc is the baseline; the solid arc is the what-if probability. |
+| **Baseline vs What-If row** | Original probability vs current, with a ±delta badge (green if team1 improved, red if declined) |
+| **Win-share bar** | Horizontal bar that redistributes between team colors as you drag |
+| **Winner badge** | Animates in/out as the prediction changes. Shows a ⚡ **"Winner flipped!"** alert when the dominant team changes |
+| **What Changed list** | Every slider that differs from baseline, sorted by magnitude of change, with its delta in % |
+
+#### Slider UX details
+- Each slider track shows a **vertical baseline tick** so you always know the original value
+- A **↩ reset button** appears next to any modified slider to restore it individually
+- A **delta badge** (e.g. `+10%`, `-5%`) appears next to the slider label as soon as you move it
+- **Reset All** button restores every slider to baseline in one click
+
+#### Screenshots
+
+| Empty state — pick a matchup | Loaded — baseline seeded, sliders ready |
+|:---:|:---:|
+| ![Empty](screenshots/06_whatif_empty.png) | ![Loaded](screenshots/07_whatif_loaded.png) |
+
+| Sliders + live probability panel |
+|:---:|
+| ![Sliders](screenshots/08_whatif_sliders.png) |
+
+---
+
+### 3. Head-to-Head
 - Full rivalry stats between any two teams
 - Animated win-share bar (e.g. MI: 62% — CSK: 38%)
 - Season-by-season BarChart of wins per team
-- Chronological list of all 10+ encounters with venue and winner
+- Chronological list of all encounters with venue and winner
 
-### 3. Team Analytics
+### 4. Team Analytics
 - Hero card with team logo, trophy count, win rate, total played
 - **Win Rate by Season** — LineChart showing each team's trajectory across 18 seasons
 - **Team Profile RadarChart** — 5-axis spider covering Win Rate, Titles, Experience, Recent Form, Consistency
 - Recent form strip (last 5 matches as animated W/L badges) + full match list
 
-### 4. Model Insights
+### 5. Model Insights
 - Per-model accuracy, AUC, F1, and log-loss cards (LR, RF, XGBoost, LightGBM, Ensemble)
 - **Feature Importance BarChart** (17 features ranked by XGBoost importance)
 - Confusion matrix heatmap on the test set (2022–2026)
@@ -329,7 +399,8 @@ The FastAPI backend runs on **http://localhost:8000** and exposes:
 | `GET` | `/api/health` | Liveness check + model loaded status |
 | `GET` | `/api/teams` | All team metadata (name, color, titles) |
 | `GET` | `/api/venues` | Full venue list |
-| `POST` | `/api/predict` | **Main prediction endpoint** |
+| `POST` | `/api/predict` | **Main prediction endpoint** — also returns raw feature values |
+| `POST` | `/api/what-if` | **What-If endpoint** — accepts raw feature values, returns probability |
 | `GET` | `/api/team-stats/{team}` | Season-by-season stats + recent form |
 | `GET` | `/api/h2h/{team1}/{team2}` | Head-to-head full history |
 | `GET` | `/api/venue-stats/{venue}` | Per-team win rates at a venue |
@@ -351,6 +422,8 @@ POST /api/predict
 
 ### Prediction Response
 
+The `/api/predict` response now also includes the `features` dict, which the What-If Simulator uses to seed its sliders:
+
 ```json
 {
   "team1_win_probability": 0.6142,
@@ -358,13 +431,61 @@ POST /api/predict
   "predicted_winner": "MI",
   "confidence": "high",
   "key_factors": [
-    { "label": "Venue advantage",            "team": "MI",  "delta": 0.18 },
-    { "label": "Better recent form (last 5)","team": "MI",  "delta": 0.12 },
-    { "label": "Season win rate advantage",  "team": "CSK", "delta": 0.06 },
-    { "label": "Toss won — chose to bat",    "team": "MI",  "delta": 0.03 }
-  ]
+    { "label": "Venue advantage",             "team": "MI",  "delta": 0.18 },
+    { "label": "Better recent form (last 5)", "team": "MI",  "delta": 0.12 },
+    { "label": "Season win rate advantage",   "team": "CSK", "delta": 0.06 },
+    { "label": "Toss won — chose to bat",     "team": "MI",  "delta": 0.03 }
+  ],
+  "features": {
+    "team1_overall_wr": 0.558,
+    "team2_overall_wr": 0.523,
+    "team1_form5":      0.600,
+    "team2_form5":      0.400,
+    "team1_form10":     0.550,
+    "team2_form10":     0.450,
+    "h2h_win_rate":     0.517,
+    "team1_venue_wr":   0.647,
+    "team2_venue_wr":   0.353,
+    "season_norm":      1.000
+  }
 }
 ```
+
+### What-If Request
+
+The What-If endpoint accepts raw feature values directly — no historical lookup, just feed numbers in and get a probability out:
+
+```json
+POST /api/what-if
+{
+  "team1": "MI",
+  "team2": "CSK",
+  "team1_overall_wr": 0.558,
+  "team2_overall_wr": 0.523,
+  "team1_form5":      0.40,
+  "team2_form5":      0.80,
+  "team1_form10":     0.45,
+  "team2_form10":     0.70,
+  "h2h_win_rate":     0.517,
+  "team1_venue_wr":   0.647,
+  "team2_venue_wr":   0.353,
+  "toss_winner":      "CSK",
+  "toss_decision":    "bat",
+  "season_norm":      1.0
+}
+```
+
+### What-If Response
+
+```json
+{
+  "team1_win_probability": 0.4923,
+  "team2_win_probability": 0.5077,
+  "predicted_winner": "CSK"
+}
+```
+
+The server recomputes the 4 signed differential features internally (`wr_diff`, `form5_diff`, `form10_diff`, `venue_wr_diff`) and the 3 toss interaction features, builds the full 17-element feature vector, and runs it through the calibrated ensemble — all in under 10ms.
 
 ---
 
