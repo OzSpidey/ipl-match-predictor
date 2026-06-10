@@ -22,7 +22,7 @@
 |:---:|:---:|
 | ![Predictor](screenshots/01_predictor.png) | ![What-If Empty](screenshots/06_whatif_empty.png) |
 
-| What-If — Loaded & Live | What-If — Sliders + Result |
+| What-If, Loaded & Live | What-If, Sliders + Result |
 |:---:|:---:|
 | ![What-If Loaded](screenshots/07_whatif_loaded.png) | ![What-If Sliders](screenshots/08_whatif_sliders.png) |
 
@@ -41,12 +41,12 @@
 This project goes well beyond a simple "who will win" button. It is a **production-grade ML pipeline** applied to cricket analytics:
 
 - **Fetches and parses 1,201 real IPL matches** (2008–2026) from CricSheet's official ball-by-ball JSON dataset
-- **Engineers 17 temporally-safe features** — no future data leakage; every statistic is computed only from matches that happened *before* the current one
+- **Engineers 17 temporally-safe features**, no future data leakage; every statistic is computed only from matches that happened *before* the current one
 - **Trains and calibrates 4 ML models** (Logistic Regression, Random Forest, XGBoost, LightGBM) with proper time-based train/val/test splits
 - **Builds a soft-voting ensemble** that combines all 4 models for robust probability estimates
 - **Serves live predictions via a FastAPI backend** that rehydrates team statistics from the historical dataset for any new matchup
 - **Renders a rich React dashboard** with animated probability gauges, confetti celebrations, interactive charts, and all 10 team logos
-- **What-If Simulator** — drag sliders to adjust any stat in real time and watch the probability arc gauge respond live within 200ms
+- **What-If Simulator**, drag sliders to adjust any stat in real time and watch the probability arc gauge respond live within 200ms
 
 ---
 
@@ -106,7 +106,7 @@ ipl-predictor/
 - Python 3.11+
 - Node.js 18+ and npm
 
-### Option A — One command (Windows PowerShell)
+### Option A, One command (Windows PowerShell)
 
 ```powershell
 cd ipl-predictor
@@ -115,7 +115,7 @@ cd ipl-predictor
 
 This script automatically: creates the venv → installs Python deps → fetches real IPL data → trains models → starts the API → starts the frontend.
 
-### Option B — Step by step
+### Option B, Step by step
 
 ```bash
 # 1. Create virtual environment and install dependencies
@@ -149,9 +149,9 @@ Open **http://localhost:3000** in your browser.
 python dashboard.py
 ```
 
-Open **http://localhost:8050** — the React frontend and the Dash dashboard are independent and can run simultaneously.
+Open **http://localhost:8050**, the React frontend and the Dash dashboard are independent and can run simultaneously.
 
-### Option C — Production build
+### Option C, Production build
 
 ```bash
 # Build the React app for static serving
@@ -179,14 +179,14 @@ uvicorn api.main:app --host 0.0.0.0 --port 8000
 
 > *"What if MI's recent form dropped by 20%? What if CSK won the toss and chose to field at Chepauk? At what point does the predicted winner flip?"*
 
-The most interactive tab in the dashboard. Load any matchup as a **baseline**, then drag 9 sliders to manipulate the underlying features and watch the model's prediction shift in real time — no page reload, no submit button.
+The most interactive tab in the dashboard. Load any matchup as a **baseline**, then drag 9 sliders to manipulate the underlying features and watch the model's prediction shift in real time, no page reload, no submit button.
 
 #### How it works
 
-1. **Pick a matchup** — team1, team2, venue, toss winner, toss decision
-2. **Load Baseline** — fires a `/api/predict` call that returns both the probability and the raw feature values used to compute it
+1. **Pick a matchup**, team1, team2, venue, toss winner, toss decision
+2. **Load Baseline**, fires a `/api/predict` call that returns both the probability and the raw feature values used to compute it
 3. Sliders are **pre-seeded** with the actual current stats from the historical dataset
-4. **Drag any slider** — a debounced (200ms) `/api/what-if` call sends the modified feature vector to the server and receives a new probability
+4. **Drag any slider**, a debounced (200ms) `/api/what-if` call sends the modified feature vector to the server and receives a new probability
 5. The **right panel** updates live with everything that changed
 
 #### Sliders (9 adjustable features across 4 groups)
@@ -203,7 +203,7 @@ The most interactive tab in the dashboard. Load any matchup as a **baseline**, t
 | 🏟 Venue Strength | Team 1 Venue WR | Team 1's win rate at this specific ground |
 | 🏟 Venue Strength | Team 2 Venue WR | Team 2's win rate at this specific ground |
 
-Toss winner and toss decision are **live toggle buttons** (no debounce — they update the prediction instantly on click).
+Toss winner and toss decision are **live toggle buttons** (no debounce, they update the prediction instantly on click).
 
 #### Live result panel
 
@@ -223,7 +223,7 @@ Toss winner and toss decision are **live toggle buttons** (no debounce — they 
 
 #### Screenshots
 
-| Empty state — pick a matchup | Loaded — baseline seeded, sliders ready |
+| Empty state, pick a matchup | Loaded, baseline seeded, sliders ready |
 |:---:|:---:|
 | ![Empty](screenshots/06_whatif_empty.png) | ![Loaded](screenshots/07_whatif_loaded.png) |
 
@@ -237,7 +237,7 @@ Toss winner and toss decision are **live toggle buttons** (no debounce — they 
 
 ### 3. 📊 Plotly Dash Analytics Dashboard
 
-> A standalone Python-powered data exploration dashboard at **http://localhost:8050**, built with Plotly Dash and a full dark glassmorphism theme. No React required — run it independently alongside the FastAPI app for deep dives into 18 years of IPL data.
+> A standalone Python-powered data exploration dashboard at **http://localhost:8050**, built with Plotly Dash and a full dark glassmorphism theme. No React required, run it independently alongside the FastAPI app for deep dives into 18 years of IPL data.
 
 ```bash
 python dashboard.py    # → http://localhost:8050
@@ -248,7 +248,7 @@ python dashboard.py    # → http://localhost:8050
 | Tab | What's inside |
 |---|---|
 | **📊 Overview** | KPI tiles (matches, seasons, teams, venues, all-time top team) · Overall win-rate horizontal bar · Matches-per-season bar chart |
-| **🏆 Season Race** | **Animated bar chart race** — press ▶ Play to watch cumulative wins accumulate season by season · Multi-team season win-rate line chart with team selector |
+| **🏆 Season Race** | **Animated bar chart race**, press ▶ Play to watch cumulative wins accumulate season by season · Multi-team season win-rate line chart with team selector |
 | **📈 Team Analysis** | Team selector dropdown · **Radar chart** (Win Rate, Recent Form, Consistency, Experience, Titles) · Season wins/losses stacked bar |
 | **⚔️ Head-to-Head** | 12×12 **win-rate heatmap matrix** showing every rivalry at a glance · Detail panel: overall win count + per-season breakdown for any two teams |
 | **🗺 Venue Map** | **Scatter geo map of India** (bubble = matches played, colour = bat-first win%) · Ranked horizontal bar of bat-first win% for every venue with ≥10 matches |
@@ -256,11 +256,11 @@ python dashboard.py    # → http://localhost:8050
 
 #### Animated Season Race
 
-The Season Race tab uses Plotly's `animation_frame` parameter to build a true bar chart race — the same type popularised by tools like Flourish and Power BI animations. Each frame shows cumulative wins through that season; the play button animates through 2008–2026 at 700ms/frame. Team bars are coloured in official IPL brand colours.
+The Season Race tab uses Plotly's `animation_frame` parameter to build a true bar chart race, the same type popularised by tools like Flourish and Power BI animations. Each frame shows cumulative wins through that season; the play button animates through 2008–2026 at 700ms/frame. Team bars are coloured in official IPL brand colours.
 
 #### Venue Map
 
-The venue map uses `plotly.graph_objects.Scattergeo` with a custom Asia-scoped projection centred on India. Bubble **size** encodes how many matches were played at that ground; bubble **colour** (red → purple gradient) encodes whether batting or fielding first wins more often — revealing that some grounds heavily favour chasing.
+The venue map uses `plotly.graph_objects.Scattergeo` with a custom Asia-scoped projection centred on India. Bubble **size** encodes how many matches were played at that ground; bubble **colour** (red → purple gradient) encodes whether batting or fielding first wins more often, revealing that some grounds heavily favour chasing.
 
 #### Tech details
 
@@ -273,14 +273,14 @@ The venue map uses `plotly.graph_objects.Scattergeo` with a custom Asia-scoped p
 
 ### 4. Head-to-Head
 - Full rivalry stats between any two teams
-- Animated win-share bar (e.g. MI: 62% — CSK: 38%)
+- Animated win-share bar (e.g. MI: 62%, CSK: 38%)
 - Season-by-season BarChart of wins per team
 - Chronological list of all encounters with venue and winner
 
 ### 5. Team Analytics
 - Hero card with team logo, trophy count, win rate, total played
-- **Win Rate by Season** — LineChart showing each team's trajectory across 18 seasons
-- **Team Profile RadarChart** — 5-axis spider covering Win Rate, Titles, Experience, Recent Form, Consistency
+- **Win Rate by Season**, LineChart showing each team's trajectory across 18 seasons
+- **Team Profile RadarChart**, 5-axis spider covering Win Rate, Titles, Experience, Recent Form, Consistency
 - Recent form strip (last 5 matches as animated W/L badges) + full match list
 
 ### 6. Model Insights
@@ -294,7 +294,7 @@ The venue map uses `plotly.graph_objects.Scattergeo` with a custom Asia-scoped p
 
 ### Data Source
 
-Real IPL match data fetched from **[CricSheet](https://cricsheet.org/downloads/ipl_json.zip)** — the gold standard open-source cricket dataset providing ball-by-ball JSON for every IPL match since 2008.
+Real IPL match data fetched from **[CricSheet](https://cricsheet.org/downloads/ipl_json.zip)**, the gold standard open-source cricket dataset providing ball-by-ball JSON for every IPL match since 2008.
 
 - **1,201 matches** parsed (2008–2026)
 - Historically accurate: CSK/RR banned 2016–2017 (replaced by Rising Pune Supergiant, Gujarat Lions), Deccan Chargers 2008–2012, Pune Warriors India 2011–2013, Lucknow Super Giants + Gujarat Titans from 2022
@@ -311,23 +311,23 @@ This mirrors real-world deployment: you train on past seasons and evaluate on un
 
 ### Feature Engineering (17 features, zero leakage)
 
-All features are computed using **expanding windows** — for each match, only matches that occurred *before* that date are used. This is enforced via row-by-row iteration that updates state *after* reading each row.
+All features are computed using **expanding windows**, for each match, only matches that occurred *before* that date are used. This is enforced via row-by-row iteration that updates state *after* reading each row.
 
-#### Group 1 — Historical Win Rate (2 features)
+#### Group 1, Historical Win Rate (2 features)
 | Feature | Description |
 |---|---|
 | `team1_overall_wr` | Team 1's all-time win rate up to this match |
 | `team2_overall_wr` | Team 2's all-time win rate up to this match |
 
-#### Group 2 — Recent Form, 5-match window (2 features)
+#### Group 2, Recent Form, 5-match window (2 features)
 | Feature | Description |
 |---|---|
 | `team1_form5` | Team 1's win rate over its last 5 matches |
 | `team2_form5` | Team 2's win rate over its last 5 matches |
 
-Captures momentum — a team on a 5-game winning streak is very different from one with the same season record but 3 recent losses.
+Captures momentum, a team on a 5-game winning streak is very different from one with the same season record but 3 recent losses.
 
-#### Group 3 — Recent Form, 10-match window (2 features)
+#### Group 3, Recent Form, 10-match window (2 features)
 | Feature | Description |
 |---|---|
 | `team1_form10` | Team 1's win rate over its last 10 matches |
@@ -335,14 +335,14 @@ Captures momentum — a team on a 5-game winning streak is very different from o
 
 Longer window that smooths out noise while still tracking mid-season trajectory.
 
-#### Group 4 — Head-to-Head Record (1 feature)
+#### Group 4, Head-to-Head Record (1 feature)
 | Feature | Description |
 |---|---|
 | `h2h_win_rate_team1` | Team 1's win rate in all previous meetings with Team 2 specifically |
 
-Defaults to 0.5 when the teams haven't met before. Captures rivalry dynamics — certain matchups consistently favour one team regardless of current form.
+Defaults to 0.5 when the teams haven't met before. Captures rivalry dynamics, certain matchups consistently favour one team regardless of current form.
 
-#### Group 5 — Venue Win Rate (2 features)
+#### Group 5, Venue Win Rate (2 features)
 | Feature | Description |
 |---|---|
 | `team1_venue_wr` | Team 1's win rate at this specific venue |
@@ -350,7 +350,7 @@ Defaults to 0.5 when the teams haven't met before. Captures rivalry dynamics —
 
 Home ground effect is significant: teams like CSK at Chepauk and MI at Wankhede have historically much higher win rates than away teams.
 
-#### Group 6 — Toss Features (3 features)
+#### Group 6, Toss Features (3 features)
 | Feature | Description |
 |---|---|
 | `toss_winner_is_team1` | 1 if Team 1 won the toss, else 0 |
@@ -359,7 +359,7 @@ Home ground effect is significant: teams like CSK at Chepauk and MI at Wankhede 
 
 Evening matches with dew factor make bowling second significantly harder, amplifying the toss impact. The joint feature captures the specific interaction the model finds predictive.
 
-#### Group 7 — Signed Differentials (4 features)
+#### Group 7, Signed Differentials (4 features)
 | Feature | Formula |
 |---|---|
 | `wr_diff` | `team1_overall_wr − team2_overall_wr` |
@@ -374,7 +374,7 @@ Signed differences let the model directly compare relative strength rather than 
 |---|---|---|
 | `season_norm` | `(season − 2008) / 18.0` | 0.0 → 1.0 |
 
-Prevents the model treating a 2008 match identically to a 2024 one — playing styles, pitch preparation, and franchise strengths have changed considerably.
+Prevents the model treating a 2008 match identically to a 2024 one, playing styles, pitch preparation, and franchise strengths have changed considerably.
 
 ### Feature Importance (XGBoost)
 
@@ -398,7 +398,7 @@ team2_form5           ████████      5.22%
 team1_venue_wr        ████████      5.11%
 ```
 
-All 17 features contribute in the 5–7% range — no single feature dominates, which is a healthy sign of a well-calibrated ensemble.
+All 17 features contribute in the 5–7% range, no single feature dominates, which is a healthy sign of a well-calibrated ensemble.
 
 ### Models
 
@@ -422,7 +422,7 @@ Each model is wrapped with **`CalibratedClassifierCV(method="sigmoid", cv=5)`** 
 VotingClassifier(
     estimators=[("lr", lr_cal), ("rf", rf_cal), ("xgb", xgb_cal), ("lgbm", lgbm_cal)],
     voting="soft",
-    weights=[1, 2, 2, 2],   # LR downweighted — tree models more expressive
+    weights=[1, 2, 2, 2],   # LR downweighted, tree models more expressive
 )
 ```
 
@@ -438,7 +438,7 @@ Soft voting averages the **calibrated probability outputs** of all 4 models. The
 | LightGBM | 51.3% | 0.556 | 0.605 |
 | **Ensemble** | **50.2%** | **0.537** | **0.600** |
 
-> **Note on accuracy:** IPL matches are genuinely hard to predict — even the best human analysts rarely exceed 60–65% accuracy. The model's strength is in outputting well-calibrated *probabilities* (e.g. correctly distinguishing a 55% vs 75% favourite), not just binary win/loss calls. The AUC scores confirm meaningful signal above 0.5 (random baseline).
+> **Note on accuracy:** IPL matches are genuinely hard to predict, even the best human analysts rarely exceed 60–65% accuracy. The model's strength is in outputting well-calibrated *probabilities* (e.g. correctly distinguishing a 55% vs 75% favourite), not just binary win/loss calls. The AUC scores confirm meaningful signal above 0.5 (random baseline).
 
 ---
 
@@ -451,8 +451,8 @@ The FastAPI backend runs on **http://localhost:8000** and exposes:
 | `GET` | `/api/health` | Liveness check + model loaded status |
 | `GET` | `/api/teams` | All team metadata (name, color, titles) |
 | `GET` | `/api/venues` | Full venue list |
-| `POST` | `/api/predict` | **Main prediction endpoint** — also returns raw feature values |
-| `POST` | `/api/what-if` | **What-If endpoint** — accepts raw feature values, returns probability |
+| `POST` | `/api/predict` | **Main prediction endpoint**, also returns raw feature values |
+| `POST` | `/api/what-if` | **What-If endpoint**, accepts raw feature values, returns probability |
 | `GET` | `/api/team-stats/{team}` | Season-by-season stats + recent form |
 | `GET` | `/api/h2h/{team1}/{team2}` | Head-to-head full history |
 | `GET` | `/api/venue-stats/{venue}` | Per-team win rates at a venue |
@@ -486,7 +486,7 @@ The `/api/predict` response now also includes the `features` dict, which the Wha
     { "label": "Venue advantage",             "team": "MI",  "delta": 0.18 },
     { "label": "Better recent form (last 5)", "team": "MI",  "delta": 0.12 },
     { "label": "Season win rate advantage",   "team": "CSK", "delta": 0.06 },
-    { "label": "Toss won — chose to bat",     "team": "MI",  "delta": 0.03 }
+    { "label": "Toss won, chose to bat",     "team": "MI",  "delta": 0.03 }
   ],
   "features": {
     "team1_overall_wr": 0.558,
@@ -505,7 +505,7 @@ The `/api/predict` response now also includes the `features` dict, which the Wha
 
 ### What-If Request
 
-The What-If endpoint accepts raw feature values directly — no historical lookup, just feed numbers in and get a probability out:
+The What-If endpoint accepts raw feature values directly, no historical lookup, just feed numbers in and get a probability out:
 
 ```json
 POST /api/what-if
@@ -537,7 +537,7 @@ POST /api/what-if
 }
 ```
 
-The server recomputes the 4 signed differential features internally (`wr_diff`, `form5_diff`, `form10_diff`, `venue_wr_diff`) and the 3 toss interaction features, builds the full 17-element feature vector, and runs it through the calibrated ensemble — all in under 10ms.
+The server recomputes the 4 signed differential features internally (`wr_diff`, `form5_diff`, `form10_diff`, `venue_wr_diff`) and the 3 toss interaction features, builds the full 17-element feature vector, and runs it through the calibrated ensemble, all in under 10ms.
 
 ---
 
@@ -553,7 +553,7 @@ The server recomputes the 4 signed differential features internally (`wr_diff`, 
 | Gradient boosting | LightGBM | 4.0+ |
 | Calibration | `CalibratedClassifierCV` | (scikit-learn) |
 | Serialisation | joblib | 1.3+ |
-| Feature store | Apache Parquet (pyarrow) | — |
+| Feature store | Apache Parquet (pyarrow) |, |
 | API framework | FastAPI + uvicorn | 0.100+ |
 | Schema validation | Pydantic v2 | 2.0+ |
 | Data source | CricSheet (real IPL JSON) | 2008–2026 |
@@ -576,8 +576,8 @@ The server recomputes the 4 signed differential features internally (`wr_diff`, 
 | Dashboard framework | Plotly Dash | 2.14+ |
 | Chart library | Plotly | 5.17+ |
 | Theme / components | dash-bootstrap-components | 1.4+ |
-| Animated charts | `animation_frame` (Plotly Express) | — |
-| Geo map | `Scattergeo` + Asia projection | — |
+| Animated charts | `animation_frame` (Plotly Express) |, |
+| Geo map | `Scattergeo` + Asia projection |, |
 
 ---
 
@@ -591,7 +591,7 @@ The server recomputes the 4 signed differential features internally (`wr_diff`, 
 | 2018–2021 | 8 teams (CSK & RR return) | ~60/season |
 | 2022–2026 | 10 teams (LSG & GT added) | ~74/season |
 
-**Total: 1,201 real matches** — every IPL game from the inaugural 2008 season through mid-2026.
+**Total: 1,201 real matches**, every IPL game from the inaugural 2008 season through mid-2026.
 
 ---
 
@@ -634,7 +634,7 @@ CricSheet stores seasons as `"2007/08"` for the first IPL season. Parsing `int("
 
 ## 🙏 Data Attribution
 
-Match data sourced from **[CricSheet.org](https://cricsheet.org)** — a freely available ball-by-ball cricket dataset maintained by Stephen Rushe. All data is used for educational and non-commercial purposes under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
+Match data sourced from **[CricSheet.org](https://cricsheet.org)**, a freely available ball-by-ball cricket dataset maintained by Stephen Rushe. All data is used for educational and non-commercial purposes under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
 ---
 
