@@ -84,6 +84,91 @@ VENUE_COORDS = {
     "Green Park":                                     (26.424,  80.348),
 }
 
+# ── Team colours by short code (CSV stores abbreviations) ─────────────────────
+TEAM_COLORS_SHORT = {
+    "MI":   "#005DA0", "CSK":  "#F9CD05", "RCB":  "#EC1C24",
+    "KKR":  "#3A225D", "SRH":  "#F7A721", "DC":   "#0078BC",
+    "DD":   "#0078BC", "PBKS": "#ED1B24", "KXIP": "#ED1B24",
+    "RR":   "#EA1A85", "LSG":  "#A72056", "GT":   "#9CA3AF",
+    "RPS":  "#6F4E37", "GL":   "#FF6B00", "PWI":  "#0A2D6E",
+    "KTK":  "#F06522", "DC08": "#FFA500",
+}
+
+# ── Home city mapping (keyed by short code, matching CSV city column) ──────────
+TEAM_HOME_CITIES = {
+    "MI":   {"Mumbai", "Navi Mumbai"},
+    "CSK":  {"Chennai"},
+    "KKR":  {"Kolkata"},
+    "RCB":  {"Bangalore", "Bengaluru"},
+    "SRH":  {"Hyderabad"},
+    "DC":   {"Delhi"},
+    "DD":   {"Delhi"},
+    "PBKS": {"Mohali", "Chandigarh", "New Chandigarh", "Dharamsala"},
+    "RR":   {"Jaipur"},
+    "LSG":  {"Lucknow"},
+    "GT":   {"Ahmedabad"},
+    "RPS":  {"Pune"},
+    "GL":   {"Rajkot"},
+    "DC08": {"Hyderabad"},
+    "KTK":  {"Kochi"},
+    "PWI":  {"Pune"},
+}
+
+# ── IPL captain history (keyed by short code) ──────────────────────────────────
+CAPTAIN_HISTORY = [
+    ("MI",   2008, 2010, "Sachin Tendulkar"),
+    ("MI",   2011, 2011, "Harbhajan Singh"),
+    ("MI",   2012, 2012, "Ricky Ponting"),
+    ("MI",   2013, 2023, "Rohit Sharma"),
+    ("MI",   2024, 2026, "Hardik Pandya"),
+    ("CSK",  2008, 2015, "MS Dhoni"),
+    ("CSK",  2018, 2026, "MS Dhoni"),
+    ("KKR",  2008, 2010, "Sourav Ganguly"),
+    ("KKR",  2011, 2017, "Gautam Gambhir"),
+    ("KKR",  2018, 2021, "Dinesh Karthik"),
+    ("KKR",  2022, 2024, "Shreyas Iyer"),
+    ("KKR",  2025, 2026, "Ajinkya Rahane"),
+    ("RCB",  2008, 2008, "Rahul Dravid"),
+    ("RCB",  2009, 2009, "Kevin Pietersen"),
+    ("RCB",  2010, 2021, "Virat Kohli"),
+    ("RCB",  2022, 2026, "Faf du Plessis"),
+    ("SRH",  2013, 2014, "Kumar Sangakkara"),
+    ("SRH",  2015, 2021, "David Warner"),
+    ("SRH",  2022, 2022, "Kane Williamson"),
+    ("SRH",  2023, 2026, "Pat Cummins"),
+    ("DC",   2008, 2015, "Virender Sehwag"),
+    ("DC",   2016, 2017, "Zaheer Khan"),
+    ("DC",   2018, 2022, "Shreyas Iyer"),
+    ("DC",   2023, 2023, "David Warner"),
+    ("DC",   2024, 2026, "Rishabh Pant"),
+    ("DD",   2008, 2015, "Virender Sehwag"),
+    ("DD",   2016, 2017, "Zaheer Khan"),
+    ("PBKS", 2008, 2009, "Yuvraj Singh"),
+    ("PBKS", 2010, 2013, "Adam Gilchrist"),
+    ("PBKS", 2014, 2018, "David Miller"),
+    ("PBKS", 2019, 2021, "KL Rahul"),
+    ("PBKS", 2022, 2026, "Shikhar Dhawan"),
+    ("RR",   2008, 2010, "Shane Warne"),
+    ("RR",   2011, 2015, "Rahul Dravid"),
+    ("RR",   2018, 2019, "Ajinkya Rahane"),
+    ("RR",   2020, 2026, "Sanju Samson"),
+    ("LSG",  2022, 2025, "KL Rahul"),
+    ("LSG",  2026, 2026, "Rishabh Pant"),
+    ("GT",   2022, 2023, "Hardik Pandya"),
+    ("GT",   2024, 2026, "Shubman Gill"),
+    ("RPS",  2016, 2016, "MS Dhoni"),
+    ("RPS",  2017, 2017, "Steve Smith"),
+    ("GL",   2016, 2017, "Suresh Raina"),
+    ("DC08", 2008, 2009, "VVS Laxman"),
+    ("DC08", 2010, 2012, "Adam Gilchrist"),
+]
+
+def season_captain(team: str, season: int) -> str:
+    for t, s0, s1, cap in CAPTAIN_HISTORY:
+        if t == team and s0 <= season <= s1:
+            return cap
+    return "Unknown"
+
 BG       = "#0a0a1a"
 CARD_BG  = "rgba(18,18,42,0.95)"
 BORDER   = "rgba(255,255,255,0.08)"
@@ -130,7 +215,12 @@ ALL_TEAMS = sorted(MATCH_COUNTS.keys())
 
 # ── UI helpers ─────────────────────────────────────────────────────────────────
 def tc(name: str) -> str:
-    return TEAM_COLORS.get(name, ACCENT)
+    return TEAM_COLORS_SHORT.get(name, TEAM_COLORS.get(name, ACCENT))
+
+def tc_fade(name: str, alpha: float = 0.4) -> str:
+    h = tc(name).lstrip("#")
+    r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r},{g},{b},{alpha})"
 
 
 def card(children, extra_style=None):
@@ -553,11 +643,11 @@ def fig_venue_bar():
         customdata=df_v["n"],
     ))
     fig.add_vline(x=0.5, line=dict(color="rgba(255,255,255,0.25)", dash="dash"))
-    fig.update_layout(**PLOTLY_LAYOUT, height=520,
+    layout = {**PLOTLY_LAYOUT, "margin": dict(l=270, r=70, t=44, b=40)}
+    fig.update_layout(**layout, height=520,
         xaxis=dict(showgrid=False, showticklabels=False, range=[0, 0.85]),
         yaxis=dict(showgrid=False),
         title=dict(text="Bat-First Win % by Venue", x=0.5),
-        margin=dict(l=270, r=70, t=44, b=40),
     )
     return fig
 
@@ -613,6 +703,134 @@ def fig_toss_decision_trend():
                    showgrid=True, gridcolor="rgba(255,255,255,0.05)"),
         title=dict(text="Toss Decision Trend by Season", x=0.5),
         legend=dict(orientation="h", yanchor="bottom", y=1.02),
+    )
+    return fig
+
+
+# ── New charts: Home/Away & Captain Wins ──────────────────────────────────────
+
+def fig_home_away_all():
+    """Grouped bar: home win% vs away win% for every main team."""
+    rows = []
+    for team in MAIN_TEAMS:
+        home_cities = TEAM_HOME_CITIES.get(team, set())
+        t_df = DF[(DF["team1"] == team) | (DF["team2"] == team)].copy()
+        t_df["is_home"] = t_df["city"].isin(home_cities)
+        home = t_df[t_df["is_home"]]
+        away = t_df[~t_df["is_home"]]
+        if len(home) < 5 or len(away) < 5:
+            continue
+        rows.append({
+            "team":  TEAM_SHORT.get(team, team[:5]),
+            "full":  team,
+            "home_wr": (home["winner"] == team).mean(),
+            "away_wr": (away["winner"] == team).mean(),
+            "home_n":  len(home),
+            "away_n":  len(away),
+        })
+    df_r = pd.DataFrame(rows).sort_values("home_wr", ascending=False)
+
+    fig = go.Figure([
+        go.Bar(
+            name="Home", x=df_r["team"], y=df_r["home_wr"],
+            marker_color=[tc(t) for t in df_r["full"]],
+            text=[f"{v:.0%}" for v in df_r["home_wr"]],
+            textposition="outside",
+            hovertemplate="<b>%{x}</b> (Home)<br>Win rate: %{y:.1%}<br>n=%{customdata}<extra></extra>",
+            customdata=df_r["home_n"],
+        ),
+        go.Bar(
+            name="Away", x=df_r["team"], y=df_r["away_wr"],
+            marker_color=[tc_fade(t) for t in df_r["full"]],
+            text=[f"{v:.0%}" for v in df_r["away_wr"]],
+            textposition="outside",
+            hovertemplate="<b>%{x}</b> (Away)<br>Win rate: %{y:.1%}<br>n=%{customdata}<extra></extra>",
+            customdata=df_r["away_n"],
+        ),
+    ])
+    fig.update_layout(**PLOTLY_LAYOUT, height=360, barmode="group",
+        bargap=0.22, bargroupgap=0.06,
+        xaxis=dict(showgrid=False),
+        yaxis=dict(tickformat=".0%", range=[0, 0.9],
+                   showgrid=True, gridcolor="rgba(255,255,255,0.05)"),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02,
+                    xanchor="right", x=1),
+        title=dict(text="Home vs Away Win Rate by Team", x=0.5),
+    )
+    return fig
+
+
+def fig_team_home_away(team: str):
+    """Bar + annotation showing selected team's home vs away breakdown."""
+    home_cities = TEAM_HOME_CITIES.get(team, set())
+    t_df = DF[(DF["team1"] == team) | (DF["team2"] == team)].copy()
+    t_df["is_home"] = t_df["city"].isin(home_cities)
+    home = t_df[t_df["is_home"]]
+    away = t_df[~t_df["is_home"]]
+
+    categories = ["Home", "Away"]
+    win_rates  = [
+        (home["winner"] == team).mean() if len(home) else 0,
+        (away["winner"] == team).mean() if len(away) else 0,
+    ]
+    counts = [len(home), len(away)]
+    color  = tc(team)
+
+    fig = go.Figure(go.Bar(
+        x=categories, y=win_rates,
+        marker_color=[color, tc_fade(team)],
+        text=[f"{v:.0%}  (n={n})" for v, n in zip(win_rates, counts)],
+        textposition="outside",
+        hovertemplate="%{x}: %{y:.1%}<extra></extra>",
+    ))
+    diff = win_rates[0] - win_rates[1]
+    sign = "+" if diff >= 0 else ""
+    fig.add_annotation(
+        x=0.5, y=max(win_rates) + 0.1,
+        xref="paper", yref="y",
+        text=f"Home advantage: {sign}{diff:.1%}",
+        showarrow=False,
+        font=dict(size=13, color=color),
+    )
+    fig.update_layout(**PLOTLY_LAYOUT, height=260,
+        xaxis=dict(showgrid=False),
+        yaxis=dict(tickformat=".0%", range=[0, 1.0],
+                   showgrid=True, gridcolor="rgba(255,255,255,0.05)"),
+        title=dict(text=f"{TEAM_SHORT.get(team, team)} — Home vs Away", x=0.5),
+        showlegend=False,
+    )
+    return fig
+
+
+def fig_captain_wins():
+    """Horizontal bar: total match wins per IPL captain (across all their stints)."""
+    wins_map: dict[str, int] = {}
+    for season in SEASONS:
+        s_df = DF[DF["season"] == season]
+        for team in MAIN_TEAMS:
+            cap = season_captain(team, season)
+            if cap == "Unknown":
+                continue
+            w = (s_df["winner"] == team).sum()
+            wins_map[cap] = wins_map.get(cap, 0) + int(w)
+
+    df_c = (pd.DataFrame(list(wins_map.items()), columns=["captain", "wins"])
+              .sort_values("wins", ascending=True)
+              .tail(20))
+
+    fig = go.Figure(go.Bar(
+        x=df_c["wins"], y=df_c["captain"],
+        orientation="h",
+        marker_color=ACCENT,
+        text=df_c["wins"], textposition="outside",
+        hovertemplate="<b>%{y}</b><br>Match wins as captain: %{x}<extra></extra>",
+    ))
+    layout = {**PLOTLY_LAYOUT, "margin": dict(l=160, r=60, t=44, b=40)}
+    fig.update_layout(**layout, height=520,
+        xaxis=dict(showgrid=False, showticklabels=False,
+                   range=[0, df_c["wins"].max() + 15]),
+        yaxis=dict(showgrid=False),
+        title=dict(text="Most Match Wins as IPL Captain (Top 20)", x=0.5),
     )
     return fig
 
@@ -710,6 +928,15 @@ def render_tab(tab):
                 card([dcc.Graph(figure=fig_matches_per_season(),
                                 config={"displayModeBar": False})],
                      {"flex": "1", "minWidth": "300px"}),
+            ], style={"display": "flex", "gap": "20px", "flexWrap": "wrap",
+                      "marginBottom": "20px"}),
+            html.Div([
+                card([dcc.Graph(figure=fig_home_away_all(),
+                                config={"displayModeBar": False})],
+                     {"flex": "3", "minWidth": "400px"}),
+                card([dcc.Graph(figure=fig_captain_wins(),
+                                config={"displayModeBar": False})],
+                     {"flex": "2", "minWidth": "340px"}),
             ], style={"display": "flex", "gap": "20px", "flexWrap": "wrap"}),
         ])
 
@@ -749,11 +976,13 @@ def render_tab(tab):
                          "Mumbai Indians"),
             ], {"marginBottom": "22px"}),
             html.Div([
-                card([dcc.Graph(id="team-radar",  config={"displayModeBar": False})],
+                card([dcc.Graph(id="team-radar",    config={"displayModeBar": False})],
                      {"flex": "1", "minWidth": "300px"}),
-                card([dcc.Graph(id="team-bars",   config={"displayModeBar": False})],
+                card([dcc.Graph(id="team-bars",     config={"displayModeBar": False})],
                      {"flex": "2", "minWidth": "300px"}),
-            ], style={"display": "flex", "gap": "20px", "flexWrap": "wrap"}),
+            ], style={"display": "flex", "gap": "20px", "flexWrap": "wrap",
+                      "marginBottom": "20px"}),
+            card([dcc.Graph(id="team-home-away", config={"displayModeBar": False})]),
         ])
 
     # ── Head-to-Head ──────────────────────────────────────────────────────────
@@ -832,11 +1061,13 @@ def cb_season_line(teams):
 
 
 @app.callback(
-    [Output("team-radar", "figure"), Output("team-bars", "figure")],
+    [Output("team-radar",     "figure"),
+     Output("team-bars",      "figure"),
+     Output("team-home-away", "figure")],
     Input("team-select", "value"),
 )
 def cb_team(team):
-    return fig_radar(team), fig_season_wins_losses(team)
+    return fig_radar(team), fig_season_wins_losses(team), fig_team_home_away(team)
 
 
 @app.callback(
@@ -848,7 +1079,9 @@ def cb_h2h(t1, t2):
 
 
 # ── Run ────────────────────────────────────────────────────────────────────────
+server = app.server  # exposed for gunicorn (dashboard:server)
+
 if __name__ == "__main__":
-    print("\n🏏  IPL Analytics Dashboard")
-    print("    → http://localhost:8050\n")
+    print("\nIPL Analytics Dashboard")
+    print("  -> http://localhost:8050\n")
     app.run(debug=False, port=8050, host="0.0.0.0")
